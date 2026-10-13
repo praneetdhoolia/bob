@@ -1,0 +1,1 @@
+[{"name":"agent","port":3217,"health":"/api/health","metadata":"agent-server.json","script":"scripts/serve.py","python":"omni-python","role":"One continuous model and its interface"}]

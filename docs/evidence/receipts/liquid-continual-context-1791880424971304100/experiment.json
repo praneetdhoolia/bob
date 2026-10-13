@@ -1,0 +1,407 @@
+{
+  "state": "complete",
+  "publishedToLive": false,
+  "sourceCheckpoint": "artifacts/liquid-core-1791819735481555400/latest.pt",
+  "protocol": "prequential-before-write-native-target-v1-residual",
+  "forecast": "last packet + state-predicted change",
+  "coupling": 0.02,
+  "learningRate": 1e-06,
+  "learnsWriteStrength": false,
+  "learnsContext": true,
+  "trustRegion": "Per-trained-tensor RMS drift <= 0.01 from run anchor",
+  "temporalCreditPackets": 0,
+  "temporalCreditAlgorithm": "local-or-one-packet",
+  "creditResetEachPacket": false,
+  "updateOrder": "before-assimilation",
+  "limitations": [
+    "Pooled projected packets can hide modality-specific errors.",
+    "Recording identities/scenes overlap the historical supervised corpus.",
+    "One own code per packet is a diagnostic schedule, not the live 30 ms output schedule.",
+    "Prediction and adaptation alone do not establish self-awareness or broad language."
+  ],
+  "frozen": {
+    "packets": 600,
+    "priorPredictionMse": 0.006586536353182358,
+    "persistenceMse": 0.006397602679951414,
+    "constantMse": 0.05349881629770001,
+    "matchedPackets": 595,
+    "matchedPriorPredictionMse": 0.006397602679951414,
+    "matchedConstantMse": 0.05370410346433896,
+    "persistenceSkillScore": 0.0,
+    "packetSecondsMean": 0.008143805167637765,
+    "packetSecondsMax": 0.015784100047312677,
+    "nonblankCodes": 98,
+    "maximumParameterRmsDrift": 0.0
+  },
+  "answerRetentionBefore": {
+    "correct": 6,
+    "total": 10,
+    "quietCorrect": 120,
+    "quietTotal": 120,
+    "rows": [
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Orange.",
+        "actual": "Banana.",
+        "correct": false
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Orange.",
+        "actual": "Apple.",
+        "correct": false
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Grape.",
+        "actual": "Apple.",
+        "correct": false
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Grape.",
+        "actual": "Apple.",
+        "correct": false
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "I did not hear a fruit.",
+        "actual": "I did not hear a fruit.",
+        "correct": true
+      }
+    ]
+  },
+  "effectiveContextGains": [
+    0.019999999552965164,
+    0.019999999552965164,
+    0.019999999552965164
+  ],
+  "learnedParameterNames": [
+    "input_context.0.weight",
+    "input_context.0.bias",
+    "input_context.1.weight",
+    "input_context.1.bias"
+  ],
+  "training": [
+    {
+      "packets": 1080,
+      "priorPredictionMse": 0.0065082163857705716,
+      "persistenceMse": 0.0063650548128419,
+      "constantMse": 0.05149298200245809,
+      "matchedPackets": 1071,
+      "matchedPriorPredictionMse": 0.006352996769899035,
+      "matchedConstantMse": 0.05168109034456793,
+      "persistenceSkillScore": 0.0018944130565125006,
+      "packetSecondsMean": 0.012069660741339989,
+      "packetSecondsMax": 0.0365495000150986,
+      "nonblankCodes": 189,
+      "maximumParameterRmsDrift": 2.915309050877113e-05
+    },
+    {
+      "packets": 1080,
+      "priorPredictionMse": 0.006370307363060958,
+      "persistenceMse": 0.0063650548128419,
+      "constantMse": 0.05149298200245809,
+      "matchedPackets": 1071,
+      "matchedPriorPredictionMse": 0.006274656998080547,
+      "matchedConstantMse": 0.05168109034456793,
+      "persistenceSkillScore": 0.014202205231441112,
+      "packetSecondsMean": 0.01184134916785061,
+      "packetSecondsMax": 0.019776000001002103,
+      "nonblankCodes": 189,
+      "maximumParameterRmsDrift": 4.8981906729750335e-05
+    },
+    {
+      "packets": 1080,
+      "priorPredictionMse": 0.006263696386519802,
+      "persistenceMse": 0.0063650548128419,
+      "constantMse": 0.05149298200245809,
+      "matchedPackets": 1071,
+      "matchedPriorPredictionMse": 0.006209984692767955,
+      "matchedConstantMse": 0.05168109034456793,
+      "persistenceSkillScore": 0.024362731293543827,
+      "packetSecondsMean": 0.012096992314737117,
+      "packetSecondsMax": 0.024235100019723177,
+      "nonblankCodes": 189,
+      "maximumParameterRmsDrift": 6.654182652710006e-05
+    },
+    {
+      "packets": 1080,
+      "priorPredictionMse": 0.006177971353678947,
+      "persistenceMse": 0.0063650548128419,
+      "constantMse": 0.05149298200245809,
+      "matchedPackets": 1071,
+      "matchedPriorPredictionMse": 0.006153839035796646,
+      "matchedConstantMse": 0.05168109034456793,
+      "persistenceSkillScore": 0.0331836540698931,
+      "packetSecondsMean": 0.011894196759655003,
+      "packetSecondsMax": 0.020730199990794063,
+      "nonblankCodes": 189,
+      "maximumParameterRmsDrift": 8.291975973406807e-05
+    }
+  ],
+  "completedPasses": 4,
+  "heldFrozenAfterLearning": {
+    "packets": 600,
+    "priorPredictionMse": 0.00621653574644976,
+    "persistenceMse": 0.006397602679951414,
+    "constantMse": 0.05349881629770001,
+    "matchedPackets": 595,
+    "matchedPriorPredictionMse": 0.0062061331012802775,
+    "matchedConstantMse": 0.05370410346433896,
+    "persistenceSkillScore": 0.029928332259700596,
+    "packetSecondsMean": 0.008047725001427655,
+    "packetSecondsMax": 0.013748999976087362,
+    "nonblankCodes": 98,
+    "maximumParameterRmsDrift": 0.0
+  },
+  "statePermutationControl": {
+    "packets": 600,
+    "priorPredictionMse": 0.006590817002288532,
+    "persistenceMse": 0.006397602679951414,
+    "constantMse": 0.05349881629770001,
+    "matchedPackets": 595,
+    "matchedPriorPredictionMse": 0.006400653772826987,
+    "matchedConstantMse": 0.05370410346433896,
+    "persistenceSkillScore": -0.00047691190406906614,
+    "packetSecondsMean": 0.007951376332979028,
+    "packetSecondsMax": 0.010920399974565953,
+    "nonblankCodes": 98,
+    "maximumParameterRmsDrift": 0.0
+  },
+  "changedHeldCodes": 0,
+  "answerRetentionAfter": {
+    "correct": 6,
+    "total": 10,
+    "quietCorrect": 120,
+    "quietTotal": 120,
+    "rows": [
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Orange.",
+        "actual": "Banana.",
+        "correct": false
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Orange.",
+        "actual": "Apple.",
+        "correct": false
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Grape.",
+        "actual": "Apple.",
+        "correct": false
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Grape.",
+        "actual": "Apple.",
+        "correct": false
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "I did not hear a fruit.",
+        "actual": "I did not hear a fruit.",
+        "correct": true
+      }
+    ]
+  },
+  "heldOnlineAdaptation": {
+    "packets": 600,
+    "priorPredictionMse": 0.006211795958709748,
+    "persistenceMse": 0.006397602679951414,
+    "constantMse": 0.05349881629770001,
+    "matchedPackets": 595,
+    "matchedPriorPredictionMse": 0.0062074164285700175,
+    "matchedConstantMse": 0.05370410346433896,
+    "persistenceSkillScore": 0.029727737231540763,
+    "packetSecondsMean": 0.011771201334098199,
+    "packetSecondsMax": 0.02075130003504455,
+    "nonblankCodes": 98,
+    "maximumParameterRmsDrift": 1.7760550690582022e-05
+  },
+  "trainRecordings": 9,
+  "heldRecordings": 5
+}

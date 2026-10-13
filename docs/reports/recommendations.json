@@ -1,0 +1,308 @@
+[
+  {
+    "id": "R01",
+    "category": "engineering",
+    "change": "Restore and validate source and recorded playback position; verify restart without resetting the matrix.",
+    "evidence": "neural/liquid_runtime.py:219",
+    "validation": "Restore and validate source and recorded playback position; verify restart without resetting the matrix.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_runtime.py; artifacts/runtime-restart-validation.json (exact matrix/source/time, paused restore)"
+  },
+  {
+    "id": "R02",
+    "category": "engineering",
+    "change": "Serialize save operations; test simultaneous writers and exact recovery.",
+    "evidence": "neural/liquid_runtime.py:175",
+    "validation": "Serialize save operations; test simultaneous writers and exact recovery.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_runtime.py: eight concurrent saves and exact recovery"
+  },
+  {
+    "id": "R03",
+    "category": "engineering",
+    "change": "One atomic queue ownership convention; deterministic race and newest-frame tests.",
+    "evidence": "neural/liquid_runtime.py:93",
+    "validation": "One atomic queue ownership convention; deterministic race and newest-frame tests.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_runtime.py: 300 concurrent frames plus newest-frame sentinel"
+  },
+  {
+    "id": "R04",
+    "category": "engineering",
+    "change": "Validate object payload and malformed request handling; HTTP integration fixtures.",
+    "evidence": "scripts/serve.py:76",
+    "validation": "Validate object payload and malformed request handling; HTTP integration fixtures.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_http.py: local HTTP object/token/error contracts"
+  },
+  {
+    "id": "R05",
+    "category": "engineering",
+    "change": "Return no region for uninformative maps and reject stale patch attention.",
+    "evidence": "neural/liquid_focus.py:6",
+    "validation": "Return no region for uninformative maps and reject stale patch attention.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_runtime.py: uniform/sparse/invalid maps and native eager fallback clearing"
+  },
+  {
+    "id": "R06",
+    "category": "engineering",
+    "change": "Bound transport/history and send compact samples without interrupting neural processing.",
+    "evidence": "neural/liquid_runtime.py:288; public/agent.js:438",
+    "validation": "Bound transport/history and send compact samples without interrupting neural processing.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_runtime.py; artifacts/report-ui-validation.json: bounded output/history/speech queue and compact samples"
+  },
+  {
+    "id": "R07",
+    "category": "engineering",
+    "change": "Count each emitted code byte separately from decoded text; test Unicode and malformed prefixes.",
+    "evidence": "neural/liquid_runtime.py:159",
+    "validation": "Count each emitted code byte separately from decoded text; test Unicode and malformed prefixes.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_runtime.py: multibyte UTF-8 and invalid byte counts"
+  },
+  {
+    "id": "R08",
+    "category": "engineering",
+    "change": "Make demonstration fixtures optional; document mandatory sensory/checkpoint dependencies.",
+    "evidence": "neural/liquid_runtime.py:210",
+    "validation": "Make demonstration fixtures optional; document mandatory sensory/checkpoint dependencies.",
+    "status": "resolved",
+    "statusEvidence": "artifacts/runtime-startup-1791867605222955400/validation.json: real native-weight startup without demo media, missing recording rejected, finite state, RAM guard, worker stopped"
+  },
+  {
+    "id": "R09",
+    "category": "research",
+    "change": "Reject it for deployment; retain the negative evidence and require a convergence/causal-benefit gate.",
+    "evidence": "artifacts/liquid-recurrence-controls-1791857035943900900.json",
+    "validation": "Reject it for deployment; retain the negative evidence and require a convergence/causal-benefit gate.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_runtime.py: active-processing resume rejected; neural/liquid_runtime.py startup/hot-load guards; numerical convergence receipt"
+  },
+  {
+    "id": "R10",
+    "category": "engineering",
+    "change": "Pair only identified intervention families and require both distinct conditions plus both report roles.",
+    "evidence": "neural/liquid_stream_training.py:195",
+    "validation": "Pair only identified intervention families and require both distinct conditions plus both report roles.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_evaluation.py: only identified complete source pairs count"
+  },
+  {
+    "id": "R11",
+    "category": "engineering",
+    "change": "Persist optimizer/configuration/random states, label weight-only continuation and write terminal failure.",
+    "evidence": "neural/train_liquid_copy.py:166",
+    "validation": "Persist optimizer/configuration/random states, label weight-only continuation and write terminal failure.",
+    "status": "resolved",
+    "statusEvidence": "tests/test_copy_training.py: actual two updates equal one-plus-resume weights; terminal failure receipt"
+  },
+  {
+    "id": "R12",
+    "category": "engineering",
+    "change": "Document/install pinned dependencies, asset provenance and required manifests; do not invent a release artifact.",
+    "evidence": "README.md; USAGE.md; neural/train_liquid_core.py:source seed dependency",
+    "validation": "Document/install pinned dependencies, asset provenance and required manifests; do not invent a release artifact.",
+    "status": "in-progress",
+    "statusEvidence": "Cited receipts now tracked with SHA-256 manifest (docs/evidence, scripts/snapshot_evidence.py --check). Cold install, media licensing and custom-weight publication remain open."
+  },
+  {
+    "id": "R13",
+    "category": "research",
+    "change": "Adopt a measured self-supervised shared-state learning experiment and test causal utility; retain full objective.",
+    "evidence": "neural/liquid_core.py; neural/liquid_runtime.py",
+    "validation": "Adopt a measured self-supervised shared-state learning experiment and test causal utility; retain full objective.",
+    "status": "in-progress",
+    "statusEvidence": "Residual persistence-anchored forecast (lr 1e-6) reaches held skill +0.030 with state-shuffle control -0.0005 and unchanged retention; single seed, one-step horizon, training-identical video. artifacts/liquid-continual-context-1791880424971304100/experiment.json"
+  },
+  {
+    "id": "R14",
+    "category": "engineering",
+    "change": "Filter native microphone audio before resampling; test output timing and alias rejection",
+    "evidence": "public/audio-worklet.js; tests/audio-worklet.test.cjs",
+    "validation": "Filter native microphone audio before resampling; test output timing and alias rejection",
+    "status": "resolved",
+    "statusEvidence": "public/audio-worklet.js; tests/audio-worklet.test.cjs"
+  },
+  {
+    "id": "R15",
+    "category": "engineering",
+    "change": "Honor SSE reconnect cursor and return JSON service errors for malformed training manifests",
+    "evidence": "scripts/serve.py; tests/test_http.py",
+    "validation": "Honor SSE reconnect cursor and return JSON service errors for malformed training manifests",
+    "status": "resolved",
+    "statusEvidence": "scripts/serve.py; tests/test_http.py"
+  },
+  {
+    "id": "R16",
+    "category": "engineering",
+    "change": "Use meaningful precision for small RMS chart labels",
+    "evidence": "public/agent.js; artifacts/report-ui-validation.json",
+    "validation": "Use meaningful precision for small RMS chart labels",
+    "status": "resolved",
+    "statusEvidence": "public/agent.js; artifacts/report-ui-validation.json"
+  },
+  {
+    "id": "R17",
+    "category": "engineering",
+    "change": "Commit historical flow values once; scroll a physical-time window rather than blending shifted indices; keep axis steady",
+    "evidence": "public/agent.js: FlowTrace; tests/flow-trace.test.cjs",
+    "validation": "Historical heights unchanged during new samples, history pruning and animation; newest edge buffered",
+    "status": "resolved",
+    "statusEvidence": "artifacts/flow-history-validation.json; four Node tests and synthetic browser check"
+  },
+  {
+    "id": "R18",
+    "category": "research",
+    "change": "Score only the first finished utterance per window; penalize false starts, extra utterances and the wrong alternative.",
+    "evidence": "neural/liquid_stream_training.py:167-204",
+    "validation": "A stub emitting both alternatives fails the pair control; old receipts rescored.",
+    "status": "resolved",
+    "statusEvidence": "neural/liquid_stream_training.py match_targets (strict-first-utterance-v2); tests/test_evaluation.py: emitting both alternatives fails. Old pair receipts not yet rescored."
+  },
+  {
+    "id": "R19",
+    "category": "research",
+    "change": "Label validation by what is actually held out and add an evaluation whose visual packets differ from training.",
+    "evidence": "neural/build_workspace_raw_corpus.py:226-229; artifacts/workspace-raw-corpus.json",
+    "validation": "Unseen-word, familiar-frame and held-frame scores reported separately.",
+    "status": "in-progress",
+    "statusEvidence": "Interpreter verification reports trained-word, unseen-word, no-fact and familiar-frame categories separately (artifacts/interpreter-verification-1791881348613247400.json). A held-frame or held-scene visual evaluation still needs new encoded media."
+  },
+  {
+    "id": "R20",
+    "category": "research",
+    "change": "Report start-node and two-hop baselines beside four-hop accuracy.",
+    "evidence": "neural/train_liquid_recurrence.py:286-305",
+    "validation": "v7 accuracies compared with the 167/512 start-node baseline.",
+    "status": "resolved",
+    "statusEvidence": "neural/train_liquid_recurrence.py hop_baselines in training and probe receipts; tests/test_recurrence_baselines.py reproduces 167/512 start-node baseline."
+  },
+  {
+    "id": "R21",
+    "category": "engineering",
+    "change": "Guard autosave failures, save weights only when they change, fsync and quarantine corrupt state.",
+    "evidence": "neural/liquid_runtime.py:211-222,281,364",
+    "validation": "Injected OSError leaves the agent running; restore stays exact.",
+    "status": "resolved",
+    "statusEvidence": "neural/liquid_runtime.py save_quietly, weights written only on change, fsync, corrupt-state quarantine; tests/test_runtime.py autosave failure and weight-rewrite tests."
+  },
+  {
+    "id": "R22",
+    "category": "engineering",
+    "change": "Make camera, microphone and file audio independent; reuse one media-element source.",
+    "evidence": "public/agent.js:675-753",
+    "validation": "JavaScript control-state tests.",
+    "status": "resolved",
+    "statusEvidence": "public/agent.js media-controls block; tests/media-controls.test.cjs (4 tests). Real hardware not exercised."
+  },
+  {
+    "id": "R23",
+    "category": "architecture",
+    "change": "Explicit leaky urge accumulator that gates utterance onset and releases a stimulus vector at threshold.",
+    "evidence": "neural/liquid_runtime.py:166-171",
+    "validation": "Onset timing, quiet false-trigger rate and causal clamp on recorded episodes.",
+    "status": "resolved",
+    "statusEvidence": "neural/urge.py UrgeGate in runtime with stimulus events; tests/test_urge.py; stream evaluation: gated 11/28 exact vs 12/28 ungated, surprise clamp delays onset 50->73 ms; isolated live run released a stimulus (artifacts/runtime-live-1791880742764717500/validation.json)."
+  },
+  {
+    "id": "R24",
+    "category": "architecture",
+    "change": "Interpreter-accuracy protocol: null states, identification, intervention and calibration per report type.",
+    "evidence": "neural/liquid_core.py:189",
+    "validation": "Per-report-type pass/fail receipt.",
+    "status": "resolved",
+    "statusEvidence": "neural/evaluate_interpreter.py protocol implemented (artifacts/interpreter-verification-1791881348613247400.json). Fruit: state-dependent (null hit 8/168, identification 0.94) but 0/4 unseen words and ECE 0.27. Video: follows ongoing input (intervention flip 1.0) on familiar frames only. Neither type meets the accuracy criteria."
+  },
+  {
+    "id": "R25",
+    "category": "research",
+    "change": "Persistence-anchored residual multi-horizon forecast with skill score and state-shuffle control.",
+    "evidence": "neural/probe_continual_context.py",
+    "validation": "Skill score with bootstrap interval across horizons.",
+    "status": "in-progress",
+    "statusEvidence": "First positive held skill +0.030 at 100 ms; research pass threshold (>=0.05 at >=500 ms, 3 seeds, bootstrap CI) unmet."
+  },
+  {
+    "id": "R26",
+    "category": "process",
+    "change": "Commit the initial version with tracked copies of cited receipts.",
+    "evidence": "git: no HEAD; artifacts/ ignored",
+    "validation": "Clean worktree; scripts/snapshot_evidence.py --check passes.",
+    "status": "resolved",
+    "statusEvidence": "Initial commit 5aff4ab plus evidence byte-preservation 92c45dc; fresh clone passes scripts/snapshot_evidence.py --check."
+  },
+  {
+    "id": "R27",
+    "category": "engineering",
+    "change": "Fix persistence mask, tick-119 assumption, idle-window overlap, clamped drift reporting and learner-construction mutation.",
+    "evidence": "neural/probe_continual_context.py:30,42; neural/train_liquid_core.py:39,219; neural/online_context.py:30,48; neural/strength_credit.py:280",
+    "validation": "Unit tests.",
+    "status": "resolved",
+    "statusEvidence": "probe_continual_context matched-mask skill score; train_liquid_core episode-length futures and answer-window-free silence states; unclamped drift; validated learner construction. Tests pass."
+  },
+  {
+    "id": "R28",
+    "category": "engineering",
+    "change": "Server hardening: decompression-bomb handling, cross-origin resource policy, SSE cap, bounded text queue, readiness polling/retry and RAM-guard pause.",
+    "evidence": "scripts/serve.py; neural/liquid_runtime.py; scripts/start-workspace.ps1; public/agent.js",
+    "validation": "HTTP and runtime tests.",
+    "status": "resolved",
+    "statusEvidence": "scripts/serve.py CORP, Sec-Fetch-Site, SSE cap, decompression-bomb/malformed image errors, shutdown; runtime text cap, RAM-guard waiting/resume refusal; start script readiness polling; UI connect retry; tests/test_http.py."
+  },
+  {
+    "id": "R29",
+    "category": "research",
+    "change": "Encode held-frame and held-scene video plus new voices for evaluation.",
+    "evidence": "neural/build_workspace_raw_corpus.py:226-229",
+    "validation": "Interpreter verdicts on genuinely unseen visual input.",
+    "status": "open",
+    "statusEvidence": "Report 4 (docs/reports/20261013T085200_project_report.html)"
+  },
+  {
+    "id": "R30",
+    "category": "research",
+    "change": "Residual forecast across 3 seeds and 100 ms to 2 s horizons with bootstrap intervals.",
+    "evidence": "neural/probe_continual_context.py --residual",
+    "validation": "Skill >= 0.05 at >= 500 ms with CI above zero.",
+    "status": "open",
+    "statusEvidence": "Report 4 (docs/reports/20261013T085200_project_report.html)"
+  },
+  {
+    "id": "R31",
+    "category": "engineering",
+    "change": "Reduce clock/observation lock contention.",
+    "evidence": "neural/liquid_runtime.py clock/run_inputs; runtime-live receipt 74 ticks/s",
+    "validation": "Live probe >= 95 ticks/s with unchanged numerical tests.",
+    "status": "open",
+    "statusEvidence": "Report 4 (docs/reports/20261013T085200_project_report.html)"
+  },
+  {
+    "id": "R32",
+    "category": "architecture",
+    "change": "Train the interpreter for unseen words and calibrated confidence on the same state.",
+    "evidence": "interpreter-verification-1791881348613247400.json",
+    "validation": "Unseen-word accuracy and ECE in the verification receipt.",
+    "status": "open",
+    "statusEvidence": "Report 4 (docs/reports/20261013T085200_project_report.html)"
+  },
+  {
+    "id": "R33",
+    "category": "process",
+    "change": "Soak and hardware-capture test of the live agent.",
+    "evidence": "No soak evidence",
+    "validation": "Hour-long run: deadline misses, RAM, errors.",
+    "status": "open",
+    "statusEvidence": "Report 4 (docs/reports/20261013T085200_project_report.html)"
+  },
+  {
+    "id": "R34",
+    "category": "process",
+    "change": "Decide on publishing (push) and on deleting retired .runtime folders.",
+    "evidence": "USAGE.md retired folders; no remote push",
+    "validation": "User decision.",
+    "status": "open",
+    "statusEvidence": "Report 4 (docs/reports/20261013T085200_project_report.html)"
+  }
+]

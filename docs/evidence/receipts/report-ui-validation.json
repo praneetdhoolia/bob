@@ -1,0 +1,40 @@
+{
+  "verifiedAt": "2026-10-13T04:39:11.810637+00:00",
+  "input": "Synthetic status/API routing; no live camera, microphone or messages",
+  "desktop": [
+    1440,
+    1000
+  ],
+  "mobile": [
+    390,
+    844
+  ],
+  "themes": [
+    "Light",
+    "Dark",
+    "System"
+  ],
+  "horizontalOverflow": false,
+  "unnamedButtons": [],
+  "activityGeometryStable": true,
+  "smallRmsLabels": [
+    "0.032",
+    "0.016",
+    "0"
+  ],
+  "speechQueueBounded": true,
+  "muteClearsQueue": true,
+  "galaxyRenderer": "webgl",
+  "galaxySimulationAdvances": true,
+  "consoleErrors": 0,
+  "limitations": [
+    "Not a hardware microphone/camera test",
+    "Not a screen-reader audit",
+    "No new sustained 60fps measurement"
+  ],
+  "reportDesktopTitle": "Bob \u2014 second assessment after runtime repairs and continual-learning experiments",
+  "reportDesktopOverflow": false,
+  "reportMobileOverflow": false,
+  "reportTables": 7,
+  "reportEmbeddedData": true
+}

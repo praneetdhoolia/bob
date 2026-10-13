@@ -1,0 +1,106 @@
+{
+  "architecture": "single-liquid-associative-byte-core-v1",
+  "unfinished": [
+    {
+      "fruit": "mango",
+      "changing": "A person is riding a bicycle.",
+      "held": "A person is playing tennis.",
+      "different": true,
+      "inputControl": "Only rows 2:66 replaced; all audio, text, feedback, starting state and elapsed intervals match."
+    },
+    {
+      "fruit": "apple",
+      "changing": "A person is riding a bicycle.",
+      "held": "A person is playing tennis.",
+      "different": true,
+      "inputControl": "Only rows 2:66 replaced; all audio, text, feedback, starting state and elapsed intervals match."
+    },
+    {
+      "fruit": "banana",
+      "changing": "A person is riding a bicycle.",
+      "held": "A person is playing tennis.",
+      "different": true,
+      "inputControl": "Only rows 2:66 replaced; all audio, text, feedback, starting state and elapsed intervals match."
+    },
+    {
+      "fruit": "pear",
+      "changing": "A person is riding a bicycle.",
+      "held": "A person is playing tennis.",
+      "different": true,
+      "inputControl": "Only rows 2:66 replaced; all audio, text, feedback, starting state and elapsed intervals match."
+    },
+    {
+      "fruit": "orange",
+      "changing": "A person is riding a bicycle.",
+      "held": "A person is playing tennis.",
+      "different": true,
+      "inputControl": "Only rows 2:66 replaced; all audio, text, feedback, starting state and elapsed intervals match."
+    },
+    {
+      "fruit": "grape",
+      "changing": "A person is riding a bicycle.",
+      "held": "A person is playing tennis.",
+      "different": true,
+      "inputControl": "Only rows 2:66 replaced; all audio, text, feedback, starting state and elapsed intervals match."
+    }
+  ],
+  "strictSpeech": [
+    {
+      "fruit": "mango",
+      "actual": "Mango.",
+      "correct": true,
+      "control": "Only early native acoustic row changed; every input after tick 52 is identical."
+    },
+    {
+      "fruit": "apple",
+      "actual": "Apple.",
+      "correct": true,
+      "control": "Only early native acoustic row changed; every input after tick 52 is identical."
+    },
+    {
+      "fruit": "banana",
+      "actual": "Banana.",
+      "correct": true,
+      "control": "Only early native acoustic row changed; every input after tick 52 is identical."
+    },
+    {
+      "fruit": "pear",
+      "actual": "Pear.",
+      "correct": true,
+      "control": "Only early native acoustic row changed; every input after tick 52 is identical."
+    },
+    {
+      "fruit": "orange",
+      "actual": "Banana.",
+      "correct": false,
+      "control": "Only early native acoustic row changed; every input after tick 52 is identical."
+    },
+    {
+      "fruit": "grape",
+      "actual": "Apple.",
+      "correct": false,
+      "control": "Only early native acoustic row changed; every input after tick 52 is identical."
+    }
+  ],
+  "agedQuery": [
+    {
+      "extraQuietSeconds": 0.0,
+      "actual": "A person is riding a bicycle."
+    },
+    {
+      "extraQuietSeconds": 60.0,
+      "actual": "A person is riding a bicycle."
+    },
+    {
+      "extraQuietSeconds": 300.0,
+      "actual": "A person is riding a bicycle."
+    },
+    {
+      "extraQuietSeconds": 900.0,
+      "actual": "A person is riding a bicycle."
+    }
+  ],
+  "pretrainedLanguageForwardCalls": 0,
+  "strictSpeechCorrect": 4,
+  "unfinishedDifferent": 6
+}

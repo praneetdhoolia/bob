@@ -1,0 +1,197 @@
+{
+  "purpose": "Tracked copies and hashes of receipts cited by the documentation.",
+  "limits": "Copies preserve measured outputs; they do not include checkpoints, corpora or media needed to rerun them.",
+  "entries": [
+    {
+      "original": "artifacts/flow-history-validation.json",
+      "bytes": 299,
+      "sha256": "d871886d8830a6874b81160ba960146e25f7029f4f6b97c8c01030cdcfb0016d",
+      "copy": "docs/evidence/receipts/flow-history-validation.json"
+    },
+    {
+      "original": "artifacts/interpreter-verification-1791881348613247400.json",
+      "bytes": 60834,
+      "sha256": "adad203368224c642da168e252495b0792bce2f4556e57a54d911f6a22dfb581",
+      "copy": "docs/evidence/receipts/interpreter-verification-1791881348613247400.json"
+    },
+    {
+      "original": "artifacts/liquid-continual-context-1791865443541775400/experiment.json",
+      "bytes": 2794,
+      "sha256": "b6d0612412561799b0187130d19af8b353527c00d55ca0ce0b0080daeb3fca9a",
+      "copy": "docs/evidence/receipts/liquid-continual-context-1791865443541775400/experiment.json"
+    },
+    {
+      "original": "artifacts/liquid-continual-context-1791865745382463200/experiment.json",
+      "bytes": 10030,
+      "sha256": "215a7b9f282ac0bf3d251039ea092f7061edf4acf12f1c1a95f2da8f30490bdd",
+      "copy": "docs/evidence/receipts/liquid-continual-context-1791865745382463200/experiment.json"
+    },
+    {
+      "original": "artifacts/liquid-continual-context-1791866743688677200/experiment.json",
+      "bytes": 10079,
+      "sha256": "fd4e51e8a9c2b1ae5945fb8c91c08a02a5a6b9c8bf3af420f8d5d395fbb7c670",
+      "copy": "docs/evidence/receipts/liquid-continual-context-1791866743688677200/experiment.json"
+    },
+    {
+      "original": "artifacts/liquid-continual-context-1791866943622652900/experiment.json",
+      "bytes": 10068,
+      "sha256": "a221f2b423527feeec418f76f7b0f55b8f5c3c0b784e3990ae979b11f011b191",
+      "copy": "docs/evidence/receipts/liquid-continual-context-1791866943622652900/experiment.json"
+    },
+    {
+      "original": "artifacts/liquid-continual-context-1791867137830454000/experiment.json",
+      "bytes": 10172,
+      "sha256": "d1d1d80a92803e4673ca576791629e0b518919c2fde005c2ba49c38627f4b532",
+      "copy": "docs/evidence/receipts/liquid-continual-context-1791867137830454000/experiment.json"
+    },
+    {
+      "original": "artifacts/liquid-continual-context-1791868402240603900/experiment.json",
+      "bytes": 10595,
+      "sha256": "f903ee707514cdeeb5117b621b14d3e715756e24ef85199400ee5d0154bf7e53",
+      "copy": "docs/evidence/receipts/liquid-continual-context-1791868402240603900/experiment.json"
+    },
+    {
+      "original": "artifacts/liquid-continual-context-1791880245184672700/experiment.json",
+      "bytes": 12142,
+      "sha256": "64dd743a0913ab54e7a8b6cf3414b9f7276884f3a31929f06fae887cc41c2fd5",
+      "copy": "docs/evidence/receipts/liquid-continual-context-1791880245184672700/experiment.json"
+    },
+    {
+      "original": "artifacts/liquid-continual-context-1791880339017139300/experiment.json",
+      "bytes": 12170,
+      "sha256": "bb0eab0a3c19e8342411ee8e90fd9ea027b8dcc209513bf203fde63de741b30e",
+      "copy": "docs/evidence/receipts/liquid-continual-context-1791880339017139300/experiment.json"
+    },
+    {
+      "original": "artifacts/liquid-continual-context-1791880424971304100/experiment.json",
+      "bytes": 12171,
+      "sha256": "630e57894a01ce0d1ab50eb7ab828b7dd862343e4758049b8a3ad0f3240fb713",
+      "copy": "docs/evidence/receipts/liquid-continual-context-1791880424971304100/experiment.json"
+    },
+    {
+      "original": "artifacts/liquid-copy-controls-1791854958859199400.json",
+      "bytes": 103232,
+      "sha256": "5fef452d7e302a1ecdc6b9406aba9192e9d0b0e38030ec4e9554fca347cf3a01",
+      "copy": "docs/evidence/receipts/liquid-copy-controls-1791854958859199400.json"
+    },
+    {
+      "original": "artifacts/liquid-copy-controls-1791856963453564700.json",
+      "bytes": 314686,
+      "sha256": "4546f367efca92450199f9d82cb4c0e3759a5a8816b709291267cff6cafef126",
+      "copy": "docs/evidence/receipts/liquid-copy-controls-1791856963453564700.json"
+    },
+    {
+      "original": "artifacts/liquid-core-1791819735481555400/latest.pt",
+      "bytes": 18326697,
+      "sha256": "65c0f11cbee284d52a40ba6b9aa9fe8853e74b6acca0575204edefd80db066b1",
+      "copy": null,
+      "note": "Hash only: binary or larger than the tracked receipt limit."
+    },
+    {
+      "original": "artifacts/liquid-core-training.json",
+      "bytes": 15349,
+      "sha256": "63c12cfdbf32bdf1639cf9ae60d5836fedbd26dc16312f1357ed09897cc476af",
+      "copy": "docs/evidence/receipts/liquid-core-training.json"
+    },
+    {
+      "original": "artifacts/liquid-interference-controls-1791856955357811100.json",
+      "bytes": 627533,
+      "sha256": "90336c7328f11c6a50c7ab2252cca0600eace71a2ce3d423dfdf83c25cbda0d1",
+      "copy": "docs/evidence/receipts/liquid-interference-controls-1791856955357811100.json"
+    },
+    {
+      "original": "artifacts/liquid-recurrence-1791854009336339200/training.json",
+      "bytes": 2781,
+      "sha256": "ef239579c401c0a3e2e116f7df83e2f75242b31e4ffa419538301cf0a9a5a763",
+      "copy": "docs/evidence/receipts/liquid-recurrence-1791854009336339200/training.json"
+    },
+    {
+      "original": "artifacts/liquid-recurrence-controls-1791854951960581900.json",
+      "bytes": 181550,
+      "sha256": "f2b8481bc0850345550986a51b99af577842ba775a3d284a11d024a2ccf2a333",
+      "copy": "docs/evidence/receipts/liquid-recurrence-controls-1791854951960581900.json"
+    },
+    {
+      "original": "artifacts/liquid-recurrence-controls-1791857035943900900.json",
+      "bytes": 227036,
+      "sha256": "4e3c8adeb943e60f76f72130bc02523aec76ac015a035d4449c9b3ceab9cbeea",
+      "copy": "docs/evidence/receipts/liquid-recurrence-controls-1791857035943900900.json"
+    },
+    {
+      "original": "artifacts/liquid-stream-controls.json",
+      "bytes": 3489,
+      "sha256": "ae1cf4e60fb417e6de004484ab478b607f2d9d334329ad385e7a79ac68d6ab63",
+      "copy": "docs/evidence/receipts/liquid-stream-controls.json"
+    },
+    {
+      "original": "artifacts/liquid-strict-source-controls-1791841138538210800.json",
+      "bytes": 109278,
+      "sha256": "48c2fc150054371403d4b4133c5d2922502b34f874aeadbe82df72a827b5ebc5",
+      "copy": "docs/evidence/receipts/liquid-strict-source-controls-1791841138538210800.json"
+    },
+    {
+      "original": "artifacts/report-ui-validation.json",
+      "bytes": 976,
+      "sha256": "98a003a20701e282a5f6d3beffc278e22b842ab4bd3787ce2114b7b1eefcce0d",
+      "copy": "docs/evidence/receipts/report-ui-validation.json"
+    },
+    {
+      "original": "artifacts/runtime-live-1791880742764717500/validation.json",
+      "bytes": 1797,
+      "sha256": "313360d26fba005dafbb45017084b696a24e5534ce5b5dd61adc0c77b29e4d4d",
+      "copy": "docs/evidence/receipts/runtime-live-1791880742764717500/validation.json"
+    },
+    {
+      "original": "artifacts/runtime-preflight-hashed.json",
+      "bytes": 5329,
+      "sha256": "6888a82bb2eb7219d009280c18a558a0340d31b601a54c23c1d7c4ab394c0e7e",
+      "copy": "docs/evidence/receipts/runtime-preflight-hashed.json"
+    },
+    {
+      "original": "artifacts/runtime-preflight.json",
+      "bytes": 5149,
+      "sha256": "383a5c0518ff6d4165c6f260d5c3a52aefef6c0500b9933cd78f6fee7901aca5",
+      "copy": "docs/evidence/receipts/runtime-preflight.json"
+    },
+    {
+      "original": "artifacts/runtime-restart-validation.json",
+      "bytes": 154,
+      "sha256": "7e07c7332209ea17380104a68bcb40808e8088a33d433478bf7d5239b108e47d",
+      "copy": "docs/evidence/receipts/runtime-restart-validation.json"
+    },
+    {
+      "original": "artifacts/runtime-startup-1791867605222955400/validation.json",
+      "bytes": 477,
+      "sha256": "5254beeb543c448ce616945dde0dac714433f1a23f571e4658b23d5b61894c87",
+      "copy": "docs/evidence/receipts/runtime-startup-1791867605222955400/validation.json"
+    },
+    {
+      "original": "artifacts/sensory-upstream-revision-audit.json",
+      "bytes": 1404,
+      "sha256": "650bdca6447934473c85641d57206676b9155b03c3e4571b7880741a88ace188",
+      "copy": "docs/evidence/receipts/sensory-upstream-revision-audit.json"
+    },
+    {
+      "original": "artifacts/spoken-stream-corpus.json",
+      "bytes": 30283,
+      "sha256": "f5e45162ee3c20e3ac015e2425693a9b30535229eba1b84bb5ed7fa891b55fbc",
+      "copy": "docs/evidence/receipts/spoken-stream-corpus.json"
+    },
+    {
+      "original": "artifacts/workspace-raw-corpus.json",
+      "bytes": 11575,
+      "sha256": "e47f6e8b14595880b98b1a1747def4ba5ffb58b67694311f0f587734eef9fd44",
+      "copy": "docs/evidence/receipts/workspace-raw-corpus.json"
+    }
+  ],
+  "citedDirectoriesOrPrefixes": [
+    "artifacts/english-corpus",
+    "artifacts/liquid-copy-1791855084855416000",
+    "artifacts/interpreter-verification-",
+    "artifacts/liquid-copy-",
+    "artifacts/liquid-core-",
+    "artifacts/liquid-language-",
+    "artifacts/liquid-live-input-test-",
+    "artifacts/liquid-recurrence-"
+  ]
+}

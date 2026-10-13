@@ -1,0 +1,67 @@
+{
+  "remoteRevision": "503e754207c94da6bb26850b4469f367c9ea3582",
+  "checked": [
+    {
+      "file": "config.json",
+      "matched": true
+    },
+    {
+      "file": "model.safetensors.index.json",
+      "matched": true
+    },
+    {
+      "file": "model-00001-of-00004.safetensors",
+      "matched": true
+    },
+    {
+      "file": "model-00004-of-00004.safetensors",
+      "matched": true
+    },
+    {
+      "file": "configuration_minicpmo.py",
+      "matched": true
+    },
+    {
+      "file": "modeling_minicpmo.py",
+      "matched": true
+    },
+    {
+      "file": "modeling_navit_siglip.py",
+      "matched": true
+    },
+    {
+      "file": "processing_minicpmo.py",
+      "matched": true
+    },
+    {
+      "file": "tokenization_minicpmo_fast.py",
+      "matched": true
+    },
+    {
+      "file": "utils.py",
+      "matched": true
+    },
+    {
+      "file": "added_tokens.json",
+      "matched": true
+    },
+    {
+      "file": "special_tokens_map.json",
+      "matched": true
+    },
+    {
+      "file": "tokenizer.json",
+      "matched": true
+    },
+    {
+      "file": "tokenizer_config.json",
+      "matched": true
+    },
+    {
+      "file": "preprocessor_config.json",
+      "matched": true
+    }
+  ],
+  "allMandatoryLocalFilesMatch": true,
+  "verifiedFileIdentity": "LFS content SHA-256 or Git blob SHA-1 including blob header"
+}

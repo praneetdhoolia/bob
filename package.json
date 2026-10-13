@@ -1,0 +1,26 @@
+{
+  "name": "bob",
+  "version": "1.0.0",
+  "description": "One continuous numerical agent and its custom live translator",
+  "scripts": {
+    "start": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-workspace.ps1 -Open",
+    "workspace": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-workspace.ps1 -Open",
+    "status": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/status-workspace.ps1",
+    "stop": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/stop-workspace.ps1",
+    "test": ".\\.runtime\\omni-python\\Scripts\\python.exe scripts\\test.py",
+    "train": ".\\.runtime\\omni-python\\Scripts\\python.exe neural\\train_liquid_core.py --updates 800"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praneetdhoolia/bob.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/praneetdhoolia/bob/issues"
+  },
+  "homepage": "https://github.com/praneetdhoolia/bob#readme",
+  "dependencies": {}
+}

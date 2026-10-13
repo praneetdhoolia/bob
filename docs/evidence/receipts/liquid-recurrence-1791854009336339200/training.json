@@ -1,0 +1,119 @@
+{
+  "state": "complete",
+  "architecture": "single-liquid-associative-byte-core-v7",
+  "pretrainedLanguageForwardCalls": 0,
+  "publishedToLive": false,
+  "sourceCheckpoint": "artifacts\\liquid-recurrence-1791852911324561600\\one-hop.pt",
+  "trainingGraphs": 1024,
+  "validationGraphs": 64,
+  "startsPerGraph": 8,
+  "requestedHops": 4,
+  "limits": [
+    "A controlled relational capacity experiment, not a test of consciousness.",
+    "No sensory observations or emitted-code feedback occur during internal processing.",
+    "Candidate does not replace the live speech model."
+  ],
+  "update": 1000,
+  "loss": 2.1004538536071777,
+  "elapsedSeconds": 191.76600000000326,
+  "oneHopValidation": {
+    "correct": 512,
+    "generatedCorrect": 512,
+    "total": 512,
+    "finite": true,
+    "seconds": 0.0,
+    "tick": 0.01,
+    "internalWrites": false
+  },
+  "trainableParameters": 81924,
+  "initialMultiHop": {
+    "correct": 27,
+    "generatedCorrect": 27,
+    "total": 128,
+    "finite": true,
+    "seconds": 0.4,
+    "tick": 0.01,
+    "internalWrites": true
+  },
+  "systemUsedBytes": 34884472832,
+  "internalRateRange": [
+    0.011823374778032303,
+    19.95977210998535
+  ],
+  "validation": [
+    {
+      "correct": 137,
+      "generatedCorrect": 137,
+      "total": 512,
+      "finite": true,
+      "seconds": 0.0,
+      "tick": 0.01,
+      "internalWrites": true
+    },
+    {
+      "correct": 140,
+      "generatedCorrect": 140,
+      "total": 512,
+      "finite": true,
+      "seconds": 0.1,
+      "tick": 0.01,
+      "internalWrites": true
+    },
+    {
+      "correct": 151,
+      "generatedCorrect": 151,
+      "total": 512,
+      "finite": true,
+      "seconds": 0.2,
+      "tick": 0.01,
+      "internalWrites": true
+    },
+    {
+      "correct": 145,
+      "generatedCorrect": 145,
+      "total": 512,
+      "finite": true,
+      "seconds": 0.4,
+      "tick": 0.01,
+      "internalWrites": true
+    },
+    {
+      "correct": 149,
+      "generatedCorrect": 149,
+      "total": 512,
+      "finite": true,
+      "seconds": 0.8,
+      "tick": 0.01,
+      "internalWrites": true
+    }
+  ],
+  "internalAblation": {
+    "correct": 137,
+    "generatedCorrect": 137,
+    "total": 512,
+    "finite": true,
+    "seconds": 0.4,
+    "tick": 0.01,
+    "internalWrites": false
+  },
+  "resolutionValidation": [
+    {
+      "correct": 159,
+      "generatedCorrect": 159,
+      "total": 512,
+      "finite": true,
+      "seconds": 0.4,
+      "tick": 0.005,
+      "internalWrites": true
+    },
+    {
+      "correct": 145,
+      "generatedCorrect": 145,
+      "total": 512,
+      "finite": true,
+      "seconds": 0.4,
+      "tick": 0.02,
+      "internalWrites": true
+    }
+  ]
+}
