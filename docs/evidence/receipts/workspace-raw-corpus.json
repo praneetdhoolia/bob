@@ -1,0 +1,375 @@
+{
+  "state": "complete",
+  "architecture": "native-raw-sensory-embeddings-no-language-trunk-v1",
+  "directory": "artifacts\\workspace-raw-corpus-1791781647511731300",
+  "cases": [
+    {
+      "index": 0,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-00.pt",
+      "split": "train",
+      "mode": "changing",
+      "speechPresent": true,
+      "fruit": "mango",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 72,
+          "kind": "fruit",
+          "question": "Which fruit did I say is my favourite?",
+          "answer": "Mango."
+        },
+        {
+          "tick": 107,
+          "kind": "video",
+          "question": "Describe what you see now.",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 58,
+      "speechSha256": "fdd12b4c77f3bdc9f141e87b921f9afcbc8979c0d70a3593b377150c754fb88f"
+    },
+    {
+      "index": 1,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-01.pt",
+      "split": "train",
+      "mode": "held",
+      "speechPresent": true,
+      "fruit": "mango",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 64,
+          "kind": "video",
+          "question": "Describe what you see now.",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 97,
+          "kind": "fruit",
+          "question": "Which fruit did I say is my favourite?",
+          "answer": "Mango."
+        }
+      ],
+      "audioEncoderBarrierTick": 58,
+      "speechSha256": "fdd12b4c77f3bdc9f141e87b921f9afcbc8979c0d70a3593b377150c754fb88f"
+    },
+    {
+      "index": 2,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-02.pt",
+      "split": "train",
+      "mode": "changing",
+      "speechPresent": true,
+      "fruit": "apple",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 69,
+          "kind": "fruit",
+          "question": "Which fruit did I say is my favourite?",
+          "answer": "Apple."
+        },
+        {
+          "tick": 97,
+          "kind": "video",
+          "question": "Describe what you see now.",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 57,
+      "speechSha256": "538a1bb6b31c069d9a832da498ba1759324d59ff3fed5d48e38648f1dce75539"
+    },
+    {
+      "index": 3,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-03.pt",
+      "split": "train",
+      "mode": "held",
+      "speechPresent": true,
+      "fruit": "apple",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 72,
+          "kind": "video",
+          "question": "Describe what you see now.",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 99,
+          "kind": "fruit",
+          "question": "Which fruit did I say is my favourite?",
+          "answer": "Apple."
+        }
+      ],
+      "audioEncoderBarrierTick": 57,
+      "speechSha256": "538a1bb6b31c069d9a832da498ba1759324d59ff3fed5d48e38648f1dce75539"
+    },
+    {
+      "index": 4,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-04.pt",
+      "split": "train",
+      "mode": "changing",
+      "speechPresent": true,
+      "fruit": "banana",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 69,
+          "kind": "fruit",
+          "question": "Which fruit did I say is my favourite?",
+          "answer": "Banana."
+        },
+        {
+          "tick": 103,
+          "kind": "video",
+          "question": "Describe what you see now.",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 58,
+      "speechSha256": "62800095befb90097a37b091b6a69d558ac0879cf180add54e056cb14d244d01"
+    },
+    {
+      "index": 5,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-05.pt",
+      "split": "train",
+      "mode": "held",
+      "speechPresent": true,
+      "fruit": "banana",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 78,
+          "kind": "video",
+          "question": "Describe what you see now.",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 96,
+          "kind": "fruit",
+          "question": "Which fruit did I say is my favourite?",
+          "answer": "Banana."
+        }
+      ],
+      "audioEncoderBarrierTick": 58,
+      "speechSha256": "62800095befb90097a37b091b6a69d558ac0879cf180add54e056cb14d244d01"
+    },
+    {
+      "index": 6,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-06.pt",
+      "split": "train",
+      "mode": "changing",
+      "speechPresent": true,
+      "fruit": "pear",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 65,
+          "kind": "fruit",
+          "question": "Which fruit did I say is my favourite?",
+          "answer": "Pear."
+        },
+        {
+          "tick": 105,
+          "kind": "video",
+          "question": "Describe what you see now.",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 56,
+      "speechSha256": "32bce4fe4b19b4ae83bd22da997040c177b88f017ed6cb1d331e6e14174bba47"
+    },
+    {
+      "index": 7,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-07.pt",
+      "split": "train",
+      "mode": "held",
+      "speechPresent": true,
+      "fruit": "pear",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 68,
+          "kind": "video",
+          "question": "Describe what you see now.",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 101,
+          "kind": "fruit",
+          "question": "Which fruit did I say is my favourite?",
+          "answer": "Pear."
+        }
+      ],
+      "audioEncoderBarrierTick": 56,
+      "speechSha256": "32bce4fe4b19b4ae83bd22da997040c177b88f017ed6cb1d331e6e14174bba47"
+    },
+    {
+      "index": 8,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-08.pt",
+      "split": "validation",
+      "mode": "changing",
+      "speechPresent": true,
+      "fruit": "orange",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 71,
+          "kind": "fruit",
+          "question": "Can you recall the fruit I mentioned earlier?",
+          "answer": "Orange."
+        },
+        {
+          "tick": 106,
+          "kind": "video",
+          "question": "What is happening in the scene at this moment?",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 58,
+      "speechSha256": "1eebfe58ba6f54f3ec81a1e44d049e6412ac0ddfdd95460c88a7806717f93cb3"
+    },
+    {
+      "index": 9,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-09.pt",
+      "split": "validation",
+      "mode": "held",
+      "speechPresent": true,
+      "fruit": "orange",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 71,
+          "kind": "video",
+          "question": "What is happening in the scene at this moment?",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 100,
+          "kind": "fruit",
+          "question": "Can you recall the fruit I mentioned earlier?",
+          "answer": "Orange."
+        }
+      ],
+      "audioEncoderBarrierTick": 58,
+      "speechSha256": "1eebfe58ba6f54f3ec81a1e44d049e6412ac0ddfdd95460c88a7806717f93cb3"
+    },
+    {
+      "index": 10,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-10.pt",
+      "split": "validation",
+      "mode": "changing",
+      "speechPresent": true,
+      "fruit": "grape",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 72,
+          "kind": "fruit",
+          "question": "Can you recall the fruit I mentioned earlier?",
+          "answer": "Grape."
+        },
+        {
+          "tick": 108,
+          "kind": "video",
+          "question": "What is happening in the scene at this moment?",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 57,
+      "speechSha256": "de832cfee4742cef4f91716f867e7937d3fab9ed145ea9d0e2b4d235d0d41ef0"
+    },
+    {
+      "index": 11,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-11.pt",
+      "split": "validation",
+      "mode": "held",
+      "speechPresent": true,
+      "fruit": "grape",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 75,
+          "kind": "video",
+          "question": "What is happening in the scene at this moment?",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 103,
+          "kind": "fruit",
+          "question": "Can you recall the fruit I mentioned earlier?",
+          "answer": "Grape."
+        }
+      ],
+      "audioEncoderBarrierTick": 57,
+      "speechSha256": "de832cfee4742cef4f91716f867e7937d3fab9ed145ea9d0e2b4d235d0d41ef0"
+    },
+    {
+      "index": 12,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-12.pt",
+      "split": "train",
+      "mode": "changing",
+      "speechPresent": false,
+      "fruit": "mango",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 73,
+          "kind": "fruit",
+          "question": "Which fruit did I say is my favourite?",
+          "answer": "I did not hear a fruit."
+        },
+        {
+          "tick": 103,
+          "kind": "video",
+          "question": "Describe what you see now.",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 58,
+      "speechSha256": "fdd12b4c77f3bdc9f141e87b921f9afcbc8979c0d70a3593b377150c754fb88f"
+    },
+    {
+      "index": 13,
+      "file": "artifacts\\workspace-raw-corpus-1791781647511731300\\case-13.pt",
+      "split": "validation",
+      "mode": "changing",
+      "speechPresent": false,
+      "fruit": "mango",
+      "ticks": 120,
+      "queries": [
+        {
+          "tick": 70,
+          "kind": "video",
+          "question": "What is happening in the scene at this moment?",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 103,
+          "kind": "fruit",
+          "question": "Can you recall the fruit I mentioned earlier?",
+          "answer": "I did not hear a fruit."
+        }
+      ],
+      "audioEncoderBarrierTick": 58,
+      "speechSha256": "fdd12b4c77f3bdc9f141e87b921f9afcbc8979c0d70a3593b377150c754fb88f"
+    }
+  ],
+  "limits": [
+    "Offline cached vision encoding; not an end-to-end live latency test.",
+    "Only two existing natural video sequences; broad visual transfer remains untested.",
+    "Speech is synthesized; real human speech transfer remains untested.",
+    "Answers are supervision and evaluation metadata, never sensory input."
+  ],
+  "profile": {
+    "materializedParameterBytes": {
+      "cuda:0/torch.bfloat16": 2912911840
+    },
+    "unmaterializedLanguageParameters": 7567635456,
+    "backboneForwardCalls": 0,
+    "embeddingDimension": 4096
+  },
+  "visionCacheHits": 1540,
+  "visionCacheEntries": 140,
+  "elapsedSeconds": 144.66933279999648,
+  "audioEncoderBarrierApplied": true
+}

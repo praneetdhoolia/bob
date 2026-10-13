@@ -1,0 +1,588 @@
+{
+  "state": "complete",
+  "directory": "artifacts\\liquid-core-1791819735481555400",
+  "architecture": "single-liquid-associative-byte-core-v1",
+  "pretrainedLanguageForwardCalls": 0,
+  "limits": [
+    "Custom translator trained only on narrow recorded examples.",
+    "Numerical recurrence does not establish subjective experience.",
+    "Motor policy and general language remain untrained."
+  ],
+  "resumedFrom": "artifacts\\liquid-core-1791818717098113100\\latest.pt",
+  "matchedVisualSwitchSupervision": 18,
+  "parameters": 4577039,
+  "seedSha256": "fc94b30a46b6c0eeeaa4a05cfd788c0447a99a831a5d522da5af1381ffbbd295",
+  "trainSequences": 36,
+  "validationSequences": 10,
+  "update": 1400,
+  "loss": 5.4236417781794444e-05,
+  "elapsedSeconds": 227.32800000003772,
+  "train": {
+    "correct": 36,
+    "total": 36,
+    "quietCorrect": 133,
+    "quietTotal": 133,
+    "rows": [
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Mango.",
+        "actual": "Mango.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Mango.",
+        "actual": "Mango.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "train",
+          "fruit": "apple",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Apple.",
+        "actual": "Apple.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "apple",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "apple",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "train",
+          "fruit": "apple",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Apple.",
+        "actual": "Apple.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "train",
+          "fruit": "banana",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Banana.",
+        "actual": "Banana.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "banana",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "banana",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "train",
+          "fruit": "banana",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Banana.",
+        "actual": "Banana.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "train",
+          "fruit": "pear",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Pear.",
+        "actual": "Pear.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "pear",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "pear",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "train",
+          "fruit": "pear",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Pear.",
+        "actual": "Pear.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "I did not hear a fruit.",
+        "actual": "I did not hear a fruit.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "apple",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "apple",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "apple",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "apple",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "banana",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "banana",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "banana",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "banana",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "pear",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "pear",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "pear",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "pear",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "train",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      }
+    ]
+  },
+  "validation": {
+    "correct": 6,
+    "total": 10,
+    "quietCorrect": 147,
+    "quietTotal": 147,
+    "rows": [
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Orange.",
+        "actual": "Banana.",
+        "correct": false
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "orange",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Orange.",
+        "actual": "Apple.",
+        "correct": false
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "Grape.",
+        "actual": "Apple.",
+        "correct": false
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "changing",
+          "audio": true
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "A person is playing tennis.",
+        "actual": "A person is playing tennis.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "grape",
+          "mode": "held",
+          "audio": true
+        },
+        "expected": "Grape.",
+        "actual": "Apple.",
+        "correct": false
+      },
+      {
+        "kind": "video",
+        "metadata": {
+          "split": "validation",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "A person is riding a bicycle.",
+        "actual": "A person is riding a bicycle.",
+        "correct": true
+      },
+      {
+        "kind": "fruit",
+        "metadata": {
+          "split": "validation",
+          "fruit": "mango",
+          "mode": "changing",
+          "audio": false
+        },
+        "expected": "I did not hear a fruit.",
+        "actual": "I did not hear a fruit.",
+        "correct": true
+      }
+    ]
+  }
+}

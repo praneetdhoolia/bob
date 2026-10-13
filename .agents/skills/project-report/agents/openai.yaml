@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Report"
+  short_description: "Assess the whole project with evidence and priorities"
+  default_prompt: "Use $project-report to assess this repository and produce a dated HTML report."
+policy:
+  allow_implicit_invocation: true

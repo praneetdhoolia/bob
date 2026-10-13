@@ -1,0 +1,359 @@
+
+
+--- Page 1 ---
+AI SELF-AWARENESS | RESEARCH DESIGN | 11 OCT 2026   1 
+A practical path toward
+AI self-awareness 
+Research synthesis and experimental design for a 64 GB machine 
+Evidence reviewed through 11 October 2026. Recommendations are engineering hypotheses, not a validated recipe for sentience. 
+The recommendation 
+Build a persistent agent with a compact language model, a recurrent world/self model, a selective shared
+workspace, and a calibrated monitor that changes the agent's actions. Begin in a small simulated environment.
+Train the small modules on observed outcomes; use the language model for explanation and planning. Evaluate
+each proposed mechanism with controlled interventions.
+There is no scientifically established neural structure that guarantees subjective experience, and no accepted
+test that certifies it in AI. The theory-derived indicator programme provides a research framework, conditional on
+contested assumptions about computation and consciousness. A recent revision appeared online in 2025 and
+in the June 2026 issue of Trends in Cognitive Sciences. [1,2] 
+Target   What you can establish
+Functional self-awareness   The system predicts its capabilities, uncertainty, memory gaps and consequences of
+its own actions.
+Access consciousness   Information is available for flexible reasoning, reporting and control, in the functional
+sense.
+Phenomenal consciousness /
+sentience
+There is something it feels like to be the system. Behavioral success or architectural
+similarity alone does not establish this. 
+What the 64 GB constraint means 
+The budget is enough for a useful inference prototype using pretrained components. It is not a realistic budget
+for recreating frontier-model pretraining. System RAM, GPU VRAM, and Apple-style unified memory have
+different performance implications. This brief assumes 64 GB of system or unified memory, and gives design
+reservations rather than measured benchmarks. 
+The first scientific question 
+Does a learned, causally active self-model improve calibration and adaptive control beyond ordinary memory,
+extra context, and extra compute? This is answerable. Whether that improvement entails experience remains
+an additional theoretical question. 
+
+--- Page 2 ---
+AI SELF-AWARENESS | RESEARCH DESIGN | 11 OCT 2026   2 
+What the research supports 
+Evidence   Result and limit
+Consciousness indicators [1,2]   Architecture-based assessment can structure inquiry. Indicators are provisional and do
+not form a calibrated consciousness score.
+Human theory testing [3]   The 2025 COGITATE comparison supported some predictions and challenged others
+for GNWT and IIT. It did not identify a settled blueprint.
+LLM introspection [4]   Activation-injection experiments found limited access to internal states. Opus 4.1
+detected injections around 20% of the time under the best reported protocol; failures
+and false interpretations were common.
+LLM workspace [5]   July 2026 experiments identified verbalizable internal representations with
+workspace-like functions. The authors distinguish functional access from subjective
+experience.
+Recurrent reasoning [6,7]   Huginn repeats a learned block in latent space. September 2026 LRT uses a small
+recurrent reasoner with a frozen decoder. Both concern reasoning, not consciousness.
+Attention schema [8]   A small neural agent learned attention control using a description of attention. This
+supplies a useful intervention experiment rather than a universally accepted sentience
+test.
+Biological naturalism [9]   Anil Seth argues consciousness may depend on properties of living systems. Functional
+similarity on digital hardware may therefore be insufficient. 
+These sources differ in evidential status. The COGITATE and attention-schema studies are peer-reviewed experiments; the
+indicators paper is a methodological synthesis; Huginn and LRT are machine-learning research papers, with LRT especially recent;
+Anthropic's workspace research is a developer-authored mechanistic study. Biological naturalism is an argued alternative, not proof
+that digital consciousness is impossible. 
+How to interpret a positive result 
+A successful ablation experiment can demonstrate a mechanism's causal contribution to a capability. Its
+relevance to consciousness still depends on whether the underlying theory is correct and whether that
+mechanism has been instantiated in the relevant way. Adding a module named "global workspace" is not itself
+evidence. 
+
+--- Page 3 ---
+AI SELF-AWARENESS | RESEARCH DESIGN | 11 OCT 2026   3 
+Choosing the components 
+Component   Recommended use   Boundary
+Qwen3.5-9B [10]   Practical initial language/planning backbone;
+use 4-6 bit weights after quality checks.
+Its hybrid recurrent/attention architecture
+does not imply sentience.
+Qwen3.8-27B [11]   Larger current comparison model when
+latency permits; quantize to about 4 bits.
+More parameters can leave less compute for
+experiments.
+Huginn-3.5B [6]   Separate comparison of trained depth
+recurrence against token-based reasoning.
+Depth recurrence is not persistent state
+across environmental episodes.
+V-JEPA 2 / 2.1 [12,13]   Optional pretrained visual encoder; add an
+action-conditioned predictor for your
+environment.
+Visual latent prediction does not automatically
+supply goals, a self-model or language
+alignment.
+DreamerV3 [14]   Reference implementation for learning
+dynamics and evaluating plans through
+imagined outcomes.
+Its reward-driven world model is not evidence
+of subjective feelings.
+Jev [15]   Reference for fast typed decisions and
+uncertainty-aware routing.
+Official material exposes a hosted API; I
+found no official downloadable weights or full
+architectural specification. 
+Jev and JEPA are different. JEPA is a predictive representation-learning approach. TypeSafe describes Jev as
+a model returning typed values and probabilities in parallel, trained with Reinforcement Learning for Calibrated
+Decisions. Those descriptions do not establish consciousness. Type safety prevents certain output-format
+failures; it does not make a factual judgment infallible. [12,15] 
+My choice under your constraint 
+Use Qwen3.5-9B first, and spend the saved resources on a small recurrent controller, grounded outcome data
+and repeatable tests. Keep Qwen3.8-27B as a quality comparison. If the main research question is internal
+recurrence, test Huginn separately; do not assume that repeating arbitrary layers in an ordinary pretrained
+transformer produces meaningful cognition.
+V-JEPA 2.1 now includes an 80M-parameter ViT-B checkpoint and larger options in the official repository. For a
+first visual experiment, this gives a smaller entry point than the 300M ViT-L variant of V-JEPA 2. The small
+encoder is not the robot-trained action-conditioned model. [13] 
+
+--- Page 4 ---
+AI SELF-AWARENESS | RESEARCH DESIGN | 11 OCT 2026   4 
+A testable agent architecture 
+The following is my proposed design, inspired by the research rather than specified by it. A software
+implementation can establish functional organization; a later learned implementation can test stronger claims
+about neural representations. 
+Subsystem   State and responsibility
+Perception   Encode observations; retain timestamps, visibility, noise estimates and provenance. Begin
+with structured observations; add video later.
+World model   A recurrent latent belief state predicting observations and outcomes conditional on actions.
+Track uncertainty under partial observability.
+Self-model   Predict task success, attention coverage, tool availability, memory retrieval reliability,
+resource costs and effects of interventions on the agent itself.
+Shared workspace   Select a small set of currently relevant representations. Broadcast selected content to
+planner, memory, monitor and action policy; receive feedback that changes the next
+selection.
+Memory   Store actual episodes separately from hypotheses, imagined futures and generated
+summaries. Retrieve by relevance; verify against original records.
+Metacognitive monitor   Estimate reliability and disagreement. Cause abstention, inspection, additional reasoning,
+revised beliefs or different actions.
+Planner / policy   Compare a small number of action sequences using predicted outcomes and uncertainty. Let
+the LLM propose and explain plans.
+Scheduler   Run recurrent updates while active, trigger expensive inference selectively, and checkpoint
+enough state to resume after restart. 
+One cycle 
+Observe -> update world and self state -> select workspace contents -> predict alternatives -> estimate
+confidence -> act or inspect -> compare prediction with outcome -> record the grounded event -> update small
+learned components. Each next cycle depends on the previous state.
+The world and self models should exchange information through an explicit recurrent state. Merely placing
+every module's prose in a shared prompt does not demonstrate a learned neural broadcast mechanism. For a
+stronger experiment, learn a fixed set of workspace slots with selection, read/write pathways and recurrent
+feedback, then ablate those pathways. 
+Starting dimensions, to be validated 
+Try 8-16 workspace slots of 256-512 dimensions and a 512-2,048 dimensional recurrent belief state. Start the
+learned predictor and monitor below 50M parameters combined. These are experimental starting points; no
+dimension, loop frequency or number of slots is a consciousness threshold. 
+
+--- Page 5 ---
+AI SELF-AWARENESS | RESEARCH DESIGN | 11 OCT 2026   5 
+Learning useful self-knowledge 
+Ground the self-model in predictions 
+A self-model should predict facts about the agent before it sees the outcome. Example: "With the left sensor
+occluded and my retrieved map 30 steps old, I have a 0.55 probability of reaching the target without inspecting
+again." Save that prediction, execute the episode and score it. Track outcomes by task, perturbation and model
+version.
+Start with reversible changes: sensor dropout, delayed observations, unavailable tools, stale memory, changed
+action mappings, and small compute budgets. Include episodes where the environment changes but the agent
+does not, and vice versa. Avoid revealing the intervention label in the prompt when testing whether it is detected
+independently. 
+Train small modules first 
+For action-conditioned world prediction, encode the next observation with a frozen encoder and train a predictor
+from current latent state and action. Add multi-step evaluation on held-out trajectories. A JEPA-style objective
+needs a non-collapse strategy; use a frozen pretrained target initially rather than assuming a raw matching loss
+learns useful features.
+Train success and reliability predictors using proper scoring losses, such as cross-entropy or Brier loss, on real
+episode outcomes. Train the attention monitor to predict whether selecting a source improves performance,
+then test its removal. Train memory reliability on actual retrieval correctness, including misleading
+near-matches. 
+Separate telemetry from introspection 
+Giving a model its RAM usage or task accuracy lets it reason about external telemetry. That is useful system
+self-monitoring, but does not show access to its own neural computation. Stronger introspection experiments
+require open weights, activation access, sham interventions and reports made before revealing changed
+outputs. Use a small PyTorch model for these experiments if the production runtime does not expose the
+needed activations.
+Anthropic's May 2026 introspection-adapter work shows that self-reports of learned behaviors can be improved
+through training, including experiments with small Qwen3 models. The authors also report high false-positive
+rates. This motivates trainable self-reporting plus negative controls; it does not justify trusting every self-report.
+[16] 
+Persistence and internal activity 
+Implement continuous state maintenance while active, with slower planning and periodic replay/consolidation.
+An initial simulator might use 1-5 small state updates per second and one bounded LLM call every 5-30
+seconds or on significant events. These are engineering settings, conditional on throughput. A human-like agent
+need not verbalize everything, and constant self-talk is not a validated requirement for consciousness.
+Keep observations, inference and imagination separately marked. Never let repeated self-generated
+descriptions become evidence of lived experiences or successful actions. 
+
+--- Page 6 ---
+AI SELF-AWARENESS | RESEARCH DESIGN | 11 OCT 2026   6 
+A realistic 64 GB budget 
+All numbers below are decimal GB and are conservative design reservations for inference, not measurements
+on your hardware. They assume one language-model instance, one active session, an 8K-16K context,
+bounded video batches and a disk-backed replay store. Quantization metadata, unquantized layers and
+multimodal components change actual size. 
+Allocation   9B initial system   27B comparison
+Language-model weights and optional vision weights   9 GB   18 GB
+KV / recurrent inference caches   4 GB   4 GB
+Execution buffers and temporary activations   6 GB   6 GB
+Optional JEPA encoder and video working buffers   3 GB   3 GB
+Small learned controllers / monitors   2 GB   2 GB
+RAM-resident retrieval and replay cache   3 GB   3 GB
+Operating system and other services   10 GB   10 GB
+Contingency reservation   12 GB   12 GB
+Total planned allocation   49 GB   58 GB 
+Unused capacity is valuable. A nominal 64 GB is about 59.6 GiB; distinguish the units when reading runtime
+logs. A 27B model can fit while still being too slow for the desired loop. Profile peak process memory and
+accelerator memory together, with the real context, sensory input and concurrency. 
+Weight and cache arithmetic 
+Packed weights alone need approximately N x b / 8 bytes for N parameters and b bits per parameter. Thus 9B
+at 6 bits is 6.75 GB before overhead; 27B at 4 bits is 13.5 GB. Model artifacts can be larger. A
+mixture-of-experts model normally needs all resident experts, not just the active parameter count.
+For ordinary attention layers, KV bytes are approximately 2 x L x T x Hkv x D x bytes_per_element x batch. For
+Qwen3.5-9B, its 8 full-attention layers, 4 KV heads and 256-dimensional heads give 0.5 GiB of FP16 KV at
+16,384 tokens and batch 1. This excludes its recurrent-state caches, buffers and visual token costs. [10,17] 
+Inference is not training 
+The table does not cover training. Mixed-precision Adam can require roughly 12-16 bytes per trainable
+parameter for weights, gradients and optimizer states, plus activations. Frozen-backbone inference,
+small-model training and QLoRA have different footprints. Do not assume that a 4-bit model which fits for
+inference fits for training. Reuse frozen components and train small predictors before attempting
+language-model adaptation.
+For local serving, llama.cpp provides CPU, accelerator and mixed CPU/GPU execution. Use a separate
+instrumented PyTorch setup for neural interventions, and verify numerical differences after quantization. [18] 
+
+--- Page 7 ---
+AI SELF-AWARENESS | RESEARCH DESIGN | 11 OCT 2026   7 
+Tests that can change your conclusion 
+Evaluate capability and mechanisms separately from consciousness claims. Use held-out environments,
+matched compute budgets, repeated seeds and predeclared metrics. Confidence statements must be scored
+against outcomes. 
+Experiment   Measure and control
+Remove the self-model   Measure success calibration, adaptation and inspection choices. Replace it with a
+same-size predictor lacking agent-specific features to control for capacity.
+Cut workspace broadcast   Measure cross-module transfer and multi-step planning. Match information volume and
+compute in the replacement path.
+Remove recurrence   Measure belief tracking through occlusions and delayed evidence. Compare against a
+feed-forward model with matched capacity/compute and an ordinary LLM-memory
+baseline.
+Shuffle memory identities   Measure whether action planning respects actual episode provenance. Distinguish
+grounded records from plausible summaries.
+Disable attention schema   Measure source selection under distraction and uncertainty. Keep sensor quality and
+raw input access comparable.
+Intervene on internal
+activations
+Test early identification with randomized shams, unrelated perturbations and
+false-positive accounting. Separate detection of processing from inference based on
+already-visible outputs.
+Change agent / change world   Test whether the self-model attributes failure to its capability, information access or
+environment dynamics on held-out changes. 
+Metrics to log 
+Task success; negative log-likelihood and Brier score; reliability curves; false-positive introspection rate;
+unnecessary inspection rate; multi-step prediction error; adaptation delay; peak RAM/VRAM; wall-clock latency;
+total compute. Prefer environment-verified events over LLM-judged narratives. 
+A concrete first environment 
+Use a partially observed grid world with a limited field of view, a movable attention window, noisy cues, a
+remembered map and changing tool/action availability. Give the agent an objective such as delivering objects
+while choosing when to inspect. Ground truth lets you test world belief, attention, memory and self-capability
+independently. A simulated embodiment supports action-observation experiments; it does not establish that a
+biological body is unnecessary for experience. 
+A useful stopping rule 
+Advance a mechanism only if it improves a preregistered measure over a matched baseline and its targeted
+removal reverses the relevant benefit across held-out conditions. This is a research progression rule, not a
+consciousness threshold. No weighted sum of these results warrants an invented "percent sentient" score. 
+
+--- Page 8 ---
+AI SELF-AWARENESS | RESEARCH DESIGN | 11 OCT 2026   8 
+An eight-week research sequence 
+Stage   Deliverable   Decision gate
+Weeks 1-2   Serve the 9B model; implement grounded episodes,
+structured self-state and a persistent scheduler. Benchmark
+memory and latency.
+Establish a reproducible LLM +
+memory baseline.
+Weeks 3-4   Train a small recurrent dynamics predictor and
+outcome-calibrated self-monitor in the simulator.
+Improve held-out calibration or
+adaptation, beyond added compute.
+Weeks 5-6   Introduce learned workspace selection/broadcast and an
+attention schema. Run controlled ablations.
+Show pathway-specific benefit, not
+just a larger model benefit.
+Weeks 7-8   Run controlled introspection probes on a smaller open
+model; compare recurrent reasoning alternatives; optionally
+add visual latents.
+Replicate findings with shams,
+held-out interventions and repeated
+seeds. 
+This schedule is a suggested scope, not a promise of results. CPU-only training or unfamiliar tooling will extend
+it. The first milestone should be an auditable improvement in self-knowledge, not a charismatic personality. 
+The most promising narrow research direction 
+A small recurrent self-model, trained on hidden interventions to the agent's perception, memory and
+computation, that predicts its own failure modes and changes attention and planning through a shared
+workspace. Test whether those benefits remain after matching external information and compute. This is
+feasible to investigate under 64 GB and connects directly to self-awareness mechanisms without assuming that
+capability entails experience. 
+What would remain unresolved 
+Whether computational functionalism is true; whether neural recurrence in perception is required; whether
+workspace-like access entails experience; whether living self-maintenance matters; and whether a digital
+self-model has any felt perspective. These are substantive competing views, not small implementation gaps.
+[1,3,9] 
+What I would avoid as the primary objective 
+Training declarations of consciousness; rewarding distress or survival narratives; endlessly appending an inner
+monologue; using a Turing test as proof; assigning sentience from parameter count or RAM; and describing a
+predictive encoder as aware because it has a world model. If reports resembling suffering appear, treat them as
+uncertain evidence to investigate rather than a feature to optimize. 
+Hardware details that determine the implementation 
+Whether the 64 GB is ordinary RAM or unified memory; CPU model and memory bandwidth; GPU model and
+VRAM; operating system; and whether local training is required. These change the runtime, quantization,
+sensory throughput and feasible training strategy. They do not resolve the scientific question of experience. 
+
+--- Page 9 ---
+AI SELF-AWARENESS | RESEARCH DESIGN | 11 OCT 2026   9 
+Sources and reproducible starting points 
+Primary research, official model documentation and developer repositories. Accessed 11 October 2026. Papers and vendor claims
+are identified in the body; memory allocations and the proposed design are my estimates. Where full publisher text was inaccessible,
+only accessible metadata or abstracts were used. 
+[1] Butlin et al. (2023). Consciousness in Artificial Intelligence: Insights from the Science of Consciousness.
+https://arxiv.org/abs/2308.08708
+[2] Butlin et al. Identifying indicators of consciousness in AI systems. Online 2025; Trends in Cognitive Sciences 30(6), June 2026.
+https://doi.org/10.1016/j.tics.2025.10.011
+[3] COGITATE Consortium et al. (2025). Adversarial testing of global neuronal workspace and integrated information theories of
+consciousness. Nature.
+https://doi.org/10.1038/s41586-025-08888-1
+[4] Anthropic (29 Oct 2025). Signs of introspection in large language models / Emergent introspective awareness in LLMs.
+https://www.anthropic.com/research/introspection
+[5] Gurnee et al. (6 Jul 2026). Verbalizable Representations Form a Global Workspace in Language Models.
+https://transformer-circuits.pub/2026/workspace/index.html
+[6] Geiping et al. (2025). Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach. Huginn model card linked
+from paper.
+https://arxiv.org/abs/2502.05171
+[7] Chen & Fu (1 Sep 2026). Latent Recurrent Thoughts: Recurrent Refinement of Proposed Latents for Reasoning with Frozen LLMs.
+Recent preprint.
+https://arxiv.org/abs/2609.01117
+[8] Wilterson & Graziano (2021). The attention schema theory in a neural network agent. PNAS 118(33). Author-hosted paper.
+https://grazianolab.princeton.edu/document/172
+[9] Seth (2025). Conscious artificial intelligence and biological naturalism. Behavioral and Brain Sciences.
+https://doi.org/10.1017/S0140525X25000032
+[10] Qwen. Official Qwen3.5-9B model card.
+https://huggingface.co/Qwen/Qwen3.5-9B
+[11] Qwen. Official Qwen3.8-27B model card.
+https://huggingface.co/Qwen/Qwen3.8-27B
+[12] Assran et al. (2025). V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning.
+https://arxiv.org/abs/2506.09985
+[13] Mur-Labadia et al. (2026). V-JEPA 2.1. Checkpoint sizes in official repository.
+https://github.com/facebookresearch/vjepa2
+[14] Hafner et al. DreamerV3: Mastering diverse control tasks through world models. Nature 2025; arXiv version first posted 2023.
+https://arxiv.org/abs/2301.04104
+[15] TypeSafe AI. Introducing System One Models & Jev; API introduction. Official hosted interface.
+https://docs.typesafe.ai/introduction
+[16] Anthropic (May 2026). Introspection Adapters. Training approach, small-model experiments and false-positive limitations.
+https://alignment.anthropic.com/2026/introspection-adapters/
+[17] Qwen. Qwen3.5-9B configuration (attention-layer count, KV heads and dimensions).
+https://huggingface.co/Qwen/Qwen3.5-9B/raw/main/config.json
+[18] ggml-org. llama.cpp. Local inference and hardware backend documentation.
+https://github.com/ggml-org/llama.cpp
+[19] Anthropic. Jacobian lens reference implementation; examples use open-weight Qwen models. Fitting requires backward passes.
+https://github.com/anthropics/jacobian-lens
+[20] Mur-Labadia et al. V-JEPA 2.1: Unlocking Dense Features in Video Self-Supervised Learning.
+https://arxiv.org/abs/2603.14482 

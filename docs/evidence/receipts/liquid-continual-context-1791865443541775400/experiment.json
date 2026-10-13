@@ -1,0 +1,78 @@
+{
+  "state": "complete",
+  "publishedToLive": false,
+  "sourceCheckpoint": "artifacts/liquid-core-1791819735481555400/latest.pt",
+  "protocol": "prequential-before-write-native-target-v1",
+  "limitations": [
+    "Pooled projected packets can hide modality-specific errors.",
+    "Recording identities/scenes overlap the historical supervised corpus.",
+    "One own code per packet is a diagnostic schedule, not the live 30 ms output schedule.",
+    "Prediction and adaptation alone do not establish self-awareness or broad language."
+  ],
+  "frozen": {
+    "packets": 600,
+    "priorPredictionMse": 0.7906882086396217,
+    "persistenceMse": 0.006397602679951414,
+    "constantMse": 0.05349881629770001,
+    "packetSecondsMean": 0.01281894816706578,
+    "packetSecondsMax": 0.021166699996683747,
+    "nonblankCodes": 98,
+    "maximumParameterRmsDrift": 0.0
+  },
+  "training": [
+    {
+      "packets": 1080,
+      "priorPredictionMse": 0.03148668786463397,
+      "persistenceMse": 0.0063650548128419,
+      "constantMse": 0.05149298200245809,
+      "packetSecondsMean": 0.018695863056712336,
+      "packetSecondsMax": 0.05215210001915693,
+      "nonblankCodes": 126,
+      "maximumParameterRmsDrift": 0.003366287797689438
+    },
+    {
+      "packets": 1080,
+      "priorPredictionMse": 0.016193672208680288,
+      "persistenceMse": 0.0063650548128419,
+      "constantMse": 0.05149298200245809,
+      "packetSecondsMean": 0.018657399721969677,
+      "packetSecondsMax": 0.03990380000323057,
+      "nonblankCodes": 123,
+      "maximumParameterRmsDrift": 0.004186213482171297
+    }
+  ],
+  "completedPasses": 2,
+  "heldFrozenAfterLearning": {
+    "packets": 600,
+    "priorPredictionMse": 0.05485626841584841,
+    "persistenceMse": 0.006397602679951414,
+    "constantMse": 0.05349881629770001,
+    "packetSecondsMean": 0.013108680666579555,
+    "packetSecondsMax": 0.019959199998993427,
+    "nonblankCodes": 13,
+    "maximumParameterRmsDrift": 0.0
+  },
+  "statePermutationControl": {
+    "packets": 600,
+    "priorPredictionMse": 0.6411140612761179,
+    "persistenceMse": 0.006397602679951414,
+    "constantMse": 0.05349881629770001,
+    "packetSecondsMean": 0.012752035167068243,
+    "packetSecondsMax": 0.017082400037907064,
+    "nonblankCodes": 13,
+    "maximumParameterRmsDrift": 0.0
+  },
+  "changedHeldCodes": 110,
+  "heldOnlineAdaptation": {
+    "packets": 600,
+    "priorPredictionMse": 0.010969208406556087,
+    "persistenceMse": 0.006397602679951414,
+    "constantMse": 0.05349881629770001,
+    "packetSecondsMean": 0.017738515165886686,
+    "packetSecondsMax": 0.03189759998349473,
+    "nonblankCodes": 13,
+    "maximumParameterRmsDrift": 0.0018255217000842094
+  },
+  "trainRecordings": 9,
+  "heldRecordings": 5
+}

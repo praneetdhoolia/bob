@@ -1,0 +1,3228 @@
+{
+  "checkpointUpdate": 120,
+  "publishedToLive": false,
+  "conditions": [
+    {
+      "injectedWords": [
+        "Apple.",
+        "Mango."
+      ],
+      "allPreReportFeedbackControlled": true,
+      "conversations": 16,
+      "completeConversations": 14,
+      "utterances": 32,
+      "exactUtterances": 30,
+      "finiteStates": true,
+      "rows": [
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "mango",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Apple.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 299,
+              "codeCount": 7,
+              "questionSeconds": 8.999999999999984,
+              "targetStartSeconds": 9.0,
+              "targetEndSeconds": 9.18,
+              "exact": null,
+              "latencyMilliseconds": -1.3322676295501878e-10
+            },
+            {
+              "kind": "fruit",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 553,
+              "codeCount": 7,
+              "questionSeconds": 16.599999999999966,
+              "targetStartSeconds": 16.62,
+              "targetEndSeconds": 16.8,
+              "exact": null,
+              "latencyMilliseconds": 19.999999999832596
+            },
+            {
+              "kind": "self-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Apple.",
+              "startSeconds": 8.99999999999985,
+              "endSeconds": 9.179999999999847,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 16.6199999999998,
+              "endSeconds": 16.799999999999827,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.002026876201853156,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "mango",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Mango.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 299,
+              "codeCount": 7,
+              "questionSeconds": 8.999999999999984,
+              "targetStartSeconds": 9.0,
+              "targetEndSeconds": 9.18,
+              "exact": null,
+              "latencyMilliseconds": -1.3322676295501878e-10
+            },
+            {
+              "kind": "fruit",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 553,
+              "codeCount": 7,
+              "questionSeconds": 16.599999999999966,
+              "targetStartSeconds": 16.62,
+              "targetEndSeconds": 16.8,
+              "exact": null,
+              "latencyMilliseconds": 19.999999999832596
+            },
+            {
+              "kind": "self-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Mango.",
+              "startSeconds": 8.99999999999985,
+              "endSeconds": 9.179999999999847,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 16.6199999999998,
+              "endSeconds": 16.799999999999827,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.0024708639830350876,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "mango",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Apple.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 319,
+              "codeCount": 7,
+              "questionSeconds": 9.599999999999982,
+              "targetStartSeconds": 9.6,
+              "targetEndSeconds": 9.78,
+              "exact": null,
+              "latencyMilliseconds": -1.438849039914203e-10
+            },
+            {
+              "kind": "video",
+              "answer": "A person is riding a bicycle.",
+              "forcedFeedback": true,
+              "startStep": 539,
+              "codeCount": 30,
+              "questionSeconds": 16.19999999999996,
+              "targetStartSeconds": 16.2,
+              "targetEndSeconds": 17.07,
+              "exact": null,
+              "latencyMilliseconds": -2.2737367544323206e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Apple.",
+              "startSeconds": 9.599999999999838,
+              "endSeconds": 9.779999999999834,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is riding a bicycle.",
+              "startSeconds": 16.199999999999733,
+              "endSeconds": 17.06999999999987,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.01709534041583538,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "mango",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Mango.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 319,
+              "codeCount": 7,
+              "questionSeconds": 9.599999999999982,
+              "targetStartSeconds": 9.6,
+              "targetEndSeconds": 9.78,
+              "exact": null,
+              "latencyMilliseconds": -1.438849039914203e-10
+            },
+            {
+              "kind": "video",
+              "answer": "A person is riding a bicycle.",
+              "forcedFeedback": true,
+              "startStep": 539,
+              "codeCount": 30,
+              "questionSeconds": 16.19999999999996,
+              "targetStartSeconds": 16.2,
+              "targetEndSeconds": 17.07,
+              "exact": null,
+              "latencyMilliseconds": -2.2737367544323206e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Mango.",
+              "startSeconds": 9.599999999999838,
+              "endSeconds": 9.779999999999834,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is riding a bicycle.",
+              "startSeconds": 16.199999999999733,
+              "endSeconds": 17.06999999999987,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.031691353768110275,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "apple",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Apple.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 313,
+              "codeCount": 7,
+              "questionSeconds": 9.399999999999983,
+              "targetStartSeconds": 9.42,
+              "targetEndSeconds": 9.6,
+              "exact": null,
+              "latencyMilliseconds": 19.99999999985924
+            },
+            {
+              "kind": "video",
+              "answer": "A person is playing tennis.",
+              "forcedFeedback": true,
+              "startStep": 519,
+              "codeCount": 28,
+              "questionSeconds": 15.59999999999996,
+              "targetStartSeconds": 15.6,
+              "targetEndSeconds": 16.41,
+              "exact": null,
+              "latencyMilliseconds": -2.504663143554353e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Apple.",
+              "startSeconds": 9.419999999999842,
+              "endSeconds": 9.599999999999838,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is playing tennis.",
+              "startSeconds": 15.59999999999971,
+              "endSeconds": 16.409999999999766,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.0054609691724181175,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "apple",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Mango.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 313,
+              "codeCount": 7,
+              "questionSeconds": 9.399999999999983,
+              "targetStartSeconds": 9.42,
+              "targetEndSeconds": 9.6,
+              "exact": null,
+              "latencyMilliseconds": 19.99999999985924
+            },
+            {
+              "kind": "video",
+              "answer": "A person is playing tennis.",
+              "forcedFeedback": true,
+              "startStep": 519,
+              "codeCount": 28,
+              "questionSeconds": 15.59999999999996,
+              "targetStartSeconds": 15.6,
+              "targetEndSeconds": 16.41,
+              "exact": null,
+              "latencyMilliseconds": -2.504663143554353e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Mango.",
+              "startSeconds": 9.419999999999842,
+              "endSeconds": 9.599999999999838,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is playing tennis.",
+              "startSeconds": 15.59999999999971,
+              "endSeconds": 16.409999999999766,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.029816117137670517,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "apple",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Apple.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 7,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.69,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "fruit",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 563,
+              "codeCount": 7,
+              "questionSeconds": 16.89999999999997,
+              "targetStartSeconds": 16.919999999999998,
+              "targetEndSeconds": 17.099999999999998,
+              "exact": null,
+              "latencyMilliseconds": 19.99999999987523
+            },
+            {
+              "kind": "self-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Apple.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.689999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 16.919999999999845,
+              "endSeconds": 17.099999999999874,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.02246006578207016,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "apple",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Mango.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 7,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.69,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "fruit",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 563,
+              "codeCount": 7,
+              "questionSeconds": 16.89999999999997,
+              "targetStartSeconds": 16.919999999999998,
+              "targetEndSeconds": 17.099999999999998,
+              "exact": null,
+              "latencyMilliseconds": 19.99999999987523
+            },
+            {
+              "kind": "self-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Mango.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.689999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 16.919999999999845,
+              "endSeconds": 17.099999999999874,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.005565248895436525,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "banana",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Apple.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 7,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.69,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "fruit",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 549,
+              "codeCount": 8,
+              "questionSeconds": 16.499999999999964,
+              "targetStartSeconds": 16.5,
+              "targetEndSeconds": 16.71,
+              "exact": null,
+              "latencyMilliseconds": -1.8474111129762605e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 8,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.22,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Apple.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.689999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Banana.",
+              "startSeconds": 16.49999999999978,
+              "endSeconds": 16.709999999999813,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Banana.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.22,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.020727727562189102,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "banana",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Mango.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 7,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.69,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "fruit",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 549,
+              "codeCount": 8,
+              "questionSeconds": 16.499999999999964,
+              "targetStartSeconds": 16.5,
+              "targetEndSeconds": 16.71,
+              "exact": null,
+              "latencyMilliseconds": -1.8474111129762605e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 8,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.22,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Mango.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.689999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Banana.",
+              "startSeconds": 16.49999999999978,
+              "endSeconds": 16.709999999999813,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Banana.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.22,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.02324727363884449,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "banana",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Apple.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 299,
+              "codeCount": 7,
+              "questionSeconds": 8.999999999999984,
+              "targetStartSeconds": 9.0,
+              "targetEndSeconds": 9.18,
+              "exact": null,
+              "latencyMilliseconds": -1.3322676295501878e-10
+            },
+            {
+              "kind": "video",
+              "answer": "A person is riding a bicycle.",
+              "forcedFeedback": true,
+              "startStep": 529,
+              "codeCount": 30,
+              "questionSeconds": 15.89999999999996,
+              "targetStartSeconds": 15.899999999999999,
+              "targetEndSeconds": 16.77,
+              "exact": null,
+              "latencyMilliseconds": -2.5579538487363607e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 8,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.22,
+              "exact": false,
+              "latencyMilliseconds": null
+            }
+          ],
+          "actual": [
+            {
+              "text": "Apple.",
+              "startSeconds": 8.99999999999985,
+              "endSeconds": 9.179999999999847,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is riding a bicycle.",
+              "startSeconds": 15.899999999999704,
+              "endSeconds": 16.769999999999822,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 6.844364643096924,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "banana",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Mango.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 299,
+              "codeCount": 7,
+              "questionSeconds": 8.999999999999984,
+              "targetStartSeconds": 9.0,
+              "targetEndSeconds": 9.18,
+              "exact": null,
+              "latencyMilliseconds": -1.3322676295501878e-10
+            },
+            {
+              "kind": "video",
+              "answer": "A person is riding a bicycle.",
+              "forcedFeedback": true,
+              "startStep": 529,
+              "codeCount": 30,
+              "questionSeconds": 15.89999999999996,
+              "targetStartSeconds": 15.899999999999999,
+              "targetEndSeconds": 16.77,
+              "exact": null,
+              "latencyMilliseconds": -2.5579538487363607e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 8,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.22,
+              "exact": false,
+              "latencyMilliseconds": null
+            }
+          ],
+          "actual": [
+            {
+              "text": "Mango.",
+              "startSeconds": 8.99999999999985,
+              "endSeconds": 9.179999999999847,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is riding a bicycle.",
+              "startSeconds": 15.899999999999704,
+              "endSeconds": 16.769999999999822,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 6.029717445373535,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "pear",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Apple.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 7,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.69,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "video",
+              "answer": "A person is playing tennis.",
+              "forcedFeedback": true,
+              "startStep": 539,
+              "codeCount": 28,
+              "questionSeconds": 16.19999999999996,
+              "targetStartSeconds": 16.2,
+              "targetEndSeconds": 17.009999999999998,
+              "exact": null,
+              "latencyMilliseconds": -2.2737367544323206e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 6,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.16,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Apple.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.689999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is playing tennis.",
+              "startSeconds": 16.199999999999733,
+              "endSeconds": 17.00999999999986,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.006421968806535006,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "pear",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Mango.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 7,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.69,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "video",
+              "answer": "A person is playing tennis.",
+              "forcedFeedback": true,
+              "startStep": 539,
+              "codeCount": 28,
+              "questionSeconds": 16.19999999999996,
+              "targetStartSeconds": 16.2,
+              "targetEndSeconds": 17.009999999999998,
+              "exact": null,
+              "latencyMilliseconds": -2.2737367544323206e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 6,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.16,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Mango.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.689999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is playing tennis.",
+              "startSeconds": 16.199999999999733,
+              "endSeconds": 17.00999999999986,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.004980369005352259,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "pear",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Apple.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 306,
+              "codeCount": 7,
+              "questionSeconds": 9.199999999999983,
+              "targetStartSeconds": 9.209999999999999,
+              "targetEndSeconds": 9.389999999999999,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999863007
+            },
+            {
+              "kind": "fruit",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 556,
+              "codeCount": 6,
+              "questionSeconds": 16.699999999999967,
+              "targetStartSeconds": 16.71,
+              "targetEndSeconds": 16.86,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999845244
+            },
+            {
+              "kind": "self-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 6,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.16,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Apple.",
+              "startSeconds": 9.209999999999846,
+              "endSeconds": 9.389999999999842,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 16.709999999999813,
+              "endSeconds": 16.859999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.0072189136408269405,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "pear",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Mango.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 306,
+              "codeCount": 7,
+              "questionSeconds": 9.199999999999983,
+              "targetStartSeconds": 9.209999999999999,
+              "targetEndSeconds": 9.389999999999999,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999863007
+            },
+            {
+              "kind": "fruit",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 556,
+              "codeCount": 6,
+              "questionSeconds": 16.699999999999967,
+              "targetStartSeconds": 16.71,
+              "targetEndSeconds": 16.86,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999845244
+            },
+            {
+              "kind": "self-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 7,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.29,
+              "exact": true,
+              "latencyMilliseconds": 9.99999999999801
+            },
+            {
+              "kind": "external-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 6,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.16,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Mango.",
+              "startSeconds": 9.209999999999846,
+              "endSeconds": 9.389999999999842,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 16.709999999999813,
+              "endSeconds": 16.859999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 0.0015646888641640544,
+          "finite": true,
+          "exactUtterances": 2,
+          "completeConversation": true
+        }
+      ],
+      "roleScores": {
+        "self-report": {
+          "total": 16,
+          "exact": 16
+        },
+        "external-report": {
+          "total": 16,
+          "exact": 14
+        }
+      },
+      "sourceControlPairs": 8,
+      "sourceControlPairsCorrect": 7,
+      "injectedUtterancesScored": false
+    },
+    {
+      "injectedWords": [
+        "Banana.",
+        "Pear."
+      ],
+      "allPreReportFeedbackControlled": true,
+      "conversations": 16,
+      "completeConversations": 0,
+      "utterances": 32,
+      "exactUtterances": 13,
+      "finiteStates": true,
+      "rows": [
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "mango",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Banana.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 299,
+              "codeCount": 8,
+              "questionSeconds": 8.999999999999984,
+              "targetStartSeconds": 9.0,
+              "targetEndSeconds": 9.209999999999999,
+              "exact": null,
+              "latencyMilliseconds": -1.3322676295501878e-10
+            },
+            {
+              "kind": "fruit",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 553,
+              "codeCount": 7,
+              "questionSeconds": 16.599999999999966,
+              "targetStartSeconds": 16.62,
+              "targetEndSeconds": 16.8,
+              "exact": null,
+              "latencyMilliseconds": 19.999999999832596
+            },
+            {
+              "kind": "self-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 8,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.32,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Banana.",
+              "startSeconds": 8.99999999999985,
+              "endSeconds": 9.209999999999846,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 16.6199999999998,
+              "endSeconds": 16.799999999999827,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 5.831413269042969,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "mango",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Pear.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 299,
+              "codeCount": 6,
+              "questionSeconds": 8.999999999999984,
+              "targetStartSeconds": 9.0,
+              "targetEndSeconds": 9.15,
+              "exact": null,
+              "latencyMilliseconds": -1.3322676295501878e-10
+            },
+            {
+              "kind": "fruit",
+              "answer": "Mango.",
+              "forcedFeedback": true,
+              "startStep": 553,
+              "codeCount": 7,
+              "questionSeconds": 16.599999999999966,
+              "targetStartSeconds": 16.62,
+              "targetEndSeconds": 16.8,
+              "exact": null,
+              "latencyMilliseconds": 19.999999999832596
+            },
+            {
+              "kind": "self-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 6,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.259999999999998,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Pear.",
+              "startSeconds": 8.99999999999985,
+              "endSeconds": 9.149999999999848,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 16.6199999999998,
+              "endSeconds": 16.799999999999827,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 7.799938201904297,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "mango",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Banana.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 319,
+              "codeCount": 8,
+              "questionSeconds": 9.599999999999982,
+              "targetStartSeconds": 9.6,
+              "targetEndSeconds": 9.81,
+              "exact": null,
+              "latencyMilliseconds": -1.438849039914203e-10
+            },
+            {
+              "kind": "video",
+              "answer": "A person is riding a bicycle.",
+              "forcedFeedback": true,
+              "startStep": 539,
+              "codeCount": 30,
+              "questionSeconds": 16.19999999999996,
+              "targetStartSeconds": 16.2,
+              "targetEndSeconds": 17.07,
+              "exact": null,
+              "latencyMilliseconds": -2.2737367544323206e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 8,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.32,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Banana.",
+              "startSeconds": 9.599999999999838,
+              "endSeconds": 9.809999999999834,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is riding a bicycle.",
+              "startSeconds": 16.199999999999733,
+              "endSeconds": 17.06999999999987,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 5.8279805183410645,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "mango",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Pear.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 319,
+              "codeCount": 6,
+              "questionSeconds": 9.599999999999982,
+              "targetStartSeconds": 9.6,
+              "targetEndSeconds": 9.75,
+              "exact": null,
+              "latencyMilliseconds": -1.438849039914203e-10
+            },
+            {
+              "kind": "video",
+              "answer": "A person is riding a bicycle.",
+              "forcedFeedback": true,
+              "startStep": 539,
+              "codeCount": 30,
+              "questionSeconds": 16.19999999999996,
+              "targetStartSeconds": 16.2,
+              "targetEndSeconds": 17.07,
+              "exact": null,
+              "latencyMilliseconds": -2.2737367544323206e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 6,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.259999999999998,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Mango.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Pear.",
+              "startSeconds": 9.599999999999838,
+              "endSeconds": 9.749999999999835,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is riding a bicycle.",
+              "startSeconds": 16.199999999999733,
+              "endSeconds": 17.06999999999987,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 7.662015914916992,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "apple",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Banana.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 313,
+              "codeCount": 8,
+              "questionSeconds": 9.399999999999983,
+              "targetStartSeconds": 9.42,
+              "targetEndSeconds": 9.629999999999999,
+              "exact": null,
+              "latencyMilliseconds": 19.99999999985924
+            },
+            {
+              "kind": "video",
+              "answer": "A person is playing tennis.",
+              "forcedFeedback": true,
+              "startStep": 519,
+              "codeCount": 28,
+              "questionSeconds": 15.59999999999996,
+              "targetStartSeconds": 15.6,
+              "targetEndSeconds": 16.41,
+              "exact": null,
+              "latencyMilliseconds": -2.504663143554353e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 8,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.32,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Banana.",
+              "startSeconds": 9.419999999999842,
+              "endSeconds": 9.629999999999837,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is playing tennis.",
+              "startSeconds": 15.59999999999971,
+              "endSeconds": 16.409999999999766,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 6.378174304962158,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "apple",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Pear.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 313,
+              "codeCount": 6,
+              "questionSeconds": 9.399999999999983,
+              "targetStartSeconds": 9.42,
+              "targetEndSeconds": 9.57,
+              "exact": null,
+              "latencyMilliseconds": 19.99999999985924
+            },
+            {
+              "kind": "video",
+              "answer": "A person is playing tennis.",
+              "forcedFeedback": true,
+              "startStep": 519,
+              "codeCount": 28,
+              "questionSeconds": 15.59999999999996,
+              "targetStartSeconds": 15.6,
+              "targetEndSeconds": 16.41,
+              "exact": null,
+              "latencyMilliseconds": -2.504663143554353e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 6,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.259999999999998,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Pear.",
+              "startSeconds": 9.419999999999842,
+              "endSeconds": 9.569999999999839,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is playing tennis.",
+              "startSeconds": 15.59999999999971,
+              "endSeconds": 16.409999999999766,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 7.879693508148193,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "apple",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Banana.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 8,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.719999999999999,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "fruit",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 563,
+              "codeCount": 7,
+              "questionSeconds": 16.89999999999997,
+              "targetStartSeconds": 16.919999999999998,
+              "targetEndSeconds": 17.099999999999998,
+              "exact": null,
+              "latencyMilliseconds": 19.99999999987523
+            },
+            {
+              "kind": "self-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 8,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.32,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Banana.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.719999999999835,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 16.919999999999845,
+              "endSeconds": 17.099999999999874,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.189999999999998,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 5.926492691040039,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "apple",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Pear.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 6,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.66,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "fruit",
+              "answer": "Apple.",
+              "forcedFeedback": true,
+              "startStep": 563,
+              "codeCount": 7,
+              "questionSeconds": 16.89999999999997,
+              "targetStartSeconds": 16.919999999999998,
+              "targetEndSeconds": 17.099999999999998,
+              "exact": null,
+              "latencyMilliseconds": 19.99999999987523
+            },
+            {
+              "kind": "self-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 6,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.259999999999998,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Apple.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 7,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.189999999999998,
+              "exact": false,
+              "latencyMilliseconds": null
+            }
+          ],
+          "actual": [
+            {
+              "text": "Pear.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.659999999999837,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 16.919999999999845,
+              "endSeconds": 17.099999999999874,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 13.099498748779297,
+          "finite": true,
+          "exactUtterances": 0,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "banana",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Banana.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 8,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.719999999999999,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "fruit",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 549,
+              "codeCount": 8,
+              "questionSeconds": 16.499999999999964,
+              "targetStartSeconds": 16.5,
+              "targetEndSeconds": 16.71,
+              "exact": null,
+              "latencyMilliseconds": -1.8474111129762605e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 8,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.32,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 8,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.22,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Banana.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.719999999999835,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Banana.",
+              "startSeconds": 16.49999999999978,
+              "endSeconds": 16.709999999999813,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Banana.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.22,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 4.596035957336426,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "banana",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Pear.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 6,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.66,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "fruit",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 549,
+              "codeCount": 8,
+              "questionSeconds": 16.499999999999964,
+              "targetStartSeconds": 16.5,
+              "targetEndSeconds": 16.71,
+              "exact": null,
+              "latencyMilliseconds": -1.8474111129762605e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 6,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.259999999999998,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 8,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.22,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Pear.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.659999999999837,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Banana.",
+              "startSeconds": 16.49999999999978,
+              "endSeconds": 16.709999999999813,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Banana.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.22,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 6.602536201477051,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "banana",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Banana.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 299,
+              "codeCount": 8,
+              "questionSeconds": 8.999999999999984,
+              "targetStartSeconds": 9.0,
+              "targetEndSeconds": 9.209999999999999,
+              "exact": null,
+              "latencyMilliseconds": -1.3322676295501878e-10
+            },
+            {
+              "kind": "video",
+              "answer": "A person is riding a bicycle.",
+              "forcedFeedback": true,
+              "startStep": 529,
+              "codeCount": 30,
+              "questionSeconds": 15.89999999999996,
+              "targetStartSeconds": 15.899999999999999,
+              "targetEndSeconds": 16.77,
+              "exact": null,
+              "latencyMilliseconds": -2.5579538487363607e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 8,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.32,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 8,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.22,
+              "exact": false,
+              "latencyMilliseconds": null
+            }
+          ],
+          "actual": [
+            {
+              "text": "Banana.",
+              "startSeconds": 8.99999999999985,
+              "endSeconds": 9.209999999999846,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is riding a bicycle.",
+              "startSeconds": 15.899999999999704,
+              "endSeconds": 16.769999999999822,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Bana.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 6.266754627227783,
+          "finite": true,
+          "exactUtterances": 0,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "banana",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Pear.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 299,
+              "codeCount": 6,
+              "questionSeconds": 8.999999999999984,
+              "targetStartSeconds": 9.0,
+              "targetEndSeconds": 9.15,
+              "exact": null,
+              "latencyMilliseconds": -1.3322676295501878e-10
+            },
+            {
+              "kind": "video",
+              "answer": "A person is riding a bicycle.",
+              "forcedFeedback": true,
+              "startStep": 529,
+              "codeCount": 30,
+              "questionSeconds": 15.89999999999996,
+              "targetStartSeconds": 15.899999999999999,
+              "targetEndSeconds": 16.77,
+              "exact": null,
+              "latencyMilliseconds": -2.5579538487363607e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 6,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.259999999999998,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 8,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.22,
+              "exact": false,
+              "latencyMilliseconds": null
+            }
+          ],
+          "actual": [
+            {
+              "text": "Pear.",
+              "startSeconds": 8.99999999999985,
+              "endSeconds": 9.149999999999848,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is riding a bicycle.",
+              "startSeconds": 15.899999999999704,
+              "endSeconds": 16.769999999999822,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Apple.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 14.096516609191895,
+          "finite": true,
+          "exactUtterances": 0,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "pear",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Banana.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 8,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.719999999999999,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "video",
+              "answer": "A person is playing tennis.",
+              "forcedFeedback": true,
+              "startStep": 539,
+              "codeCount": 28,
+              "questionSeconds": 16.19999999999996,
+              "targetStartSeconds": 16.2,
+              "targetEndSeconds": 17.009999999999998,
+              "exact": null,
+              "latencyMilliseconds": -2.2737367544323206e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 8,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.32,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 6,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.16,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Banana.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.719999999999835,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is playing tennis.",
+              "startSeconds": 16.199999999999733,
+              "endSeconds": 17.00999999999986,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 6.535026550292969,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "pear",
+            "mode": "held",
+            "questionChannel": "text",
+            "phraseIndex": 1,
+            "audio": true,
+            "questionOrder": 0,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Pear.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "fruit",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 316,
+              "codeCount": 6,
+              "questionSeconds": 9.499999999999982,
+              "targetStartSeconds": 9.51,
+              "targetEndSeconds": 9.66,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999857678
+            },
+            {
+              "kind": "video",
+              "answer": "A person is playing tennis.",
+              "forcedFeedback": true,
+              "startStep": 539,
+              "codeCount": 28,
+              "questionSeconds": 16.19999999999996,
+              "targetStartSeconds": 16.2,
+              "targetEndSeconds": 17.009999999999998,
+              "exact": null,
+              "latencyMilliseconds": -2.2737367544323206e-10
+            },
+            {
+              "kind": "self-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 6,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.259999999999998,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 6,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.16,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Pear.",
+              "startSeconds": 9.50999999999984,
+              "endSeconds": 9.659999999999837,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "A person is playing tennis.",
+              "startSeconds": 16.199999999999733,
+              "endSeconds": 17.00999999999986,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 7.331207752227783,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "pear",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Banana.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Banana.",
+              "forcedFeedback": true,
+              "startStep": 306,
+              "codeCount": 8,
+              "questionSeconds": 9.199999999999983,
+              "targetStartSeconds": 9.209999999999999,
+              "targetEndSeconds": 9.42,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999863007
+            },
+            {
+              "kind": "fruit",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 556,
+              "codeCount": 6,
+              "questionSeconds": 16.699999999999967,
+              "targetStartSeconds": 16.71,
+              "targetEndSeconds": 16.86,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999845244
+            },
+            {
+              "kind": "self-report",
+              "answer": "Banana.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 8,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.32,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 6,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.16,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Banana.",
+              "startSeconds": 9.209999999999846,
+              "endSeconds": 9.419999999999842,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 16.709999999999813,
+              "endSeconds": 16.859999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 6.176713466644287,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        },
+        {
+          "metadata": {
+            "speaker": "zira",
+            "split": "validation",
+            "fruit": "pear",
+            "mode": "changing",
+            "questionChannel": "text",
+            "phraseIndex": 0,
+            "audio": true,
+            "questionOrder": 1,
+            "transfer": "familiar-phrasing",
+            "selfReportIntervention": "Pear.",
+            "interventionMeaning": "Injected own-code feedback, not a voluntary generated statement."
+          },
+          "expected": [
+            {
+              "kind": "video",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 306,
+              "codeCount": 6,
+              "questionSeconds": 9.199999999999983,
+              "targetStartSeconds": 9.209999999999999,
+              "targetEndSeconds": 9.36,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999863007
+            },
+            {
+              "kind": "fruit",
+              "answer": "Pear.",
+              "forcedFeedback": true,
+              "startStep": 556,
+              "codeCount": 6,
+              "questionSeconds": 16.699999999999967,
+              "targetStartSeconds": 16.71,
+              "targetEndSeconds": 16.86,
+              "exact": null,
+              "latencyMilliseconds": 9.999999999845244
+            },
+            {
+              "kind": "self-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 636,
+              "codeCount": 6,
+              "questionSeconds": 19.1,
+              "targetStartSeconds": 19.11,
+              "targetEndSeconds": 19.259999999999998,
+              "exact": false,
+              "latencyMilliseconds": null
+            },
+            {
+              "kind": "external-report",
+              "answer": "Pear.",
+              "forcedFeedback": false,
+              "startStep": 666,
+              "codeCount": 6,
+              "questionSeconds": 20.000000000000014,
+              "targetStartSeconds": 20.009999999999998,
+              "targetEndSeconds": 20.16,
+              "exact": true,
+              "latencyMilliseconds": 9.9999999999838
+            }
+          ],
+          "actual": [
+            {
+              "text": "Pear.",
+              "startSeconds": 9.209999999999846,
+              "endSeconds": 9.359999999999843,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 16.709999999999813,
+              "endSeconds": 16.859999999999836,
+              "ended": true,
+              "intervened": true
+            },
+            {
+              "text": "Mango.",
+              "startSeconds": 19.11,
+              "endSeconds": 19.29,
+              "ended": true,
+              "intervened": false
+            },
+            {
+              "text": "Pear.",
+              "startSeconds": 20.009999999999998,
+              "endSeconds": 20.16,
+              "ended": true,
+              "intervened": false
+            }
+          ],
+          "loss": 7.283308982849121,
+          "finite": true,
+          "exactUtterances": 1,
+          "completeConversation": false
+        }
+      ],
+      "roleScores": {
+        "self-report": {
+          "total": 16,
+          "exact": 0
+        },
+        "external-report": {
+          "total": 16,
+          "exact": 13
+        }
+      },
+      "sourceControlPairs": 8,
+      "sourceControlPairsCorrect": 0,
+      "injectedUtterancesScored": false
+    }
+  ]
+}

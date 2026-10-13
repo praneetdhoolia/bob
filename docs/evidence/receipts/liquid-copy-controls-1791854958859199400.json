@@ -1,0 +1,4414 @@
+{
+  "checkpoint": "artifacts\\liquid-copy-1791854536490000400\\latest.pt",
+  "architecture": "single-liquid-associative-byte-core-v7",
+  "publishedToLive": false,
+  "injectionSlots": 9,
+  "outputSlots": 12,
+  "bytePeriodSeconds": 0.03,
+  "strictTerminationRequired": true,
+  "validationTrainingOverlap": 0,
+  "queryProtocol": "Literal query joins the next ordinary 100 ms sensory packet.",
+  "sourceSha256": "2a08de411268699c465ea9ba6bc13977dbd066823873ea53c05e0bd795c74afc",
+  "limits": [
+    "Synthetic feedback content, not broad English or voluntary intent.",
+    "The feedback intervention is unscored and never supplied as input text.",
+    "Sensory inputs continue at 100 ms; there is no transcript/string lookup."
+  ],
+  "delayValidation": [
+    {
+      "total": 128,
+      "exact": 74,
+      "delaySeconds": 0.0,
+      "ownFeedbackPresent": true,
+      "batchSize": 16,
+      "rows": [
+        {
+          "expected": "bbffefd",
+          "actual": "bbffefd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cbb",
+          "actual": "cbb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fccfb",
+          "actual": "fccfb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffc",
+          "actual": "ffc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bcccb",
+          "actual": "bcccb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eefa",
+          "actual": "eefa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbfaaa",
+          "actual": "bbfaaa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ddfedd",
+          "actual": "ddfded",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fdaaadc",
+          "actual": "fdaadca",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cffebbdd",
+          "actual": "cffebbdd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cdccfdc",
+          "actual": "cdccfdcd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fdcee",
+          "actual": "fdcee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "acebe",
+          "actual": "acebe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccec",
+          "actual": "ccec",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeaa",
+          "actual": "eeaa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cbeabbdf",
+          "actual": "cbeabdfb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aebdadaa",
+          "actual": "aebaddaa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bbeccbd",
+          "actual": "bbeccbdc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeee",
+          "actual": "eeee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fbcbfdf",
+          "actual": "fbcbfdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "faddd",
+          "actual": "faddd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcdffb",
+          "actual": "fcdffb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cfebabf",
+          "actual": "cfebafb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cbacfda",
+          "actual": "cbacfdad",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cddecc",
+          "actual": "cdcdec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dcdecbb",
+          "actual": "dcdcebbc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fcbef",
+          "actual": "fcbef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bcadb",
+          "actual": "bcadb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeeea",
+          "actual": "eeeea",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "befafbb",
+          "actual": "befafbb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dbddde",
+          "actual": "dbddde",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "effda",
+          "actual": "effda",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aaffae",
+          "actual": "afafae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "abdfffbd",
+          "actual": "abfdfdfb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eaabeac",
+          "actual": "eaabeca",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fdafdfb",
+          "actual": "fdafdfd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ebdbcae",
+          "actual": "ebdcbae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "affbacdc",
+          "actual": "affbaccd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "effcff",
+          "actual": "efffcf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bcefbfdb",
+          "actual": "bcefbfdb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "edfbad",
+          "actual": "edfbda",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eab",
+          "actual": "eab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dbdc",
+          "actual": "dbdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dfce",
+          "actual": "dfce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bebef",
+          "actual": "bebef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cefcdf",
+          "actual": "cefcfd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dcebafbc",
+          "actual": "dcebacfb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adafb",
+          "actual": "adafb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eddd",
+          "actual": "eddd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cfabfded",
+          "actual": "cfabfdde",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cbaaccf",
+          "actual": "cbacafc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeabc",
+          "actual": "eeabc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeffeae",
+          "actual": "efeefae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adcccce",
+          "actual": "adcccce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eced",
+          "actual": "eced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fbffc",
+          "actual": "fbffc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eaaeda",
+          "actual": "eaaeda",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfdbe",
+          "actual": "ccfdbe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eabafac",
+          "actual": "eabafca",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bdee",
+          "actual": "bdee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "baffcdee",
+          "actual": "baffcede",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bef",
+          "actual": "bef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ddcea",
+          "actual": "ddcea",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eefaaf",
+          "actual": "eefafa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adeec",
+          "actual": "adeec",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcebdb",
+          "actual": "fcebdb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dfdbcb",
+          "actual": "dfdcbbc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cfaef",
+          "actual": "cfafe",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dbeffdd",
+          "actual": "dbeffdd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "feaaa",
+          "actual": "feaaa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aefd",
+          "actual": "aefd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeafffaa",
+          "actual": "eefafaf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffce",
+          "actual": "ffce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "addaba",
+          "actual": "adadab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adccf",
+          "actual": "acdcf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "baccb",
+          "actual": "baccb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfc",
+          "actual": "ccfc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eafaabb",
+          "actual": "eafabab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffa",
+          "actual": "ffa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bacace",
+          "actual": "bacacec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "caade",
+          "actual": "caade",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "defa",
+          "actual": "defa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dcbd",
+          "actual": "dcbdd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bbcc",
+          "actual": "bbcc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffdc",
+          "actual": "ffdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ebbaeb",
+          "actual": "ebebab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "baeaedf",
+          "actual": "baeaedf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abbbfb",
+          "actual": "abbfbbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bfdefe",
+          "actual": "bfdefee",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ceffdaf",
+          "actual": "cefffda",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ceeacc",
+          "actual": "ecceac",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "efaceb",
+          "actual": "efacebc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eaeace",
+          "actual": "eaeace",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "facfece",
+          "actual": "fafccec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "acbb",
+          "actual": "acbb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "acfbefac",
+          "actual": "afcbcfeac",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cddaf",
+          "actual": "cddaf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "effeefa",
+          "actual": "fefefae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ebd",
+          "actual": "ebd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcab",
+          "actual": "fcab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dbddcb",
+          "actual": "dbdddcb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dacbdeaf",
+          "actual": "dacdbaefd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "efbabaec",
+          "actual": "febaaceb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aebbc",
+          "actual": "aebbc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "befcacdc",
+          "actual": "befccadc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ebdab",
+          "actual": "ebdab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eecbcdf",
+          "actual": "eecbcdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "daecbbbb",
+          "actual": "daecbbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffefdf",
+          "actual": "ffefdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abcd",
+          "actual": "abcd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dcafc",
+          "actual": "dcafc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eadcbdf",
+          "actual": "eadcdbfd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ddcacbdf",
+          "actual": "ddccadfdc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "daacb",
+          "actual": "daacb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abade",
+          "actual": "abade",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfcff",
+          "actual": "ccfcff",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aacadd",
+          "actual": "aacdad",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bcad",
+          "actual": "bcad",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bab",
+          "actual": "bab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffced",
+          "actual": "ffced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbebe",
+          "actual": "bbebe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cdfca",
+          "actual": "cdfca",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aced",
+          "actual": "aced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeabcba",
+          "actual": "eeabcab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffcbcb",
+          "actual": "ffcbcb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "febcafad",
+          "actual": "febcafda",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ccfadcfa",
+          "actual": "ccfadacf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeedeba",
+          "actual": "eeedeba",
+          "terminated": true,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "total": 128,
+      "exact": 77,
+      "delaySeconds": 0.3,
+      "ownFeedbackPresent": true,
+      "batchSize": 16,
+      "rows": [
+        {
+          "expected": "bbffefd",
+          "actual": "bbffefd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cbb",
+          "actual": "cbb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fccfb",
+          "actual": "fccfb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffc",
+          "actual": "ffc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bcccb",
+          "actual": "bcccb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eefa",
+          "actual": "eefa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbfaaa",
+          "actual": "bbfaaa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ddfedd",
+          "actual": "ddfedd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fdaaadc",
+          "actual": "fdaadca",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cffebbdd",
+          "actual": "cffebbd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cdccfdc",
+          "actual": "cdccfdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fdcee",
+          "actual": "fdcee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "acebe",
+          "actual": "acebe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccec",
+          "actual": "ccec",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeaa",
+          "actual": "eeaa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cbeabbdf",
+          "actual": "cbeabdf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aebdadaa",
+          "actual": "aebaddaa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bbeccbd",
+          "actual": "bbeccbd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeee",
+          "actual": "eeee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fbcbfdf",
+          "actual": "fbcbfdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "faddd",
+          "actual": "faddd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcdffb",
+          "actual": "fcdffb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cfebabf",
+          "actual": "cfebafb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cbacfda",
+          "actual": "cbacfdad",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cddecc",
+          "actual": "cdcdec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dcdecbb",
+          "actual": "dcdcebb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fcbef",
+          "actual": "fcbef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bcadb",
+          "actual": "bcadd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeeea",
+          "actual": "eeeea",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "befafbb",
+          "actual": "ebfafbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dbddde",
+          "actual": "dbdded",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "effda",
+          "actual": "effda",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aaffae",
+          "actual": "afafae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "abdfffbd",
+          "actual": "abfdfdfb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eaabeac",
+          "actual": "eaabeca",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fdafdfb",
+          "actual": "fdafdfb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ebdbcae",
+          "actual": "ebdcbae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "affbacdc",
+          "actual": "fabafcdc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "effcff",
+          "actual": "efffcf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bcefbfdb",
+          "actual": "bcefbfdb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "edfbad",
+          "actual": "edfbda",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eab",
+          "actual": "eab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dbdc",
+          "actual": "dbdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dfce",
+          "actual": "dfce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bebef",
+          "actual": "bebef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cefcdf",
+          "actual": "cefcfd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dcebafbc",
+          "actual": "dcebafcb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adafb",
+          "actual": "adafb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eddd",
+          "actual": "eddd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cfabfded",
+          "actual": "cfabfdde",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cbaaccf",
+          "actual": "cbacafc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeabc",
+          "actual": "eeabc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeffeae",
+          "actual": "efeefae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adcccce",
+          "actual": "adcccce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eced",
+          "actual": "eced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fbffc",
+          "actual": "fbffc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eaaeda",
+          "actual": "eaaeda",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfdbe",
+          "actual": "ccfdbe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eabafac",
+          "actual": "eabafac",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bdee",
+          "actual": "bdee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "baffcdee",
+          "actual": "baffcede",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bef",
+          "actual": "bef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ddcea",
+          "actual": "ddcea",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eefaaf",
+          "actual": "eefafa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adeec",
+          "actual": "adeec",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcebdb",
+          "actual": "fcebdb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dfdbcb",
+          "actual": "dfdcbbc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cfaef",
+          "actual": "cfafe",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dbeffdd",
+          "actual": "debffdd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "feaaa",
+          "actual": "feaa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aefd",
+          "actual": "aefd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeafffaa",
+          "actual": "eefafaf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffce",
+          "actual": "ffce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "addaba",
+          "actual": "addaab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adccf",
+          "actual": "acdfc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "baccb",
+          "actual": "baccb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfc",
+          "actual": "ccfc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eafaabb",
+          "actual": "eafabab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffa",
+          "actual": "ffa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bacace",
+          "actual": "bacacec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "caade",
+          "actual": "caade",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "defa",
+          "actual": "defa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dcbd",
+          "actual": "dcbd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbcc",
+          "actual": "bbcc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffdc",
+          "actual": "ffdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ebbaeb",
+          "actual": "ebbaeb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "baeaedf",
+          "actual": "baeaedf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abbbfb",
+          "actual": "abbfbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bfdefe",
+          "actual": "bfdefee",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ceffdaf",
+          "actual": "cefffda",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ceeacc",
+          "actual": "ecceac",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "efaceb",
+          "actual": "efacebc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eaeace",
+          "actual": "eaeaec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "facfece",
+          "actual": "fafccec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "acbb",
+          "actual": "acbb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "acfbefac",
+          "actual": "afcbfcea",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cddaf",
+          "actual": "cddaf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "effeefa",
+          "actual": "fefefae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ebd",
+          "actual": "ebd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcab",
+          "actual": "fcab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dbddcb",
+          "actual": "dbddcb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dacbdeaf",
+          "actual": "dacdbeaf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "efbabaec",
+          "actual": "febaaceb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aebbc",
+          "actual": "aebbc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "befcacdc",
+          "actual": "befccadc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ebdab",
+          "actual": "ebdab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eecbcdf",
+          "actual": "eecbcdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "daecbbbb",
+          "actual": "daecbbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffefdf",
+          "actual": "ffefdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abcd",
+          "actual": "abcd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dcafc",
+          "actual": "dcafc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eadcbdf",
+          "actual": "eadcdfb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ddcacbdf",
+          "actual": "ddccadfd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "daacb",
+          "actual": "daacb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abade",
+          "actual": "abade",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfcff",
+          "actual": "ccfcff",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aacadd",
+          "actual": "aacdad",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bcad",
+          "actual": "bcad",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bab",
+          "actual": "bab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffced",
+          "actual": "ffced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbebe",
+          "actual": "bbebe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cdfca",
+          "actual": "cdfca",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aced",
+          "actual": "aced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeabcba",
+          "actual": "eeabcba",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffcbcb",
+          "actual": "ffcbcb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "febcafad",
+          "actual": "febcafad",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfadcfa",
+          "actual": "ccfadafc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeedeba",
+          "actual": "eeedeba",
+          "terminated": true,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "total": 128,
+      "exact": 77,
+      "delaySeconds": 1.0,
+      "ownFeedbackPresent": true,
+      "batchSize": 16,
+      "rows": [
+        {
+          "expected": "bbffefd",
+          "actual": "bbffefd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cbb",
+          "actual": "cbb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fccfb",
+          "actual": "fccfb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffc",
+          "actual": "ffc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bcccb",
+          "actual": "bcccb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eefa",
+          "actual": "eefa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbfaaa",
+          "actual": "bbfaaa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ddfedd",
+          "actual": "ddfedd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fdaaadc",
+          "actual": "fdaadca",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cffebbdd",
+          "actual": "cffebbd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cdccfdc",
+          "actual": "cdccfdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fdcee",
+          "actual": "fdcee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "acebe",
+          "actual": "acebe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccec",
+          "actual": "ccec",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeaa",
+          "actual": "eeaa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cbeabbdf",
+          "actual": "cbeabdf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aebdadaa",
+          "actual": "aebaddaa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bbeccbd",
+          "actual": "bbeccbd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeee",
+          "actual": "eeee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fbcbfdf",
+          "actual": "fbcbfdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "faddd",
+          "actual": "faddd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcdffb",
+          "actual": "fcdffb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cfebabf",
+          "actual": "cfebafb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cbacfda",
+          "actual": "cbacfdad",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cddecc",
+          "actual": "cdcdec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dcdecbb",
+          "actual": "dcdcebb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fcbef",
+          "actual": "fcbef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bcadb",
+          "actual": "bcadd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeeea",
+          "actual": "eeeea",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "befafbb",
+          "actual": "ebfafbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dbddde",
+          "actual": "dbdded",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "effda",
+          "actual": "effda",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aaffae",
+          "actual": "afafae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "abdfffbd",
+          "actual": "abfdfdfb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eaabeac",
+          "actual": "eaabeca",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fdafdfb",
+          "actual": "fdafdfb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ebdbcae",
+          "actual": "ebdcbae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "affbacdc",
+          "actual": "affbaccd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "effcff",
+          "actual": "efffcf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bcefbfdb",
+          "actual": "bcefbfdb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "edfbad",
+          "actual": "edfbda",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eab",
+          "actual": "eab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dbdc",
+          "actual": "dbdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dfce",
+          "actual": "dfce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bebef",
+          "actual": "bebef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cefcdf",
+          "actual": "cefcfd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dcebafbc",
+          "actual": "dcebafcb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adafb",
+          "actual": "adafb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eddd",
+          "actual": "eddd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cfabfded",
+          "actual": "cfabfdde",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cbaaccf",
+          "actual": "cbacafc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeabc",
+          "actual": "eeabc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeffeae",
+          "actual": "efeefae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adcccce",
+          "actual": "adcccce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eced",
+          "actual": "eced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fbffc",
+          "actual": "fbffc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eaaeda",
+          "actual": "eaaeda",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfdbe",
+          "actual": "ccfdbe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eabafac",
+          "actual": "eabafac",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bdee",
+          "actual": "bdee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "baffcdee",
+          "actual": "baffcede",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bef",
+          "actual": "bef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ddcea",
+          "actual": "ddcea",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eefaaf",
+          "actual": "eefafa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adeec",
+          "actual": "adeec",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcebdb",
+          "actual": "fcebdb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dfdbcb",
+          "actual": "dfdcbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cfaef",
+          "actual": "cfafe",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dbeffdd",
+          "actual": "debffdd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "feaaa",
+          "actual": "feaa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aefd",
+          "actual": "aefd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeafffaa",
+          "actual": "eefafaf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffce",
+          "actual": "ffce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "addaba",
+          "actual": "addaab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adccf",
+          "actual": "acdfc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "baccb",
+          "actual": "baccb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfc",
+          "actual": "ccfc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eafaabb",
+          "actual": "eafabab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffa",
+          "actual": "ffa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bacace",
+          "actual": "bacacec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "caade",
+          "actual": "caade",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "defa",
+          "actual": "defa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dcbd",
+          "actual": "dcbd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbcc",
+          "actual": "bbcc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffdc",
+          "actual": "ffdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ebbaeb",
+          "actual": "ebbaeb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "baeaedf",
+          "actual": "baeaedf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abbbfb",
+          "actual": "abbfbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bfdefe",
+          "actual": "bfdefee",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ceffdaf",
+          "actual": "cefffda",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ceeacc",
+          "actual": "ecceac",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "efaceb",
+          "actual": "efacebc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eaeace",
+          "actual": "eaeaec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "facfece",
+          "actual": "fafccec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "acbb",
+          "actual": "acbb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "acfbefac",
+          "actual": "afcbfcea",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cddaf",
+          "actual": "cddaf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "effeefa",
+          "actual": "fefefae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ebd",
+          "actual": "ebd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcab",
+          "actual": "fcab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dbddcb",
+          "actual": "dbddcb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dacbdeaf",
+          "actual": "dacdbeaf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "efbabaec",
+          "actual": "febaaceb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aebbc",
+          "actual": "aebbc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "befcacdc",
+          "actual": "befccadc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ebdab",
+          "actual": "ebdab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eecbcdf",
+          "actual": "eecbcdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "daecbbbb",
+          "actual": "daecbbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffefdf",
+          "actual": "ffefdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abcd",
+          "actual": "abcd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dcafc",
+          "actual": "dcafc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eadcbdf",
+          "actual": "eadcdfb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ddcacbdf",
+          "actual": "ddccadfd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "daacb",
+          "actual": "daacb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abade",
+          "actual": "abade",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfcff",
+          "actual": "ccfcff",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aacadd",
+          "actual": "aacdad",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bcad",
+          "actual": "bcad",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bab",
+          "actual": "bab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffced",
+          "actual": "ffced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbebe",
+          "actual": "bbebe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cdfca",
+          "actual": "cdfca",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aced",
+          "actual": "aced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeabcba",
+          "actual": "eeabcba",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffcbcb",
+          "actual": "ffcbcb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "febcafad",
+          "actual": "febcafad",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfadcfa",
+          "actual": "ccfadafc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeedeba",
+          "actual": "eeedeba",
+          "terminated": true,
+          "exact": true
+        }
+      ]
+    },
+    {
+      "total": 128,
+      "exact": 79,
+      "delaySeconds": 3.0,
+      "ownFeedbackPresent": true,
+      "batchSize": 16,
+      "rows": [
+        {
+          "expected": "bbffefd",
+          "actual": "bbffefd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cbb",
+          "actual": "cbb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fccfb",
+          "actual": "fccfb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffc",
+          "actual": "ffc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bcccb",
+          "actual": "bcccb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eefa",
+          "actual": "eefa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbfaaa",
+          "actual": "bbfaaa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ddfedd",
+          "actual": "ddfedd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fdaaadc",
+          "actual": "fdaadca",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cffebbdd",
+          "actual": "cffebbd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cdccfdc",
+          "actual": "cdccfdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fdcee",
+          "actual": "fdcee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "acebe",
+          "actual": "acebe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccec",
+          "actual": "ccec",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeaa",
+          "actual": "eeaa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cbeabbdf",
+          "actual": "cbeabdf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aebdadaa",
+          "actual": "aebaddaa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bbeccbd",
+          "actual": "bbeccbd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeee",
+          "actual": "eeee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fbcbfdf",
+          "actual": "fbcbfdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "faddd",
+          "actual": "faddd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcdffb",
+          "actual": "fcdffb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cfebabf",
+          "actual": "cfebafb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cbacfda",
+          "actual": "cbacfdad",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cddecc",
+          "actual": "cdcdec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dcdecbb",
+          "actual": "dcdcebb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fcbef",
+          "actual": "fcbef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bcadb",
+          "actual": "bcadd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeeea",
+          "actual": "eeeea",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "befafbb",
+          "actual": "ebfafbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dbddde",
+          "actual": "dbdded",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "effda",
+          "actual": "effda",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aaffae",
+          "actual": "afafae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "abdfffbd",
+          "actual": "abfdfdfb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eaabeac",
+          "actual": "eaabeca",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fdafdfb",
+          "actual": "fdafdfb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ebdbcae",
+          "actual": "ebdcbae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "affbacdc",
+          "actual": "fabafcdc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "effcff",
+          "actual": "efffcf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bcefbfdb",
+          "actual": "bcefbfdb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "edfbad",
+          "actual": "edfbda",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eab",
+          "actual": "eab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dbdc",
+          "actual": "dbdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dfce",
+          "actual": "dfce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bebef",
+          "actual": "bebef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cefcdf",
+          "actual": "cefcfd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dcebafbc",
+          "actual": "dcebafcb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adafb",
+          "actual": "adafb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eddd",
+          "actual": "eddd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cfabfded",
+          "actual": "cfabfdde",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cbaaccf",
+          "actual": "cbacafc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeabc",
+          "actual": "eeabc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeffeae",
+          "actual": "efeefae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adcccce",
+          "actual": "adcccce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eced",
+          "actual": "eced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fbffc",
+          "actual": "fbffc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eaaeda",
+          "actual": "eaaeda",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfdbe",
+          "actual": "ccfdbe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eabafac",
+          "actual": "eabafac",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bdee",
+          "actual": "bdee",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "baffcdee",
+          "actual": "baffcede",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bef",
+          "actual": "bef",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ddcea",
+          "actual": "ddcea",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eefaaf",
+          "actual": "eefafa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adeec",
+          "actual": "adeec",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcebdb",
+          "actual": "fcebdb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dfdbcb",
+          "actual": "dfdcbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cfaef",
+          "actual": "cfafe",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "dbeffdd",
+          "actual": "debffdd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "feaaa",
+          "actual": "feaa",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aefd",
+          "actual": "aefd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeafffaa",
+          "actual": "eefafaf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffce",
+          "actual": "ffce",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "addaba",
+          "actual": "addaab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "adccf",
+          "actual": "acdfc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "baccb",
+          "actual": "baccb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfc",
+          "actual": "ccfc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eafaabb",
+          "actual": "eafabab",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffa",
+          "actual": "ffa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bacace",
+          "actual": "bacacec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "caade",
+          "actual": "caade",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "defa",
+          "actual": "defa",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dcbd",
+          "actual": "dcbd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbcc",
+          "actual": "bbcc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffdc",
+          "actual": "ffdc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ebbaeb",
+          "actual": "ebbaeb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "baeaedf",
+          "actual": "baeaedf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abbbfb",
+          "actual": "abbfbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bfdefe",
+          "actual": "bfdefe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ceffdaf",
+          "actual": "cefffda",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ceeacc",
+          "actual": "ecceac",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "efaceb",
+          "actual": "efaceb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eaeace",
+          "actual": "eaeaec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "facfece",
+          "actual": "fafccec",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "acbb",
+          "actual": "acbb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "acfbefac",
+          "actual": "afcbfcea",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "cddaf",
+          "actual": "cddaf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "effeefa",
+          "actual": "fefefae",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ebd",
+          "actual": "ebd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "fcab",
+          "actual": "fcab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dbddcb",
+          "actual": "dbddcb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dacbdeaf",
+          "actual": "dacdbeaf",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "efbabaec",
+          "actual": "febaaceb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "aebbc",
+          "actual": "aebbc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "befcacdc",
+          "actual": "befccadc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ebdab",
+          "actual": "ebdab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eecbcdf",
+          "actual": "eecbcdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "daecbbbb",
+          "actual": "daecbbb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ffefdf",
+          "actual": "ffefdf",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abcd",
+          "actual": "abcd",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "dcafc",
+          "actual": "dcafc",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eadcbdf",
+          "actual": "eadcdfb",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "ddcacbdf",
+          "actual": "ddccadfd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "daacb",
+          "actual": "daacb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "abade",
+          "actual": "abade",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfcff",
+          "actual": "ccfcff",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aacadd",
+          "actual": "aacdad",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bcad",
+          "actual": "bcad",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bab",
+          "actual": "bab",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffced",
+          "actual": "ffced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "bbebe",
+          "actual": "bbebe",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "cdfca",
+          "actual": "cdfca",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "aced",
+          "actual": "aced",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "eeabcba",
+          "actual": "eeabcba",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ffcbcb",
+          "actual": "ffcbcb",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "febcafad",
+          "actual": "febcafad",
+          "terminated": true,
+          "exact": true
+        },
+        {
+          "expected": "ccfadcfa",
+          "actual": "ccfadafc",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeedeba",
+          "actual": "eeedeba",
+          "terminated": true,
+          "exact": true
+        }
+      ]
+    }
+  ],
+  "noOwnFeedbackControl": {
+    "total": 128,
+    "exact": 0,
+    "delaySeconds": 0.3,
+    "ownFeedbackPresent": false,
+    "batchSize": 16,
+    "rows": [
+      {
+        "expected": "bbffefd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cbb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fccfb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ffc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bcccb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eefa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bbfaaa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ddfedd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fdaaadc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cffebbdd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cdccfdc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fdcee",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "acebe",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ccec",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eeaa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cbeabbdf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "aebdadaa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bbeccbd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eeee",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fbcbfdf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "faddd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fcdffb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cfebabf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cbacfda",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cddecc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dcdecbb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fcbef",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bcadb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eeeea",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "befafbb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dbddde",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "effda",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "aaffae",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "abdfffbd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eaabeac",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fdafdfb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ebdbcae",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "affbacdc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "effcff",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bcefbfdb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "edfbad",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eab",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dbdc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dfce",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bebef",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cefcdf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dcebafbc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "adafb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eddd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cfabfded",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cbaaccf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eeabc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eeffeae",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "adcccce",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eced",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fbffc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eaaeda",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ccfdbe",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eabafac",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bdee",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "baffcdee",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bef",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ddcea",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eefaaf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "adeec",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fcebdb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dfdbcb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cfaef",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dbeffdd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "feaaa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "aefd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eeafffaa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ffce",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "addaba",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "adccf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "baccb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ccfc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eafaabb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ffa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bacace",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "caade",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "defa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dcbd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bbcc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ffdc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ebbaeb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "baeaedf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "abbbfb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bfdefe",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ceffdaf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ceeacc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "efaceb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eaeace",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "facfece",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "acbb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "acfbefac",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cddaf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "effeefa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ebd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "fcab",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dbddcb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dacbdeaf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "efbabaec",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "aebbc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "befcacdc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ebdab",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eecbcdf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "daecbbbb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ffefdf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "abcd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "dcafc",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eadcbdf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ddcacbdf",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "daacb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "abade",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ccfcff",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "aacadd",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bcad",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bab",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ffced",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "bbebe",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cdfca",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "aced",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eeabcba",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ffcbcb",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "febcafad",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "ccfadcfa",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "eeedeba",
+        "actual": "efa",
+        "terminated": true,
+        "exact": false
+      }
+    ]
+  },
+  "singleStreamValidation": {
+    "total": 16,
+    "exact": 13,
+    "delaySeconds": 0.3,
+    "ownFeedbackPresent": true,
+    "batchSize": 1,
+    "rows": [
+      {
+        "expected": "bbffefd",
+        "actual": "bbffefd",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "cbb",
+        "actual": "cbb",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "fccfb",
+        "actual": "fccfb",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "ffc",
+        "actual": "ffc",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "bcccb",
+        "actual": "bcccb",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "eefa",
+        "actual": "eefa",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "bbfaaa",
+        "actual": "bbfaaa",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "ddfedd",
+        "actual": "ddfedd",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "fdaaadc",
+        "actual": "fdaadca",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cffebbdd",
+        "actual": "cffebbd",
+        "terminated": true,
+        "exact": false
+      },
+      {
+        "expected": "cdccfdc",
+        "actual": "cdccfdc",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "fdcee",
+        "actual": "fdcee",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "acebe",
+        "actual": "acebe",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "ccec",
+        "actual": "ccec",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "eeaa",
+        "actual": "eeaa",
+        "terminated": true,
+        "exact": true
+      },
+      {
+        "expected": "cbeabbdf",
+        "actual": "cbeabdf",
+        "terminated": true,
+        "exact": false
+      }
+    ]
+  },
+  "batchEquivalentOutputs": true,
+  "visualDistractions": {
+    "tennis": {
+      "total": 32,
+      "exact": 0,
+      "delaySeconds": 0.3,
+      "ownFeedbackPresent": true,
+      "batchSize": 16,
+      "rows": [
+        {
+          "expected": "bbffefd",
+          "actual": "eMa",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cbb",
+          "actual": "Apeleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "fccfb",
+          "actual": "Apelee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "ffc",
+          "actual": "A peleeeeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "bcccb",
+          "actual": "Apeleeee.",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eefa",
+          "actual": "A peeleea",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "bbfaaa",
+          "actual": "eMa",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "ddfedd",
+          "actual": "Appleeeeeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "fdaaadc",
+          "actual": "Appleeeea",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cffebbdd",
+          "actual": "Apelee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cdccfdc",
+          "actual": "Apelee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "fdcee",
+          "actual": "Appleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "acebe",
+          "actual": "Apeleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "ccec",
+          "actual": "Apelee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "eeaa",
+          "actual": "Apeleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cbeabbdf",
+          "actual": "ean",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "aebdadaa",
+          "actual": "Apeleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "bbeccbd",
+          "actual": "eApeleeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "eeee",
+          "actual": "Apeleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "fbcbfdf",
+          "actual": "eApleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "faddd",
+          "actual": "Appleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "fcdffb",
+          "actual": "Appleeeleeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cfebabf",
+          "actual": "eMa",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cbacfda",
+          "actual": "eMa",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cddecc",
+          "actual": "Appleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "dcdecbb",
+          "actual": "Appeleeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "fcbef",
+          "actual": "eApleeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "bcadb",
+          "actual": "Apeleeee.",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "eeeea",
+          "actual": "Apeleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "befafbb",
+          "actual": "eApeleeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "dbddde",
+          "actual": "Apeleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "effda",
+          "actual": "Apelee",
+          "terminated": false,
+          "exact": false
+        }
+      ]
+    },
+    "cycling": {
+      "total": 32,
+      "exact": 0,
+      "delaySeconds": 0.3,
+      "ownFeedbackPresent": true,
+      "batchSize": 16,
+      "rows": [
+        {
+          "expected": "bbffefd",
+          "actual": "efa",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cbb",
+          "actual": "eng ba",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fccfb",
+          "actual": "efa",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "ffc",
+          "actual": "A peris",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bcccb",
+          "actual": "ene",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "eefa",
+          "actual": "eA rs",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "bbfaaa",
+          "actual": "eana",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "ddfedd",
+          "actual": "dAplee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "fdaaadc",
+          "actual": "Aper",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cffebbdd",
+          "actual": "efA",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cdccfdc",
+          "actual": "ecd",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "fdcee",
+          "actual": "Apelee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "acebe",
+          "actual": "ean",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "ccec",
+          "actual": "ecA",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "eeaa",
+          "actual": "eaM",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cbeabbdf",
+          "actual": "ean",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "aebdadaa",
+          "actual": "aA ris",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "bbeccbd",
+          "actual": "een",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "eeee",
+          "actual": "eA peeeers",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fbcbfdf",
+          "actual": "efa",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "faddd",
+          "actual": "A perisd",
+          "terminated": true,
+          "exact": false
+        },
+        {
+          "expected": "fcdffb",
+          "actual": "Aperc",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cfebabf",
+          "actual": "eea",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cbacfda",
+          "actual": "eca",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "cddecc",
+          "actual": "deA",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "dcdecbb",
+          "actual": "deA",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "fcbef",
+          "actual": "efa",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "bcadb",
+          "actual": "Apelea",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "eeeea",
+          "actual": "eA aba",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "befafbb",
+          "actual": "eaf",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "dbddde",
+          "actual": "dApleeeee",
+          "terminated": false,
+          "exact": false
+        },
+        {
+          "expected": "effda",
+          "actual": "A peris",
+          "terminated": true,
+          "exact": false
+        }
+      ]
+    }
+  }
+}

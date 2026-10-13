@@ -1,0 +1,10 @@
+{
+  "historicalHeightExact": true,
+  "horizontalScrolling": true,
+  "cursorNotAheadOfObservation": true,
+  "displayBufferSeconds": 0.15,
+  "flowUnitTests": 4,
+  "nodeAudioTests": 2,
+  "browserInput": "Synthetic API and numerical samples; no live media/state changes",
+  "consoleErrors": 0
+}

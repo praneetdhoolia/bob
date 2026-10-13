@@ -1,0 +1,19 @@
+{
+  "state": "complete",
+  "usesRealSensoryWeights": true,
+  "media": "Silent waveform only; no camera/microphone",
+  "extraUiPorts": 0,
+  "missingOptionalImages": true,
+  "missingOptionalSpeech": true,
+  "missingRecordingRejected": true,
+  "readyWithoutDemos": true,
+  "source": "camera",
+  "numericalStateFinite": true,
+  "speechSamples": 0,
+  "imageCounts": {
+    "tennis": 0,
+    "bmx-trees": 0
+  },
+  "systemWithinBudget": true,
+  "workerStopped": true
+}

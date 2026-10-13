@@ -1,0 +1,1168 @@
+{
+  "state": "complete",
+  "directory": "artifacts\\spoken-stream-corpus-1791834909772108400",
+  "cases": [
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "mango",
+      "mode": "held",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-000.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 99,
+          "kind": "fruit",
+          "answer": "Mango."
+        },
+        {
+          "tick": 152,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "mango",
+      "mode": "held",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-001.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 87,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 161,
+          "kind": "fruit",
+          "answer": "Mango."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-002.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 98,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 161,
+          "kind": "fruit",
+          "answer": "Mango."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-003.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 94,
+          "kind": "fruit",
+          "answer": "Mango."
+        },
+        {
+          "tick": 158,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "apple",
+      "mode": "held",
+      "questionChannel": "spoken",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-004.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 94,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 161,
+          "kind": "fruit",
+          "answer": "Apple."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "apple",
+      "mode": "held",
+      "questionChannel": "text",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-005.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 97,
+          "kind": "fruit",
+          "answer": "Apple."
+        },
+        {
+          "tick": 156,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "apple",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-006.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 101,
+          "kind": "fruit",
+          "answer": "Apple."
+        },
+        {
+          "tick": 151,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "apple",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-007.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 84,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 166,
+          "kind": "fruit",
+          "answer": "Apple."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "banana",
+      "mode": "held",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-008.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 102,
+          "kind": "fruit",
+          "answer": "Banana."
+        },
+        {
+          "tick": 151,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "banana",
+      "mode": "held",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-009.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 89,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 159,
+          "kind": "fruit",
+          "answer": "Banana."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "banana",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-010.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 91,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 164,
+          "kind": "fruit",
+          "answer": "Banana."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "banana",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-011.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 88,
+          "kind": "fruit",
+          "answer": "Banana."
+        },
+        {
+          "tick": 157,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "pear",
+      "mode": "held",
+      "questionChannel": "spoken",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-012.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 87,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 165,
+          "kind": "fruit",
+          "answer": "Pear."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "pear",
+      "mode": "held",
+      "questionChannel": "text",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-013.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 93,
+          "kind": "fruit",
+          "answer": "Pear."
+        },
+        {
+          "tick": 157,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "pear",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-014.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 99,
+          "kind": "fruit",
+          "answer": "Pear."
+        },
+        {
+          "tick": 151,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "pear",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-015.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 81,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 165,
+          "kind": "fruit",
+          "answer": "Pear."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "questionOrder": 0,
+      "audio": false,
+      "transfer": "absent-fact",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-016.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 88,
+          "kind": "fruit",
+          "answer": "I did not hear a fruit."
+        },
+        {
+          "tick": 154,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "train",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "questionOrder": 1,
+      "audio": false,
+      "transfer": "absent-fact",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-017.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 94,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 163,
+          "kind": "fruit",
+          "answer": "I did not hear a fruit."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "mango",
+      "mode": "held",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "held-speaker",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-018.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 99,
+          "kind": "fruit",
+          "answer": "Mango."
+        },
+        {
+          "tick": 161,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "mango",
+      "mode": "held",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-019.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 89,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 165,
+          "kind": "fruit",
+          "answer": "Mango."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "held-speaker",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-020.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 87,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 156,
+          "kind": "fruit",
+          "answer": "Mango."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-021.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 95,
+          "kind": "fruit",
+          "answer": "Mango."
+        },
+        {
+          "tick": 161,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "apple",
+      "mode": "held",
+      "questionChannel": "spoken",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "held-speaker",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-022.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 86,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 158,
+          "kind": "fruit",
+          "answer": "Apple."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "apple",
+      "mode": "held",
+      "questionChannel": "text",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-023.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 93,
+          "kind": "fruit",
+          "answer": "Apple."
+        },
+        {
+          "tick": 155,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "apple",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "held-speaker",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-024.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 88,
+          "kind": "fruit",
+          "answer": "Apple."
+        },
+        {
+          "tick": 158,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "apple",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-025.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 94,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 168,
+          "kind": "fruit",
+          "answer": "Apple."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "banana",
+      "mode": "held",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "held-speaker",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-026.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 93,
+          "kind": "fruit",
+          "answer": "Banana."
+        },
+        {
+          "tick": 156,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "banana",
+      "mode": "held",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-027.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 94,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 164,
+          "kind": "fruit",
+          "answer": "Banana."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "banana",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "held-speaker",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-028.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 91,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 161,
+          "kind": "fruit",
+          "answer": "Banana."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "banana",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-029.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 89,
+          "kind": "fruit",
+          "answer": "Banana."
+        },
+        {
+          "tick": 158,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "pear",
+      "mode": "held",
+      "questionChannel": "spoken",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "held-speaker",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-030.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 91,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        },
+        {
+          "tick": 156,
+          "kind": "fruit",
+          "answer": "Pear."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "pear",
+      "mode": "held",
+      "questionChannel": "text",
+      "phraseIndex": 1,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-031.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 94,
+          "kind": "fruit",
+          "answer": "Pear."
+        },
+        {
+          "tick": 161,
+          "kind": "video",
+          "answer": "A person is playing tennis."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "pear",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 0,
+      "transfer": "held-speaker",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-032.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 97,
+          "kind": "fruit",
+          "answer": "Pear."
+        },
+        {
+          "tick": 160,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "pear",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "audio": true,
+      "questionOrder": 1,
+      "transfer": "familiar-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-033.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 91,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 166,
+          "kind": "fruit",
+          "answer": "Pear."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 0,
+      "questionOrder": 0,
+      "audio": false,
+      "transfer": "absent-fact",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-034.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 91,
+          "kind": "fruit",
+          "answer": "I did not hear a fruit."
+        },
+        {
+          "tick": 152,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "zira",
+      "split": "validation",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 0,
+      "questionOrder": 1,
+      "audio": false,
+      "transfer": "absent-fact",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-035.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 91,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 167,
+          "kind": "fruit",
+          "answer": "I did not hear a fruit."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "validation",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 2,
+      "questionOrder": 0,
+      "audio": true,
+      "transfer": "held-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-036.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 102,
+          "kind": "fruit",
+          "answer": "Mango."
+        },
+        {
+          "tick": 164,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "validation",
+      "fruit": "mango",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 2,
+      "questionOrder": 1,
+      "audio": true,
+      "transfer": "held-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-037.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 95,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 163,
+          "kind": "fruit",
+          "answer": "Mango."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "validation",
+      "fruit": "apple",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 2,
+      "questionOrder": 0,
+      "audio": true,
+      "transfer": "held-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-038.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 101,
+          "kind": "fruit",
+          "answer": "Apple."
+        },
+        {
+          "tick": 168,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "validation",
+      "fruit": "apple",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 2,
+      "questionOrder": 1,
+      "audio": true,
+      "transfer": "held-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-039.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 98,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 166,
+          "kind": "fruit",
+          "answer": "Apple."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "validation",
+      "fruit": "banana",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 2,
+      "questionOrder": 0,
+      "audio": true,
+      "transfer": "held-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-040.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 103,
+          "kind": "fruit",
+          "answer": "Banana."
+        },
+        {
+          "tick": 165,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "validation",
+      "fruit": "banana",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 2,
+      "questionOrder": 1,
+      "audio": true,
+      "transfer": "held-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-041.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 100,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 162,
+          "kind": "fruit",
+          "answer": "Banana."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "validation",
+      "fruit": "pear",
+      "mode": "changing",
+      "questionChannel": "spoken",
+      "phraseIndex": 2,
+      "questionOrder": 0,
+      "audio": true,
+      "transfer": "held-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-042.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 102,
+          "kind": "fruit",
+          "answer": "Pear."
+        },
+        {
+          "tick": 159,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    },
+    {
+      "speaker": "david",
+      "split": "validation",
+      "fruit": "pear",
+      "mode": "changing",
+      "questionChannel": "text",
+      "phraseIndex": 2,
+      "questionOrder": 1,
+      "audio": true,
+      "transfer": "held-phrasing",
+      "file": "artifacts\\spoken-stream-corpus-1791834909772108400\\case-043.pt",
+      "ticks": 200,
+      "queries": [
+        {
+          "tick": 96,
+          "kind": "video",
+          "answer": "A person is riding a bicycle."
+        },
+        {
+          "tick": 167,
+          "kind": "fruit",
+          "answer": "Pear."
+        }
+      ],
+      "audioEncoderBarrierTick": 52
+    }
+  ],
+  "pretrainedLanguageForwardCalls": 0,
+  "sentSpokenQueryTranscript": false,
+  "limits": [
+    "Synthetic voices; real human speech remains untested.",
+    "Two existing recorded scenes; broad visual transfer remains untested.",
+    "Held speaker and held phrasing are separate conditions.",
+    "Labels are offline supervision; no generated caption or ASR is an input."
+  ],
+  "profile": {
+    "materializedParameterBytes": {
+      "cuda:0/torch.bfloat16": 2912911840
+    },
+    "unmaterializedLanguageParameters": 7567635456,
+    "backboneForwardCalls": 0,
+    "embeddingDimension": 4096
+  },
+  "elapsedSeconds": 199.64100000000326,
+  "systemUsedBytes": 35778801664
+}

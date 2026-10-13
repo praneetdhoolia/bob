@@ -1,0 +1,431 @@
+{
+  "updatedAt": "2026-10-13",
+  "methods": [
+    {
+      "name": "Continuous Thought Machines",
+      "purpose": "Internal computation with neural timing",
+      "scope": "Task-trained recurrent network with neuron histories and synchronization",
+      "publishedEvaluation": "Classification, maze and algorithmic task experiments",
+      "strengths": "Internal computation beyond a single feedforward pass",
+      "limits": "Not a general audiovisual agent or evidence of sentience; not implemented here; peer-reviewed at NeurIPS 2025",
+      "sourceUrls": [
+        "https://pub.sakana.ai/ctm/",
+        "https://arxiv.org/abs/2505.05522v4"
+      ],
+      "publicationDate": "2025-05",
+      "lastVerified": "2026-10-13",
+      "readScope": "Primary project page"
+    },
+    {
+      "name": "V-JEPA 2.1",
+      "purpose": "Self-supervised predictive video representations",
+      "scope": "Dense video feature learning",
+      "publishedEvaluation": "See primary paper; this report does not reproduce its benchmarks",
+      "strengths": "Motivates prediction in representation space",
+      "limits": "Not a continuous unified language/self model; our pooled target is different",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2603.14482"
+      ],
+      "publicationDate": "2026-03",
+      "lastVerified": "2026-10-13",
+      "readScope": "Primary abstract"
+    },
+    {
+      "name": "Unattended working memory items in human MTL neurons",
+      "purpose": "Measure maintained attended and unattended information",
+      "scope": "Human intracranial task recordings",
+      "publishedEvaluation": "Neuronal activity and decoding during working-memory task",
+      "strengths": "Motivates matched recall/readout interference controls",
+      "limits": "Biological findings do not demonstrate these mechanisms or consciousness in Bob",
+      "sourceUrls": [
+        "https://www.nature.com/articles/s41562-025-02235-0"
+      ],
+      "publicationDate": "2025",
+      "lastVerified": "2026-10-13",
+      "readScope": "Primary article"
+    },
+    {
+      "name": "Consciousness in Artificial Intelligence",
+      "purpose": "Theory-derived consciousness indicators",
+      "scope": "Scientific synthesis rather than a validated universal consciousness test",
+      "publishedEvaluation": "Analysis of proposed computational indicators",
+      "strengths": "Separates possible mechanisms from subjective claims",
+      "limits": "No calibrated sentience score; 2023 assessments must not be treated as 2026 system facts",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2308.08708"
+      ],
+      "publicationDate": "2023-08",
+      "lastVerified": "2026-10-13",
+      "readScope": "Primary abstract and previously reviewed indicator discussion"
+    },
+    {
+      "name": "MiniCPM-o 4.5",
+      "purpose": "Pretrained audiovisual model; here frozen sensory components only",
+      "scope": "Upstream model includes a language trunk; Bob forbids its execution",
+      "publishedEvaluation": "Upstream full-model metrics do not apply to Bob",
+      "strengths": "Local native audiovisual feature extraction",
+      "limits": "Full-model behavior not inherited; English decoder unused; mandatory sensory files now identity-matched to pinned upstream revision, but cold installation is unverified",
+      "sourceUrls": [
+        "https://huggingface.co/openbmb/MiniCPM-o-4_5"
+      ],
+      "publicationDate": "2026-02",
+      "lastVerified": "2026-10-13",
+      "readScope": "Primary model card",
+      "upstreamRevision": "503e754207c94da6bb26850b4469f367c9ea3582",
+      "projectEvidence": "config/sensory-assets.json; artifacts/sensory-upstream-revision-audit.json"
+    },
+    {
+      "name": "Unbiased Online Recurrent Optimization",
+      "purpose": "Streaming temporal credit without storing inputs",
+      "scope": "Low-rank estimate of recurrent parameter sensitivity",
+      "publishedEvaluation": "Synthetic recurrent tasks including long-range character dependencies",
+      "strengths": "Sensitivity memory scales with state plus parameters rather than their product",
+      "limits": "Rank-one update implemented experimentally; theoretical estimator does not certify this clipped, constrained optimizer. No consciousness result.",
+      "sourceUrls": [
+        "https://arxiv.org/html/1702.05043v3"
+      ],
+      "publicationDate": "2017-05-23",
+      "lastVerified": "2026-10-13",
+      "readScope": "Primary full HTML, derivation and algorithm",
+      "projectEvidence": "tests/test_rank_credit.py; artifacts/liquid-continual-context-1791868402240603900/experiment.json"
+    },
+    {
+      "name": "Astrocyte-gated multi-timescale plasticity",
+      "purpose": "Online stability/adaptation in spiking networks",
+      "scope": "Eligibility traces, teaching signal and slower plasticity gate",
+      "publishedEvaluation": "Neuromorphic/audio classification and class-incremental benchmarks",
+      "strengths": "Reported constant temporal-memory learning and retention gains over selected baselines",
+      "limits": "Different architectures/tasks; not best across every listed baseline; code/results not independently reproduced; not implemented in Bob",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12886396/"
+      ],
+      "publicationDate": "2026",
+      "lastVerified": "2026-10-13",
+      "readScope": "Primary article, method and result tables"
+    },
+    {
+      "name": "Butlin, Long et al., Identifying indicators of consciousness in AI systems (TiCS)",
+      "purpose": "Updated indicator method",
+      "scope": "Method paper",
+      "publishedEvaluation": "None empirical",
+      "strengths": "Current peer-reviewed form of the indicator method",
+      "limits": "Full text and any changes to the indicator list unverified; publisher page blocked",
+      "sourceUrls": [
+        "https://escholarship.org/uc/item/9wp8t1n8",
+        "https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(25)00286-4"
+      ],
+      "publicationDate": "2025 online",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract only"
+    },
+    {
+      "name": "COGITATE adversarial collaboration",
+      "purpose": "Preregistered GNWT vs IIT test",
+      "scope": "256 participants; fMRI/MEG/iEEG",
+      "publishedEvaluation": "Content decodable in visual/ventrotemporal/IFG; no sustained posterior synchronization; no offset ignition and limited PFC content",
+      "strengths": "Adversarial preregistration",
+      "limits": "Human perception only; no AI test",
+      "sourceUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40307561/"
+      ],
+      "publicationDate": "2025-04-30",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    },
+    {
+      "name": "IIT 4.0 and the pseudoscience dispute",
+      "purpose": "Status of IIT",
+      "scope": "Formalism plus 2025 critique and replies",
+      "publishedEvaluation": "Theoretical",
+      "strengths": "Explicit postulates",
+      "limits": "Phi intractable at Bob scale; verdict depends on physical substrate, so software behaviour cannot test it",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2212.14787v1",
+        "https://repository.cshl.edu/id/eprint/41865/"
+      ],
+      "publicationDate": "2023-10 / 2025",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    },
+    {
+      "name": "Seth, conscious AI and biological naturalism (BBS)",
+      "purpose": "Counter-position to functionalism",
+      "scope": "Target article",
+      "publishedEvaluation": "Argument and commentary",
+      "strengths": "States conditions making artificial consciousness more plausible",
+      "limits": "Argument, not proof",
+      "sourceUrls": [
+        "https://resolve.cambridge.org/core/journals/behavioral-and-brain-sciences/article/conscious-artificial-intelligence-and-biological-naturalism/C9912A5BE9D806012E3C8B3AF612E39A"
+      ],
+      "publicationDate": "2025-04",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    },
+    {
+      "name": "Solms et al., inferring affective consciousness in an artificial agent",
+      "purpose": "Affect as felt uncertainty about competing needs",
+      "scope": "Simple active-inference agent with three needs",
+      "publishedEvaluation": "Hedonic place preference",
+      "strengths": "Concrete affect-based implementation",
+      "limits": "Toy agent; behavioural analogy only",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2609.03883"
+      ],
+      "publicationDate": "2026-09-03",
+      "lastVerified": "2026-10-13",
+      "readScope": "Abstract"
+    },
+    {
+      "name": "Attention schema in artificial agents (Farrell, Ziman, Graziano)",
+      "purpose": "Test AST components",
+      "scope": "Transformer agents with/without attention schema",
+      "publishedEvaluation": "Schema improved judging others' attention; not explained by added complexity",
+      "strengths": "Ready ablation design for AST-1",
+      "limits": "Social tasks; no consciousness claim",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2411.00983v3"
+      ],
+      "publicationDate": "2024-11 (v3 2025-08)",
+      "lastVerified": "2026-10-13",
+      "readScope": "Abstract"
+    },
+    {
+      "name": "ReCoN-Ipsundrum",
+      "purpose": "Mechanism-linked indicator assays",
+      "scope": "RPT-1 and PP-1 with sham and lesion controls",
+      "publishedEvaluation": "Lesion reduces persistence about 20-28%",
+      "strengths": "Template for sham-controlled lesion assays",
+      "limits": "No learning; toy domains",
+      "sourceUrls": [
+        "https://arxiv.org/html/2602.23232v2"
+      ],
+      "publicationDate": "2026-03-01",
+      "lastVerified": "2026-10-13",
+      "readScope": "Full HTML"
+    },
+    {
+      "name": "PredNet",
+      "purpose": "Predictive-coding video prediction",
+      "scope": "Error units over predictions",
+      "publishedEvaluation": "CalTech MSE 3.13e-3 vs copy-last-frame 7.95e-3",
+      "strengths": "Shows learned prediction can beat persistence and reports against it",
+      "limits": "Pixel space",
+      "sourceUrls": [
+        "https://ar5iv.labs.arxiv.org/html/1605.08104"
+      ],
+      "publicationDate": "2016-05",
+      "lastVerified": "2026-10-13",
+      "readScope": "Full text"
+    },
+    {
+      "name": "Titans and Nested Learning",
+      "purpose": "Surprise-gated test-time associative memory",
+      "scope": "Memory as context/layer/gate",
+      "publishedEvaluation": "Author-reported language and recall benchmarks",
+      "strengths": "Surprise-gated writes map to delta writes and an urge signal",
+      "limits": "LLM-scale; author-reported",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2501.00663",
+        "https://arxiv.org/abs/2512.24695v1"
+      ],
+      "publicationDate": "2024-12 / 2025",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    },
+    {
+      "name": "TTT layers",
+      "purpose": "Hidden state trained by a self-supervised step per token",
+      "scope": "TTT-Linear/MLP",
+      "publishedEvaluation": "Perplexity keeps falling beyond 16k context",
+      "strengths": "Online learning inside the state",
+      "limits": "Memory-I/O cost",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2407.04620v1"
+      ],
+      "publicationDate": "2024-07",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    },
+    {
+      "name": "Mamba-3, RWKV-7, Gated DeltaNet",
+      "purpose": "Efficient recurrent state",
+      "scope": "Complex/rotational state, generalized delta rule, gating",
+      "publishedEvaluation": "Author-reported language modelling and state tracking",
+      "strengths": "Rotational state helps state tracking relevant to multi-hop failures",
+      "limits": "Token language models, not continuous-time sensory",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2603.15569",
+        "https://www.arxiv.org/abs/2503.14456",
+        "https://arxiv.org/abs/2412.06464v3"
+      ],
+      "publicationDate": "2026-03 / 2025-03 / 2025",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    },
+    {
+      "name": "V-JEPA 2 and 2.1 checkpoints",
+      "purpose": "Latent video prediction",
+      "scope": "Action-conditioned planning; ViT-B 80M",
+      "publishedEvaluation": "SSv2 77.3; EK-100 anticipation R@5 39.7",
+      "strengths": "Small frozen latent target candidate",
+      "limits": "Vision only",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2506.09985",
+        "https://github.com/facebookresearch/vjepa2"
+      ],
+      "publicationDate": "2025-06 / 2026-03",
+      "lastVerified": "2026-10-13",
+      "readScope": "Abstract and repository"
+    },
+    {
+      "name": "LeJEPA and JEPA early collapse",
+      "purpose": "Collapse prevention and diagnosis",
+      "scope": "SIGReg; EMA collapse phase",
+      "publishedEvaluation": "Linear-probe results; collapse lasting thousands of steps",
+      "strengths": "Warns that low self-target loss can be fake",
+      "limits": "Mostly static images",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2511.08544",
+        "https://iclr.cc/virtual/2026/10018046"
+      ],
+      "publicationDate": "2025-11 / 2026",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    },
+    {
+      "name": "Schurger stochastic accumulator",
+      "purpose": "Spontaneous movement timing",
+      "scope": "Leaky accumulator with noise to threshold",
+      "publishedEvaluation": "Fits readiness-potential shape and waiting times",
+      "strengths": "Basis for an urge variable; onset-locked ramps arise from averaging",
+      "limits": "Human EEG motor timing",
+      "sourceUrls": [
+        "https://digitalcommons.chapman.edu/psychology_articles/175",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8192467"
+      ],
+      "publicationDate": "2012 / 2021",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    },
+    {
+      "name": "Hamilos et al., dopamine ramps and self-timed movement",
+      "purpose": "Neuromodulatory control of when to act",
+      "scope": "Mice, photometry and optogenetics",
+      "publishedEvaluation": "Stimulation shifts timing probabilistically without triggering movement",
+      "strengths": "Causal template: modulate drive, measure hazard shift",
+      "limits": "Licking task",
+      "sourceUrls": [
+        "https://elifesciences.org/articles/62583v1"
+      ],
+      "publicationDate": "2021-12",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    },
+    {
+      "name": "Moshi, voice activity projection, Full-Duplex-Bench",
+      "purpose": "Full-duplex timing",
+      "scope": "Parallel streams; self-supervised future voice activity; benchmark metrics",
+      "publishedEvaluation": "Benchmark versions 1-2",
+      "strengths": "Voice activity projection is LLM-free and label-free",
+      "limits": "Moshi core is an LLM (excluded as core)",
+      "sourceUrls": [
+        "https://arxiv.org/abs/2410.00037v1",
+        "https://www.isca-archive.org/interspeech_2022/ekstedt22_interspeech.html",
+        "https://arxiv.org/abs/2503.04721v3"
+      ],
+      "publicationDate": "2022-2025",
+      "lastVerified": "2026-10-13",
+      "readScope": "Abstract"
+    },
+    {
+      "name": "MMDuet trigger rule",
+      "purpose": "When to respond during streaming video",
+      "scope": "Per-frame informative/relevance heads",
+      "publishedEvaluation": "Accumulate informative score, respond at threshold, reset",
+      "strengths": "Published accumulate-to-threshold trigger",
+      "limits": "LLM backbone; hand-set threshold",
+      "sourceUrls": [
+        "https://arxiv.org/html/2411.17991v2"
+      ],
+      "publicationDate": "2024-11",
+      "lastVerified": "2026-10-13",
+      "readScope": "Full HTML"
+    },
+    {
+      "name": "Tang et al. semantic decoder",
+      "purpose": "Brain state to continuous language",
+      "scope": "fMRI, three subjects",
+      "publishedEvaluation": "Scores versus 200 null sequences; identification ranks 0.85-0.91",
+      "strengths": "Gold-standard decoder verification protocol",
+      "limits": "Gist-level",
+      "sourceUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11304553"
+      ],
+      "publicationDate": "2023-05",
+      "lastVerified": "2026-10-13",
+      "readScope": "Partial full text"
+    },
+    {
+      "name": "Probe validity toolkit",
+      "purpose": "Verify readouts",
+      "scope": "Control tasks, amnesic probing, causal abstraction, nonlinear dilemma",
+      "publishedEvaluation": "Methodological",
+      "strengths": "Defines controls for the interpreter",
+      "limits": "NLP origins",
+      "sourceUrls": [
+        "https://arxiv.org/pdf/1909.03368",
+        "https://aclanthology.org/2021.tacl-1.10/",
+        "https://arxiv.org/abs/2507.08802"
+      ],
+      "publicationDate": "2019-2025",
+      "lastVerified": "2026-10-13",
+      "readScope": "Abstract"
+    },
+    {
+      "name": "Calibration and metacognition measures",
+      "purpose": "Score confidence",
+      "scope": "Temperature scaling/ECE; type-2 ROC and meta-d'",
+      "publishedEvaluation": "Methodological",
+      "strengths": "Standard and cheap",
+      "limits": "Needs many trials",
+      "sourceUrls": [
+        "https://proceedings.mlr.press/v70/guo17a.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4097944"
+      ],
+      "publicationDate": "2017 / 2014",
+      "lastVerified": "2026-10-13",
+      "readScope": "Search extract"
+    }
+  ],
+  "exclusions": [
+    "Full LLM conversational backbones are outside the requested architecture.",
+    "Moshi, MMDuet, StreamOV, OneStreamer and MiniCPM-o full duplex use LLM cores; kept as evaluation protocols only.",
+    "Loihi 2: no hardware available.",
+    "IIT Phi computation: intractable and substrate-dependent."
+  ],
+  "unanswered": [
+    "How can native-state learning beat persistence without degrading translation?",
+    "How can own-action prediction transfer to unseen emissions and later motor actions?",
+    "Can low-rank temporal sensitivity improve native forecasts within measured RAM/latency limits?",
+    "Does the pooled 100 ms native target contain forecastable variance beyond persistence?",
+    "Can an urge threshold be learned without labelled response windows?",
+    "Can own-output source memory transfer to unseen words without per-word training?",
+    "Which credit-assignment method fits a 100 ms CPU/GPU budget? UORO measured 80-92 ms per packet."
+  ],
+  "checkedButNotFullyRead": [
+    {
+      "name": "e-prop, Bellec et al. 2020",
+      "sources": [
+        "https://www.nature.com/articles/s41467-020-17236-y",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7367848/"
+      ],
+      "reason": "Full primary fetch blocked by cookie/recaptcha; search extract only; not claimed implemented"
+    }
+  ],
+  "unverified": [
+    "Butlin et al. TiCS 2025 full text and issue date",
+    "Thura and Cisek 2017 primary text",
+    "GraphCast residual parameterization (lecture slide only)",
+    "Per-component MiniCPM-o encoder parameter counts"
+  ]
+}

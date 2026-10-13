@@ -1,0 +1,107 @@
+{
+  "updatedAt": "2026-10-13",
+  "factors": [
+    {
+      "factor": "Useful internal computation",
+      "literature": "CTM uses synchronization and private neuron histories; a faster tick is insufficient.",
+      "sources": [
+        "https://pub.sakana.ai/ctm/"
+      ],
+      "projectStatus": "v7 active flow fails convergence and retention; deployment rejected",
+      "evidence": "artifacts/liquid-recurrence-controls-1791857035943900900.json",
+      "gap": "Useful resolution-stable causal benefit"
+    },
+    {
+      "factor": "Label-free world prediction",
+      "literature": "Predictive representation learning motivates numerical targets without answer labels.",
+      "sources": [
+        "https://arxiv.org/abs/2603.14482"
+      ],
+      "projectStatus": "Existing shared context learned on native packets; isolated weak-coupling candidate retains narrow answers but loses to persistence",
+      "evidence": "artifacts/liquid-continual-context-1791865745382463200/experiment.json",
+      "gap": "Future prediction, modality-specific errors, sustained raw-input transfer"
+    },
+    {
+      "factor": "Concurrent context retention",
+      "literature": "Unattended information can persist in task-specific human neuronal activity.",
+      "sources": [
+        "https://www.nature.com/articles/s41562-025-02235-0"
+      ],
+      "projectStatus": "Matched post-query visual interference reduces recall; forgetting versus readout disruption unresolved",
+      "evidence": "artifacts/liquid-interference-controls-1791856955357811100.json",
+      "gap": "State probes and learned retention gates without assigned semantic slots"
+    },
+    {
+      "factor": "Self-model and consciousness",
+      "literature": "Theory-derived indicators are research hypotheses, not a consciousness certificate.",
+      "sources": [
+        "https://arxiv.org/abs/2308.08708"
+      ],
+      "projectStatus": "Source reports fail unseen own-word transfer; broad self-model and subjective experience unverified",
+      "evidence": "artifacts/liquid-strict-source-controls-1791841138538210800.json",
+      "gap": "Predicted own consequences, calibrated uncertainty, transferable source attribution"
+    },
+    {
+      "factor": "Temporal parameter credit within memory ceiling",
+      "literature": "UORO uses rank-one parameter sensitivity; one-packet truncation cannot claim unbiased long-range credit.",
+      "sources": [
+        "https://arxiv.org/html/1702.05043v3",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12886396/"
+      ],
+      "projectStatus": "One-packet write learning improves a narrow matched forecast. Rank-one longer credit implemented and tested, but four-pass run loses persistence and reduces answer retention to 5/10; candidate rejected.",
+      "evidence": "neural/online_context.py; neural/probe_continual_context.py; tests/test_online_context.py",
+      "gap": "Stable long-range credit and causal forecast/retention benefit",
+      "memoryEstimate": {
+        "stateFloats": 16384,
+        "trainedParameterFloats": 529668,
+        "fullFloat32SensitivityBytes": 34712322048,
+        "rankOneFloat32SensitivityBytes": 2184208,
+        "limitation": "Arithmetic estimate only; optimizer, activations, temporary tensors and raw encoders excluded. No UORO runtime benchmark."
+      }
+    },
+    {
+      "factor": "Beating persistence",
+      "literature": "Persistence is the standard forecast reference (skill score, MASE). Learned predictors can beat copy-last-frame when they predict residuals from the current input (PredNet roughly 2.5x lower MSE).",
+      "sources": [
+        "https://ar5iv.labs.arxiv.org/html/1605.08104",
+        "https://www.doi.org/10.1016/J.IJFORECAST.2006.03.001",
+        "https://glossary.ametsoc.org/wiki/Skill"
+      ],
+      "comparisonLimits": "Pixel/weather domains, not pooled MiniCPM embeddings",
+      "gap": "Whether the pooled 100 ms target has predictable variance beyond persistence"
+    },
+    {
+      "factor": "Urge / action initiation",
+      "literature": "Self-initiated timing fits a leaky noisy accumulator to threshold; dopamine ramps modulate the hazard of acting; streaming systems trigger by accumulated informativeness.",
+      "sources": [
+        "https://digitalcommons.chapman.edu/psychology_articles/175",
+        "https://elifesciences.org/articles/62583v1",
+        "https://arxiv.org/html/2411.17991v2"
+      ],
+      "comparisonLimits": "Biology concerns motor timing, not speech initiation",
+      "gap": "Learned thresholds and urge without an LLM"
+    },
+    {
+      "factor": "Interpreter accuracy",
+      "literature": "Decoders must beat a null built without the true state, survive identification and control tasks; probe accuracy is not evidence of use.",
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11304553",
+        "https://arxiv.org/pdf/1909.03368",
+        "https://aclanthology.org/2021.tacl-1.10/"
+      ],
+      "comparisonLimits": "Brain and NLP settings",
+      "gap": "Validated protocol for a self-reporting recurrent agent"
+    },
+    {
+      "factor": "Latent targets and collapse",
+      "literature": "Self-generated latent targets need stop-gradient/EMA or SIGReg; EMA can produce a collapse phase where loss falls but features are useless.",
+      "sources": [
+        "https://arxiv.org/abs/2511.08544",
+        "https://iclr.cc/virtual/2026/10018046"
+      ],
+      "comparisonLimits": "Image/sensor pretraining",
+      "gap": "Online single-stream versions"
+    }
+  ],
+  "statusNote": "Project status fields are re-derived per report; see the dated report for the current status of each factor."
+}

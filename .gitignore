@@ -1,0 +1,10 @@
+node_modules/
+data/
+.runtime/
+artifacts/
+*.log
+config.local.json
+__pycache__/
+.playwright-mcp/
+.agents/.local/
+.claude/.local/
