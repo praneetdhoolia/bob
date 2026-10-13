@@ -1,6 +1,6 @@
 # Next agent brief
 
-Written: 2026-10-13 19:56 +11:00. Repository state: main at 128076b (4 commits). The worktree was clean at that commit; this brief is in the commit after it. Branch: main. Remote `origin` (github.com/praneetdhoolia/bob) has **not** been pushed.
+Written: 2026-10-13 19:56 +11:00; publication updated afterwards. Repository state: local `main` ends at the brief commit. The same history is on branch `initial-version`, which also merges an empty repository root. The user confirmed publication to the **public** github.com/praneetdhoolia/bob, and `initial-version` is proposed there as a pull request into `main`.
 
 ## Goal and standing instructions
 
@@ -32,7 +32,7 @@ Keep the full goal in [GOAL.md](GOAL.md).
 
 | Fact observed at handoff | Evidence/handle | Recheck |
 |---|---|---|
-| Worktree clean at 128076b; no push | `git status`, `git log` | `git status --short; git log --oneline -5; git status -sb` |
+| Initial version proposed in a PR from `initial-version` to `main`; not merged at handoff | GitHub | `gh pr list --repo praneetdhoolia/bob --state all` |
 | Live agent not running; no listener on 3217; no Python processes | — | `npm run status` |
 | Full suite passes: 40 Python, 10 Node, evidence manifest, core invariants (6/10, quiet 120/120) | npm test on 13c7151 | `npm test` |
 | Selected live weights: v1 checkpoint migrated into v7 (4,663,062 parameters; 610,567 inert) | `artifacts/liquid-core-training.json` | Read it; `scripts/preflight.py` |
@@ -114,6 +114,6 @@ Priority order. Each has its success check in the ledger.
 
 ## Unfinished publication or decisions
 
-* **Commits:** the user asked to organize and submit the initial version. Local commits were made. Pushing to `origin` has **not** been done, and it needs the user's explicit go-ahead, because it publishes the research PDF, receipts and code.
+* **Pull request:** the user asked to commit and open a PR, and confirmed publishing to the public repository. Merging was not requested; check the PR's state with `gh pr view`.
 * **Retired folders:** deleting them (R34) awaits the user's decision.
-* **Pull requests and CI:** none exist.
+* **CI:** none is configured.
