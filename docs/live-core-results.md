@@ -19,24 +19,29 @@ Read every earlier "held-out" number below with these corrections ([report 3](re
 
 ## Interpreter and urge verification — 13 October 2026
 
-`neural/evaluate_interpreter.py` checks the selected live checkpoint (receipt `artifacts/interpreter-verification-1791880244539345300.json`).
+`neural/evaluate_interpreter.py` checks the selected live checkpoint (receipt `artifacts/interpreter-verification-1791881348613247400.json`). Identification ranks the produced report under its own state against same-kind states whose expected answer differs. An earlier receipt also counted same-answer states, which capped the percentile near 0.77.
 
 **Fruit reports.** These come from heard speech held in the state:
 * Trained words: 8/8. Unseen words: 0/4. No-fact control: 2/2.
-* State swap: replacing the held state with another episode's state keeps the original answer in 5% of 21 trials and follows the donor state in 71%.
-* Identification: the produced report is most probable under its own state at the 91st percentile.
+* State swap: replacing the held state with another episode's state keeps the original answer in 8 of 168 trials (4.8%) and follows the donor state in 71%.
+* Identification: mean percentile 0.94, with the own state best in 71% of reports.
+* Calibration: expected calibration error is 0.27.
 
-The fruit report therefore depends on the held state and is decodable from it. It fails held-out words, so it is not verified accurate beyond the four trained words.
+The fruit report depends on, and is decodable from, the held state. It fails held-out words and calibration.
 
 **Video reports.** All 14 are on training-identical frames:
 * All 14 are correct.
-* State swap: the original answer is kept in 100% of trials, so the report does not depend on the held state.
+* State swap: the original answer is kept in all 96 trials, so the report does not depend on the held state.
 * Visual intervention: replacing only later visual rows flips 100% of reports to the other scene.
-* Identification percentile: 0.76.
+* Identification percentile: 1.0.
 
-The video report therefore reads ongoing visual input rather than memory, and is verified only for two familiar scenes. Neither report type meets the "accurate" criteria.
+The video report reads ongoing visual input rather than memory. It is verified only for two familiar scenes; no held-out frames exist.
 
-**Urge onset.** Complete streams with runtime timing, 28 targets, strict scoring:
+Neither report type meets the "accurate" criteria. The receipt names the failed checks:
+* fruit: held accuracy and calibration;
+* video: no held-out data, and no dependence on the held state.
+
+**Urge onset.** Complete streams with runtime timing, strict scoring, 28 targets across all 14 episodes (18 training, 10 validation). The gate-disabled condition emits every non-blank code, as training did. Splits are in the receipt; for example, the gated condition scores 8/18 on training and 3/10 on validation.
 
 | Condition | Exact | False starts | Mean onset latency |
 |---|---|---|---|
@@ -48,6 +53,26 @@ The video report therefore reads ongoing visual input rather than memory, and is
 * Removing the surprise drive delays onsets and lowers accuracy. This is the intended causal role: surprise modulates the hazard of speaking.
 * A doubled threshold is unreachable from readiness alone.
 * The gate costs one exact utterance and about 34 ms. Its threshold was set before this evaluation, not tuned on it.
+
+## Isolated live run after the repairs — 13 October 2026
+
+`neural/probe_runtime_live.py` ran the real runtime with frozen sensory encoders, the selected checkpoint, built-in recorded scenes and the spoken "mango" sample. It used its own state file and opened no port, camera or microphone. Receipt: `artifacts/runtime-live-1791880742764717500/validation.json`.
+
+**Timing and memory**
+* Startup took 6.2 s.
+* Numerical ticks ran at 74 per second against a nominal 100, so ticks wait for observation work on the shared lock.
+* Observations ran at 9.95 per second, with a mean of 41 ms and a maximum of 328 ms. One of 219 missed the 100 ms deadline.
+* Resident memory was 1.86 GB, system memory 37.4 GB and tensor VRAM 3.1 GB.
+* There were no pretrained-language calls and no errors.
+
+**Urge and output**
+* After the typed question, the urge released one stimulus. Readiness was 0.70 at onset, and the first reading was "s" with probability 0.48.
+* The finished utterance was the malformed "s bidinnPear.", although the spoken fruit was mango.
+* This repeats the earlier negative raw-input English result. The mechanism works, but the English does not transfer to this live path.
+
+**Save and restore**
+* The state file is 70 KB, and the 18.7 MB weights are written once.
+* Restoring into a fresh runtime reproduced every coordinate exactly and started paused.
 
 ## Persistence-anchored residual forecast — 13 October 2026
 

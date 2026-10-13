@@ -48,6 +48,9 @@ def start_state(core, row):
     return _STARTS[key].clone()
 
 
+INPUT_PERIOD = .15  # The selected checkpoint's training protocol; see --input-period.
+
+
 def greedy(core, row, replacement=None):
     """The training-protocol rollout, also returning each emitted code's probability."""
     state = start_state(core, row); codes = []; confidence = []
@@ -55,7 +58,7 @@ def greedy(core, row, replacement=None):
     for offset in range(48):
         state = core.advance(state, .03)
         if offset and offset % 5 == 0:
-            state = core.observe(state, future[min(offset//5-1, len(future)-1)].float(), .15)
+            state = core.observe(state, future[min(offset//5-1, len(future)-1)].float(), INPUT_PERIOD)
         probabilities = core.logits(state).softmax(-1)[0]
         code = int(probabilities.argmax())
         if code != BLANK:
@@ -74,7 +77,7 @@ def report_loss(core, row, text):
     for offset, code in enumerate(codes):
         state = core.advance(state, .03)
         if offset and offset % 5 == 0:
-            state = core.observe(state, row['future'][min(offset//5-1, len(row['future'])-1)].float(), .15)
+            state = core.observe(state, row['future'][min(offset//5-1, len(row['future'])-1)].float(), INPUT_PERIOD)
         total -= float(core.logits(state).log_softmax(-1)[0, code])
         state = core.feedback(state, code)
     return total/len(codes)
@@ -119,17 +122,19 @@ def interpreter_protocol(core, cases):
             text, _ = greedy(core, swapped)
             nulls.append(dict(kind=row['kind'], target=index, donor=donor_index,
                               keptOriginal=text == row['answer'], followedDonor=text == donor['answer']))
-    # Identification among all same-kind states, for reports the interpreter produced.
+    # Identification: the produced report against same-kind states whose expected
+    # answer differs. States sharing the answer are not competitors, so they are
+    # excluded rather than allowed to cap the percentile.
     identification = []
     for index, row in enumerate(rows):
         text = results[index]['actual']
-        if not text:
+        competitors = [j for j, other in enumerate(rows) if other['kind'] == row['kind'] and other['answer'] != row['answer']]
+        if not text or not competitors:
             continue
-        candidates = [j for j, other in enumerate(rows) if other['kind'] == row['kind']]
-        losses = {j: report_loss(core, rows[j], text) for j in candidates}
-        better = sum(losses[j] < losses[index] for j in candidates if j != index)
-        identification.append(dict(kind=row['kind'], target=index,
-                                   percentile=1-better/max(1, len(candidates)-1), top1=better == 0))
+        own = report_loss(core, row, text)
+        better = sum(report_loss(core, rows[j], text) < own for j in competitors)
+        identification.append(dict(kind=row['kind'], target=index, competitors=len(competitors),
+                                   percentile=1-better/len(competitors), top1=better == 0))
     # Visual intervention: later observations take the other scene's visual rows.
     interventions = []
     representative = {mode: next(r for r in rows if r['kind'] == 'video' and r['metadata']['mode'] == mode)
@@ -176,9 +181,8 @@ def interpreter_protocol(core, cases):
         if kind == 'video':
             checks['intervention'] = entry['interventionFlipRate'] >= CRITERIA['interventionFlipRate']
         entry['heldAccuracy'] = held_accuracy; entry['checks'] = checks
-        entry['verdict'] = ('accurate within tested scope' if all(checks.values()) else
-                            'state-dependent on familiar inputs; not verified on held-out inputs' if not checks['heldOutAvailable'] or not checks['heldAccuracy'] else
-                            'not verified')
+        failed = [name for name, passed in checks.items() if not passed]
+        entry['verdict'] = 'accurate within tested scope' if not failed else 'not verified; failed: ' + ', '.join(failed)
         summary[kind] = entry
     return dict(criteria=CRITERIA, summary=summary, reports=results, nullTrials=nulls,
                 identification=identification, interventions=interventions)
@@ -224,7 +228,10 @@ def urge_protocol(core, cases):
     for name, settings in conditions.items():
         rows = [stream(core, episode, UrgeGate(**settings)) for episode in episodes]
         latencies = [value for row in rows for value in row['latenciesMs']]
-        summary[name] = dict(exactUtterances=sum(r['exact'] for r in rows), targets=sum(r['targets'] for r in rows),
+        by_split = {split: dict(exact=sum(r['exact'] for r, e in zip(rows, episodes) if e['split'] == split),
+                                targets=sum(r['targets'] for r, e in zip(rows, episodes) if e['split'] == split))
+                    for split in sorted({e['split'] for e in episodes})}
+        summary[name] = dict(bySplit=by_split,exactUtterances=sum(r['exact'] for r in rows), targets=sum(r['targets'] for r in rows),
                              falseStarts=sum(r['falseStarts'] for r in rows), utterances=sum(r['utterances'] for r in rows),
                              onsetsInWindow=len(latencies), meanOnsetLatencyMs=sum(latencies)/len(latencies) if latencies else None,
                              releases=sum(r['releases'] for r in rows), finiteStates=all(r['finite'] for r in rows))
@@ -235,7 +242,10 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument('--checkpoint', type=Path)
     parser.add_argument('--skip-urge', action='store_true')
+    parser.add_argument('--input-period', type=float, default=INPUT_PERIOD,
+                        help='Observation period of the checkpoint training protocol (selected checkpoint: 0.15 s).')
     args = parser.parse_args()
+    globals()['INPUT_PERIOD'] = args.input_period
     torch.set_num_threads(4); torch.manual_seed(0)
     if args.checkpoint:
         path = args.checkpoint

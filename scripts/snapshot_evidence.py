@@ -23,7 +23,7 @@ CITING = ['README.md', 'USAGE.md', 'docs/*.md', 'docs/reports/recommendations.js
 CITATION = re.compile(r'artifacts/[A-Za-z0-9_./-]+')
 MAX_COPY_BYTES = 1_000_000
 # Private, constantly rewritten live state: never hashed or copied.
-EXCLUDED = {'artifacts/liquid-live-state.pt'}
+EXCLUDED = {'artifacts/liquid-live-state.pt', 'artifacts/liquid-live-state.weights.pt'}
 
 
 def digest(path):

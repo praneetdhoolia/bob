@@ -1,0 +1,61 @@
+{
+  "state": "complete",
+  "checkpoint": "artifacts/liquid-core-1791819735481555400/latest.pt",
+  "media": "Built-in recorded scenes and spoken sample; no camera, microphone or port",
+  "startupSeconds": 6.203000000037719,
+  "numericalTicksPerSecond": 73.81818181818181,
+  "observationsPerSecond": 9.954545454545455,
+  "observationMsMean": 41.45662100468954,
+  "observationMsMax": 327.9999999795109,
+  "deadlineMisses": 1,
+  "observations": 219,
+  "stimulusReleases": 1,
+  "urgeReleasesStat": 1,
+  "firstStimulus": {
+    "urge": 0.050230757517551766,
+    "readiness": 0.7040919065475464,
+    "surprise": 0.0,
+    "dimensions": 2048,
+    "rms": 0.10198862850666046,
+    "firstReading": [
+      {
+        "code": 115,
+        "probability": 0.4836612343788147
+      },
+      {
+        "code": 256,
+        "probability": 0.2959080636501312
+      },
+      {
+        "code": 101,
+        "probability": 0.14983734488487244
+      },
+      {
+        "code": 46,
+        "probability": 0.021798832342028618
+      },
+      {
+        "code": 32,
+        "probability": 0.019683098420500755
+      }
+    ]
+  },
+  "finishedUtterances": [
+    "s bidinnPear."
+  ],
+  "errors": [],
+  "agentRssBytes": 1857232896,
+  "systemUsedBytes": 37417889792,
+  "gpuAllocatedBytes": 3107210752,
+  "pretrainedLanguageForwardCalls": 0,
+  "stateFileBytes": 70249,
+  "weightsFileBytes": 18673995,
+  "restoredPaused": true,
+  "restoredMaximumDifference": 0.0,
+  "restoredPhysicalSeconds": 22.01500000001397,
+  "savedPhysicalSeconds": 22.01500000001397,
+  "limits": [
+    "One short run on recorded fixtures; not a soak test or hardware-capture test.",
+    "Utterance content is the narrow trained translator; urge releases are mechanism readings, not felt desire."
+  ]
+}

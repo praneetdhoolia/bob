@@ -50,7 +50,9 @@ class UrgeTests(unittest.TestCase):
 
     def test_disabled_gate_reproduces_ungated_emission(self):
         gate=UrgeGate(enabled=False)
-        self.assertTrue(gate.permits(ord('A')));self.assertEqual(gate.releases,0)
+        self.assertTrue(gate.permits(BOUNDARY));self.assertFalse(gate.speaking)
+        self.assertTrue(gate.permits(ord('A')));self.assertTrue(gate.permits(BOUNDARY))
+        self.assertFalse(gate.permits(BLANK));self.assertEqual(gate.releases,0)
 
 
 if __name__=='__main__':unittest.main()

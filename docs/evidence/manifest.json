@@ -9,10 +9,10 @@
       "copy": "docs/evidence/receipts/flow-history-validation.json"
     },
     {
-      "original": "artifacts/interpreter-verification-1791880244539345300.json",
-      "bytes": 59617,
-      "sha256": "18a3adb0108e22f25213f99d7108117307df93314f0efe0b7072a7e1116601ff",
-      "copy": "docs/evidence/receipts/interpreter-verification-1791880244539345300.json"
+      "original": "artifacts/interpreter-verification-1791881348613247400.json",
+      "bytes": 60834,
+      "sha256": "adad203368224c642da168e252495b0792bce2f4556e57a54d911f6a22dfb581",
+      "copy": "docs/evidence/receipts/interpreter-verification-1791881348613247400.json"
     },
     {
       "original": "artifacts/liquid-continual-context-1791865443541775400/experiment.json",
@@ -136,6 +136,12 @@
       "copy": "docs/evidence/receipts/report-ui-validation.json"
     },
     {
+      "original": "artifacts/runtime-live-1791880742764717500/validation.json",
+      "bytes": 1797,
+      "sha256": "313360d26fba005dafbb45017084b696a24e5534ce5b5dd61adc0c77b29e4d4d",
+      "copy": "docs/evidence/receipts/runtime-live-1791880742764717500/validation.json"
+    },
+    {
       "original": "artifacts/runtime-preflight-hashed.json",
       "bytes": 5329,
       "sha256": "6888a82bb2eb7219d009280c18a558a0340d31b601a54c23c1d7c4ab394c0e7e",
@@ -186,7 +192,6 @@
     "artifacts/liquid-core-",
     "artifacts/liquid-language-",
     "artifacts/liquid-live-input-test-",
-    "artifacts/liquid-live-state.weights.pt",
     "artifacts/liquid-recurrence-"
   ]
 }

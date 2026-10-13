@@ -168,7 +168,7 @@
     "evidence": "neural/build_workspace_raw_corpus.py:226-229; artifacts/workspace-raw-corpus.json",
     "validation": "Unseen-word, familiar-frame and held-frame scores reported separately.",
     "status": "in-progress",
-    "statusEvidence": "Interpreter verification reports trained-word, unseen-word, no-fact and familiar-frame categories separately (artifacts/interpreter-verification-1791880244539345300.json). A held-frame or held-scene visual evaluation still needs new encoded media."
+    "statusEvidence": "Interpreter verification reports trained-word, unseen-word, no-fact and familiar-frame categories separately (artifacts/interpreter-verification-1791881348613247400.json). A held-frame or held-scene visual evaluation still needs new encoded media."
   },
   {
     "id": "R20",
@@ -204,7 +204,7 @@
     "evidence": "neural/liquid_runtime.py:166-171",
     "validation": "Onset timing, quiet false-trigger rate and causal clamp on recorded episodes.",
     "status": "resolved",
-    "statusEvidence": "neural/urge.py UrgeGate in runtime with stimulus events; tests/test_urge.py; stream evaluation: gated 11/28 exact, surprise clamp delays onset 50->73 ms (interpreter-verification receipt)."
+    "statusEvidence": "neural/urge.py UrgeGate in runtime with stimulus events; tests/test_urge.py; stream evaluation: gated 11/28 exact vs 12/28 ungated, surprise clamp delays onset 50->73 ms; isolated live run released a stimulus (artifacts/runtime-live-1791880742764717500/validation.json)."
   },
   {
     "id": "R24",
@@ -213,7 +213,7 @@
     "evidence": "neural/liquid_core.py:189",
     "validation": "Per-report-type pass/fail receipt.",
     "status": "resolved",
-    "statusEvidence": "neural/evaluate_interpreter.py protocol implemented. Verdict: fruit reports state-dependent (null hit 0.05, identification 0.91) but 0/4 unseen words; video reports follow ongoing input on familiar frames only. Neither type meets the accuracy criteria."
+    "statusEvidence": "neural/evaluate_interpreter.py protocol implemented (artifacts/interpreter-verification-1791881348613247400.json). Fruit: state-dependent (null hit 8/168, identification 0.94) but 0/4 unseen words and ECE 0.27. Video: follows ongoing input (intervention flip 1.0) on familiar frames only. Neither type meets the accuracy criteria."
   },
   {
     "id": "R25",
@@ -230,8 +230,8 @@
     "change": "Commit the initial version with tracked copies of cited receipts.",
     "evidence": "git: no HEAD; artifacts/ ignored",
     "validation": "Clean worktree; scripts/snapshot_evidence.py --check passes.",
-    "status": "in-progress",
-    "statusEvidence": "Initial commit prepared in this session; see Git history."
+    "status": "resolved",
+    "statusEvidence": "Initial commit 5aff4ab plus evidence byte-preservation 92c45dc; fresh clone passes scripts/snapshot_evidence.py --check."
   },
   {
     "id": "R27",

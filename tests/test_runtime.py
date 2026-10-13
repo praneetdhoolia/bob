@@ -94,7 +94,8 @@ class RuntimeTests(unittest.TestCase):
         recovered=fixture();recovered.state_path=runtime.state_path;recovered.restore_state(saved)
         self.assertTrue(torch.equal(runtime.state,recovered.state))
         runtime.stats['weightsUpdate']=1;runtime.save_state()
-        self.assertEqual(written.count(runtime.weights_path().name),2)
+        runtime.model_generation=1;runtime.save_state()
+        self.assertEqual(written.count(runtime.weights_path().name),3)
         runtime.state_path.unlink();runtime.weights_path().unlink()
 
     def test_resume_and_recorded_source_respect_guards(self):

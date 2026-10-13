@@ -757,7 +757,8 @@ async function playAudioFile(file) {
   await stopAudio(); const data = await file.arrayBuffer();
   await rawSampler(context=>{
     const source = context.createBufferSource();
-    context.decodeAudioData(data).then(buffer=>{source.buffer=buffer;source.start();});
+    context.decodeAudioData(data).then(buffer=>{source.buffer=buffer;source.start();})
+      .catch(()=>{notice('This audio file could not be decoded.');if(audioSource===source)stopAudio();});
     source.onended = ()=>{ if (audioSource === source) stopAudio(); };
     return source;
   }, 'file');
@@ -811,7 +812,11 @@ async function connect() {
       else if(row.type==='output')output(row.data);
       else if(row.type==='error'||row.type==='input-error')notice(row.data.error);
     };
-    events.onerror=()=>{connected=false;waveform(0);$('presence').textContent='Reconnecting';};
+    events.onerror=()=>{
+      connected=false;waveform(0);$('presence').textContent='Reconnecting';
+      // EventSource stops for good after an HTTP error (for example 403 or 429).
+      if(events.readyState===EventSource.CLOSED){events.close();setTimeout(connect,connectDelay);connectDelay=Math.min(connectDelay*2,5000);}
+    };
     connectDelay=500;
   }catch(error){
     $('presence').textContent='Waiting for agent';

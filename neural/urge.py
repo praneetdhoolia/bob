@@ -66,9 +66,14 @@ class UrgeGate:
 
     def permits(self, code):
         """Whether a proposed code may be emitted now; records onset releases."""
-        if code == BLANK or (code == BOUNDARY and not self.speaking):
+        if code == BLANK:
+            return False
+        if not self.enabled:
+            self.speaking = code != BOUNDARY  # Ungated: every non-blank code, as in training.
+            return True
+        if code == BOUNDARY and not self.speaking:
             return False  # A boundary with nothing said is not an utterance onset.
-        if self.speaking or not self.enabled:
+        if self.speaking:
             self.speaking = True
             return True
         if self.urge >= self.threshold:

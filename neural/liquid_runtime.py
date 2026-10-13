@@ -189,7 +189,8 @@ class LiquidRuntime:
             row={'id':self.utterance_id,'source':'core','text':self.utterance,'time':time.time()}
             self.messages.append(row);self.event('output',**row,ended=True,framing=reason)
         self.utterance='';self.pending_bytes.clear();self.utterance_id+=1
-        self.urge.finished()
+        # Transport framing splits a long utterance; only a learned boundary spends the urge.
+        if reason!='transport-limit':self.urge.finished()
 
     def emit_code_locked(self, code):
         self.state=self.model.feedback(self.state,code)
@@ -238,7 +239,7 @@ class LiquidRuntime:
         with self.save_lock:
             with self.lock:
                 model=self.model
-                identity=(id(model),self.stats['weightsUpdate'],model.architecture,int(model.internal_scheme))
+                identity=(getattr(self,'model_generation',0),self.stats['weightsUpdate'],model.architecture,int(model.internal_scheme))
                 weights=None
                 if identity!=getattr(self,'saved_weights_identity',None):
                     weights={'architecture':model.architecture,
@@ -337,7 +338,10 @@ class LiquidRuntime:
                         quarantine=saved.with_name(f'{saved.stem}.corrupt-{int(time.time())}.pt')
                         saved.replace(quarantine);resume=None
                         self.model.restore_weights(checkpoint['state_dict'],checkpoint['architecture'])
-                        self.state=self.model.start().detach().clone();self.active=False
+                        self.state=self.model.start().detach().clone();self.active=False;self.source='quiet'
+                        # Discard anything partially restored from the unreadable file.
+                        self.utterance='';self.utterance_id=0;self.pending_bytes=bytearray()
+                        self.messages.clear();self.event_id=max(self.event_id,0);self.urge.speaking=False
                         self.stats['restoreError']=f'{error} (moved to {quarantine.name})'
                         self.event('input-error',path='restore',error=self.stats['restoreError'])
                 self.stats.pop('error',None)
@@ -366,7 +370,11 @@ class LiquidRuntime:
                 continue
             if source=='recorded':
                 name='tennis' if int(elapsed/2)%2==0 else 'bmx-trees';paths=self.images[name]
-                picture=Image.open(paths[int(elapsed*30)%len(paths)]).convert('RGB')
+                try:picture=Image.open(paths[int(elapsed*30)%len(paths)]).convert('RGB')
+                except OSError as error:
+                    self.set_source('quiet')
+                    self.event('input-error',path='source',error=f'Test recording frame unreadable ({error}); switched to quiet input.')
+                    continue
                 part=self.speech[int(elapsed*16000):int(elapsed*16000)+1600]
                 if not len(samples):wave[:len(part)]=part
             elif source in ['camera','video']:
@@ -423,7 +431,7 @@ class LiquidRuntime:
                         candidate.eval().requires_grad_(False)
                         update=newer['update'];selected=str(path.relative_to(self.root))
                         with self.lock:
-                            self.model=candidate
+                            self.model=candidate;self.model_generation=getattr(self,'model_generation',0)+1
                             self.stats['weightsUpdate']=update;self.stats['checkpoint']=selected
                             self.stats.pop('checkpointError',None)
                 except (OSError,ValueError,RuntimeError,KeyError) as error:
